@@ -1,6 +1,6 @@
 # wsm
 
-## litmus-rt
+# litmus-rt
 
 cp ./*.c LITMUS-RT_ROOT_DIR/litmus.
 
@@ -8,44 +8,43 @@ cp ./*.h LTMUS-RT_ROOT_DIR/include/litmus.
 
 re-compile and re-install the kernel
 
-## memguard
+# memguard
 
-# install the modules
+## install the modules
 
 make
 sudo insmod memguarddemo.ko
 
-# uninstall the modules
+## uninstall the modules
 
 sudo rmmod memguarddemo.ko
 
-# log
+## log
 
 bash test.sh
 
-
-## memtest
+# memtest
 memguard modules test
-download
+## download
 
 git clone https://github.com/yuhcaesar/memtest.git
 
-# install
+## install
 
 make pnd
 bash cat.sh
 
-# use
+## use
 assign 900,100,100,100 MB/s for Core 0,1,2,3
 
 sudo su
 echo mb 900 100 100 100 > /sys/kernel/debug/memguard/limit
 
 
-## parsec
+# parsec
 real-time task and task set
 
-## result
+# result
 
 
 
