@@ -1,6 +1,7 @@
 # wsm
 
 ##litmus-rt
+_____________________
 ...
 cp ./*.c LITMUS-RT_ROOT_DIR/litmus.
 ...
