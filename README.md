@@ -38,6 +38,7 @@ bash cat.sh
 assign 900,100,100,100 MB/s for Core 0,1,2,3
 
 sudo su
+
 echo mb 900 100 100 100 > /sys/kernel/debug/memguard/limit
 
 
