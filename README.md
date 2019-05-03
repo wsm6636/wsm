@@ -1,9 +1,5 @@
 # wsm
 
-<<<<<<< HEAD
-#litmus-rt
-cp ./*.c LITMUS-RT_ROOT_DIR/litmus cp ./*.c LITMUS-RT_ROOT_DIR/litmus
-=======
 # litmus-rt
 
 cp ./*.c LITMUS-RT_ROOT_DIR/litmus.
@@ -52,4 +48,4 @@ real-time task and task set
 
 
 
->>>>>>> 712aa7f9e53d72ebc5927f479b5918ad3cabecdd
+
