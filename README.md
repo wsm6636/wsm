@@ -29,19 +29,24 @@ re-compile and re-install the kernel
 
 #cp ./memguard/ KERNEL_ROOT_DIR/drivers
 
+
 Append file KERNEL_ROOT_DIR/drivers/Kconfig.
 
 #source "drivers/memguard/Kconfig"
+
 
 Append file KERNEL_ROOT_DIR/drivers/Makefile.
 
 #obj-$(CONFIG_MEMGUARD) += memguard/
 
+
 check kernel settings are as follows:
 
 #MEMGUARD=Y
 
+
 re-compile and re-install the kernel.
+
 
 # memtest
 
