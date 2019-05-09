@@ -40,6 +40,8 @@ struct memguard_info{
 	cpumask_var_t active_mask;
 	cpumask_var_t throttle_mask;
 	struct hrtimer hr_timer;
+//	int g_cpu;
+//	int g_budget;
 };
 
 struct core_info {
@@ -47,7 +49,6 @@ struct core_info {
 	int budget;              /* assigned budget */
 	int limit;
 	/* for control logic */
-
 	volatile struct task_struct * throttled_task;
 	ktime_t throttled_time;  /* absolute time when throttled */
 
@@ -70,7 +71,7 @@ static struct core_info __percpu *core_info;
 
 static int g_period_us=1000;
 static int g_budget_pct[MAX_NCPUS];
-static int g_budget_max_bw=1000;
+static int g_budget_max_bw=3000;
 
 static struct dentry *memguard_dir;
 
@@ -81,15 +82,20 @@ static void memguard_process_overflow(struct irq_work *entry);
 static int throttle_thread(void *arg);
 //static int get_membudget(int get_cpu,int get_membudget);
 int get_membudget(int get_cpu,int get_membudget);
+
 module_param(g_budget_max_bw, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP);
 MODULE_PARM_DESC(g_budget_max_bw, "maximum memory bandwidth (MB/s)");
-
+/*
 int get_membudget(int get_cpu,int get_membudget){
-	trace_printk("get cpu==%d,membudget==%d\n",get_cpu,get_membudget);
-	pr_info("get cpu==%d,membudget==%d\n",get_cpu,get_membudget);
+//	struct memguard_info *global=&memguard_info;
+//	global->g_cpu=get_cpu;
+//	global->g_budget=get_membudget;
+	smp_call_function_single(get_cpu,__update_budget,get_membudget,0);	
+	trace_printk("get cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
+	pr_info("get cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
 	return 0;
 }
-
+*/
 static inline u64 convert_mb_to_events(int mb)
 {
 	return div64_u64((u64)mb*1024*1024,
@@ -196,7 +202,7 @@ void update_statistics(struct core_info *cinfo){
 	int used;
 	new=perf_event_count(cinfo->event);
 	used=(int)(new-cinfo->old_val);
-	trace_printk("count==%d,old_val==%d,used==%d\n",new,cinfo->old_val,used);
+	trace_printk("count==%ld,old_val==%ld,used==%d\n",new,cinfo->old_val,used);
 	cinfo->old_val=new;
 
 }
@@ -300,11 +306,21 @@ enum hrtimer_restart period_timer_callback_master(struct hrtimer *timer){
 
 static void __update_budget(void *info){
 	struct core_info *cinfo=this_cpu_ptr(core_info);
-	struct memguard_info *global =&memguard_info;
 	cinfo->limit=(unsigned long)info;
 	smp_mb();	
-	put_online_cpus();	
 	trace_printk("MSG: new budget of Core%d is %d \n",smp_processor_id(),cinfo->budget);
+}
+
+int get_membudget(int get_cpu,int get_membudget){
+//	struct memguard_info *global=&memguard_info;
+//	global->g_cpu=get_cpu;
+//	global->g_budget=get_membudget;
+	int g_budget;
+	g_budget=(unsigned long)convert_mb_to_events(get_membudget);
+	smp_call_function_single(get_cpu,__update_budget,g_budget,0);	
+	trace_printk("get cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
+	pr_info("get cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
+	return 0;
 }
 
 static ssize_t memguard_limit_write(struct file *filp,const char __user *ubuf,size_t cnt,loff_t *ppos)
@@ -320,11 +336,16 @@ static ssize_t memguard_limit_write(struct file *filp,const char __user *ubuf,si
 	get_online_cpus();
 	int cpu,input;
 	unsigned long events;
-
+	
+/*	if(global->g_cpu!=NULL&&global->g_budget!=NULL){
+		cpu=global->g_cpu;
+		input=global->g_budget;
+	}
+*/
 	sscanf(p,"%d",&cpu);
 	sscanf(p+2,"%d",&input);
 	pr_info("cpu%d,input%d\n",cpu,input);	
-
+	
 	events=(unsigned long)convert_mb_to_events(input);
 
 	pr_info("CPU%d:New budget=%ld (%d Mb/s)\n",cpu,events,input);
@@ -556,7 +577,8 @@ int __init init_mem(void){
 	spin_lock_init(&global->lock);
 	global->period_in_ktime=ktime_set(0,g_period_us*1000);	
 	global->max_budget = convert_mb_to_events(g_budget_max_bw);
-
+//	global->g_cpu=NULL;
+//	global->g_budget=NULL;
 	cpumask_copy(global->active_mask,cpu_online_mask);	
 
 	core_info=alloc_percpu(struct core_info);
