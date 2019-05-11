@@ -321,11 +321,11 @@ static void check_for_preemptions(void)
 	local = this_cpu_ptr(&gsnedf_cpu_entries);
 	task  = __peek_ready(&gsnedf);
 
-	if (task && !local->linked && local->cpu!=get_master
+	if (task && !local->linked
 #ifdef CONFIG_RELEASE_MASTER
 	    && likely(local->cpu != gsnedf.release_master)
 #endif
-	    
+//	   && local->cpu!=get_master  
 		) {
 		task = __take_ready(&gsnedf);
 		TRACE_TASK(task, "linking to local CPU %d to avoid IPI\n", local->cpu);
@@ -355,9 +355,9 @@ static void check_for_preemptions(void)
 #endif
 
 	for (last = lowest_prio_cpu();
-	     edf_preemption_needed(&gsnedf, last->linked)&& last->cpu!=get_master;
+	     edf_preemption_needed(&gsnedf, last->linked);
 	     last = lowest_prio_cpu()) {
-
+//&& last->cpu!=get_master
 		/* preemption necessary */
 //		smp_call_function_single(last->cpu,__get_edf,NULL,0);
 		task = __take_ready(&gsnedf);
