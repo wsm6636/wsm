@@ -1,0 +1,1172 @@
+152 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+153 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+154 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+155 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+156 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+157 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+158 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+159 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+160 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+161 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+162 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+163 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+164 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+165 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+166 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+167 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+168 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+169 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+170 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+171 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+172 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+173 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+174 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+175 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+176 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+177 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+178 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+179 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+180 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+181 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+182 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+183 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+184 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+185 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+186 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+187 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+188 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+189 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+190 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+191 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+192 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+193 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+194 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+195 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+196 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+197 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+198 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+199 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+200 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+201 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+202 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+203 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+204 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+205 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+206 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+207 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+208 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+209 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+210 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+211 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+212 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+213 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+214 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+215 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+216 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+217 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+218 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+219 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+220 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+221 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+222 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+223 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+224 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+225 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+226 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+227 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+228 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+229 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+230 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+231 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+232 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+233 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+234 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+235 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+236 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+237 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+238 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+239 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+240 P5 [alloc_ctrl_page@litmus/ctrldev.c:28]: (blackscholes/3043:0) alloc_ctrl_page ctrl_page = ffff9277053e4000
+241 P5 [map_ctrl_page@litmus/ctrldev.c:42]: (blackscholes/3043:0) litmus/ctrl: mapping ffff9277053e4000 (pfn:f853e4) to 0x7fb2b24f4000 (prot:8000000000000027)
+242 P5 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (blackscholes/3043:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+243 P5 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3043.
+244 P5 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3043
+245 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3043 (20000000, 200000000, 200000000) rel=8486148910949 to ready queue at 8486148911225
+246 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:1) linking to local CPU 5 to avoid IPI
+247 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:1) check preempt membudget==100
+248 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:1) get curbudget==236
+249 P5 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (blackscholes/3043:1) ignoring an enqueue, not a wake up.
+250 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 2491 exec time (total:2491, rem:19997509)
+251 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=100Mb/s
+252 P5 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (blackscholes/3043:1) block at 8486148953435
+253 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 28368 exec time (total:30859, rem:19969141)
+254 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:2 sig:0,membudget=100Mb/s
+255 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:1) scheduled_on = NO_CPU
+256 P5 [try_to_wake_up@kernel/sched/core.c:2040]: (blackscholes/3043:1) try_to_wake_up() state:2
+257 P5 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (blackscholes/3043:1) wake_up at 8486149100189
+258 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3043 (20000000, 200000000, 200000000) rel=8486148910949 to ready queue at 8486149101310
+259 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:1) linking to local CPU 5 to avoid IPI
+260 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:1) check preempt membudget==100
+261 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:1) get curbudget==388
+262 P5 [try_to_wake_up@kernel/sched/core.c:2137]: (blackscholes/3043:1) try_to_wake_up() done state:0
+263 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+264 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:1) scheduled_on = P5
+265 P5 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (blackscholes/3043:1) block at 8486149127584
+266 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 19679 exec time (total:50538, rem:19949462)
+267 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:2 sig:0,membudget=100Mb/s
+268 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:1) scheduled_on = NO_CPU
+269 P5 [try_to_wake_up@kernel/sched/core.c:2040]: (blackscholes/3043:1) try_to_wake_up() state:2
+270 P5 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (blackscholes/3043:1) wake_up at 8486149273303
+271 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3043 (20000000, 200000000, 200000000) rel=8486148910949 to ready queue at 8486149274313
+272 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:1) linking to local CPU 5 to avoid IPI
+273 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:1) check preempt membudget==100
+274 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:1) get curbudget==388
+275 P5 [try_to_wake_up@kernel/sched/core.c:2137]: (blackscholes/3043:1) try_to_wake_up() done state:0
+276 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+277 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:1) scheduled_on = P5
+278 P5 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (blackscholes/3043:1) block at 8486149307985
+279 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 27497 exec time (total:78035, rem:19921965)
+280 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=100Mb/s
+281 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:1) scheduled_on = NO_CPU
+282 P5 [try_to_wake_up@kernel/sched/core.c:2040]: (blackscholes/3043:1) try_to_wake_up() state:130
+283 P5 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (blackscholes/3043:1) wake_up at 8486149687541
+284 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3043 (20000000, 200000000, 200000000) rel=8486148910949 to ready queue at 8486149688504
+285 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:1) linking to local CPU 5 to avoid IPI
+286 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:1) check preempt membudget==100
+287 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:1) get curbudget==388
+288 P5 [try_to_wake_up@kernel/sched/core.c:2137]: (blackscholes/3043:1) try_to_wake_up() done state:0
+289 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+290 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:1) scheduled_on = P5
+291 P5 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (blackscholes/3043:1) block at 8486150181695
+292 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 494213 exec time (total:572248, rem:19427752)
+293 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=100Mb/s
+294 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:1) scheduled_on = NO_CPU
+295 P5 [try_to_wake_up@kernel/sched/core.c:2040]: (blackscholes/3043:1) try_to_wake_up() state:130
+296 P5 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (blackscholes/3043:1) wake_up at 8486150194728
+297 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3043 (20000000, 200000000, 200000000) rel=8486148910949 to ready queue at 8486150195688
+298 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:1) linking to local CPU 5 to avoid IPI
+299 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:1) check preempt membudget==100
+300 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:1) get curbudget==388
+301 P5 [try_to_wake_up@kernel/sched/core.c:2137]: (blackscholes/3043:1) try_to_wake_up() done state:0
+302 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+303 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:1) scheduled_on = P5
+304 P4 [alloc_ctrl_page@litmus/ctrldev.c:28]: (streamcluster/3040:0) alloc_ctrl_page ctrl_page = ffff92773066c000
+305 P4 [map_ctrl_page@litmus/ctrldev.c:42]: (streamcluster/3040:0) litmus/ctrl: mapping ffff92773066c000 (pfn:fb066c) to 0x7fc541623000 (prot:8000000000000027)
+306 P4 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (streamcluster/3040:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+307 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3040.
+308 P6 [alloc_ctrl_page@litmus/ctrldev.c:28]: (fluidanimate/3042:0) alloc_ctrl_page ctrl_page = ffff92773905b000
+309 P6 [map_ctrl_page@litmus/ctrldev.c:42]: (fluidanimate/3042:0) litmus/ctrl: mapping ffff92773905b000 (pfn:fb905b) to 0x7fadf5e88000 (prot:8000000000000027)
+311 P6 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (fluidanimate/3042:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+310 P2 [alloc_ctrl_page@litmus/ctrldev.c:28]: (swaptions/3041:0) alloc_ctrl_page ctrl_page = ffff92774f00e000
+313 P4 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3040
+312 P2 [map_ctrl_page@litmus/ctrldev.c:42]: (swaptions/3041:0) litmus/ctrl: mapping ffff92774f00e000 (pfn:fcf00e) to 0x7f1b6e85e000 (prot:8000000000000027)
+314 P4 [__add_ready@litmus/rt_domain.c:310]: rt: adding streamcluster/3040 (20000000, 150000000, 150000000) rel=8486150596277 to ready queue at 8486150596571
+315 P2 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (swaptions/3041:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+316 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:1) linking to local CPU 4 to avoid IPI
+317 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:1) check preempt membudget==350
+318 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:1) get curbudget==388
+319 P6 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3042.
+320 P4 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (streamcluster/3040:1) ignoring an enqueue, not a wake up.
+321 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:1) charged 2343 exec time (total:2343, rem:19997657)
+322 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=350Mb/s
+323 P2 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3041.
+324 P6 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3042
+325 P6 [__add_ready@litmus/rt_domain.c:310]: rt: adding fluidanimate/3042 (20000000, 300000000, 300000000) rel=8486150613604 to ready queue at 8486150613828
+326 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (fluidanimate/3042:1) linking to local CPU 6 to avoid IPI
+327 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (fluidanimate/3042:1) check preempt membudget==400
+328 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (fluidanimate/3042:1) get curbudget==290
+329 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (fluidanimate/3042:1) task budget400>cur_budget290
+330 P2 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3041
+331 P6 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (fluidanimate/3042:1) ignoring an enqueue, not a wake up.
+332 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8486150621491 to ready queue at 8486150621706
+333 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:1) linking to local CPU 2 to avoid IPI
+334 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:1) check preempt membudget==500
+335 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:1) get curbudget==290
+336 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (swaptions/3041:1) task budget500>cur_budget290
+337 P2 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (swaptions/3041:1) ignoring an enqueue, not a wake up.
+338 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:1) try_to_wake_up() state:0
+339 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:1) try_to_wake_up() done state:0
+340 P6 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (fluidanimate/3042:1) block at 8486150662698
+341 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (fluidanimate/3042:1) charged 42141 exec time (total:42141, rem:19957859)
+342 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (fluidanimate/3042:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:2 sig:0,membudget=400Mb/s
+343 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (fluidanimate/3042:1) scheduled_on = NO_CPU
+344 P6 [try_to_wake_up@kernel/sched/core.c:2040]: (fluidanimate/3042:1) try_to_wake_up() state:2
+345 P6 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (fluidanimate/3042:1) wake_up at 8486150810008
+346 P6 [__add_ready@litmus/rt_domain.c:310]: rt: adding fluidanimate/3042 (20000000, 300000000, 300000000) rel=8486150613604 to ready queue at 8486150811055
+347 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (fluidanimate/3042:1) linking to local CPU 6 to avoid IPI
+348 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (fluidanimate/3042:1) check preempt membudget==400
+349 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (fluidanimate/3042:1) get curbudget==290
+350 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (fluidanimate/3042:1) task budget400>cur_budget290
+351 P6 [try_to_wake_up@kernel/sched/core.c:2137]: (fluidanimate/3042:1) try_to_wake_up() done state:0
+352 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:1) job completion indicated at 8486151250581
+353 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:1) charged 642511 exec time (total:644854, rem:19355146)
+354 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+355 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:1) job_completion(forced=0).
+356 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:2) add_release(), rel=8486300596277
+357 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:2) scheduled_on = NO_CPU
+359 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 1807624 exec time (total:2379872, rem:17620128)
+358 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 1373746 exec time (total:1373746, rem:18626254)
+360 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3998634 exec time (total:6378506, rem:13621494)
+361 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3998964 exec time (total:5372710, rem:14627290)
+362 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999578 exec time (total:10378084, rem:9621916)
+363 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999350 exec time (total:9372060, rem:10627940)
+364 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999475 exec time (total:14377559, rem:5622441)
+365 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999652 exec time (total:13371712, rem:6628288)
+367 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999934 exec time (total:18377493, rem:1622507)
+366 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999676 exec time (total:17371388, rem:2628612)
+368 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999635 exec time (total:22377128, rem:0)
+369 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999733 exec time (total:21371121, rem:0)
+370 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999681 exec time (total:26376809, rem:0)
+371 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999715 exec time (total:25370836, rem:0)
+372 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999544 exec time (total:30376353, rem:0)
+373 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999524 exec time (total:29370360, rem:0)
+375 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999740 exec time (total:34376093, rem:0)
+374 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999716 exec time (total:33370076, rem:0)
+376 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999675 exec time (total:38375768, rem:0)
+377 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999682 exec time (total:37369758, rem:0)
+378 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999753 exec time (total:42375521, rem:0)
+379 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999767 exec time (total:41369525, rem:0)
+380 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999575 exec time (total:46375096, rem:0)
+381 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999606 exec time (total:45369131, rem:0)
+382 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999640 exec time (total:50374736, rem:0)
+383 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999639 exec time (total:49368770, rem:0)
+384 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999857 exec time (total:54374593, rem:0)
+385 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999846 exec time (total:53368616, rem:0)
+386 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999584 exec time (total:58374177, rem:0)
+387 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999577 exec time (total:57368193, rem:0)
+389 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999715 exec time (total:62373892, rem:0)
+388 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999560 exec time (total:61367753, rem:0)
+390 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999615 exec time (total:66373507, rem:0)
+391 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999806 exec time (total:65367559, rem:0)
+392 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3999833 exec time (total:70373340, rem:0)
+393 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999782 exec time (total:69367341, rem:0)
+394 P5 [complete_job@litmus/jobs.c:104]: (blackscholes/3043:1) job completion indicated at 8486223692204
+395 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:1) charged 3693239 exec time (total:74066579, rem:0)
+396 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+397 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/3043:1) job_completion(forced=0).
+398 P5 [__add_release@litmus/rt_domain.c:346]: (blackscholes/3043:2) add_release(), rel=8486348910949
+399 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:2) scheduled_on = NO_CPU
+400 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999496 exec time (total:73366837, rem:0)
+401 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999765 exec time (total:77366602, rem:0)
+402 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999570 exec time (total:81366172, rem:0)
+403 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999751 exec time (total:85365923, rem:0)
+404 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999849 exec time (total:89365772, rem:0)
+405 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999558 exec time (total:93365330, rem:0)
+406 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999663 exec time (total:97364993, rem:0)
+407 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999842 exec time (total:101364835, rem:0)
+408 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999578 exec time (total:105364413, rem:0)
+409 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999672 exec time (total:109364085, rem:0)
+410 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999597 exec time (total:113363682, rem:0)
+411 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999745 exec time (total:117363427, rem:0)
+412 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999687 exec time (total:121363114, rem:0)
+413 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999679 exec time (total:125362793, rem:0)
+414 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999637 exec time (total:129362430, rem:0)
+415 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999756 exec time (total:133362186, rem:0)
+416 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999611 exec time (total:137361797, rem:0)
+417 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999729 exec time (total:141361526, rem:0)
+418 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999627 exec time (total:145361153, rem:0)
+419 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999735 exec time (total:149360888, rem:0)
+420 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:2) linking to local CPU 4 to avoid IPI
+421 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:2) check preempt membudget==350
+422 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:2) get curbudget==540
+423 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/4/0:0) will be preempted by streamcluster/3040
+424 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/3040:2) scheduled_on = P4
+425 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:2) job completion indicated at 8486301208616
+426 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:2) charged 604232 exec time (total:604232, rem:19395768)
+427 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+428 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:2) job_completion(forced=0).
+429 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:3) add_release(), rel=8486450596277
+430 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:3) scheduled_on = NO_CPU
+431 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999677 exec time (total:153360565, rem:0)
+432 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999744 exec time (total:157360309, rem:0)
+433 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999532 exec time (total:161359841, rem:0)
+434 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999919 exec time (total:165359760, rem:0)
+435 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999601 exec time (total:169359361, rem:0)
+436 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999592 exec time (total:173358953, rem:0)
+437 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999704 exec time (total:177358657, rem:0)
+438 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999714 exec time (total:181358371, rem:0)
+439 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999569 exec time (total:185357940, rem:0)
+440 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999731 exec time (total:189357671, rem:0)
+441 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999716 exec time (total:193357387, rem:0)
+442 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999666 exec time (total:197357053, rem:0)
+443 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:2) linking to local CPU 5 to avoid IPI
+444 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:2) check preempt membudget==100
+445 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:2) get curbudget==540
+446 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+447 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:2) scheduled_on = P5
+448 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999686 exec time (total:201356739, rem:0)
+449 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3080610 exec time (total:3080610, rem:16919390)
+450 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999770 exec time (total:205356509, rem:0)
+451 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999569 exec time (total:7080179, rem:12919821)
+453 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999540 exec time (total:11079719, rem:8920281)
+452 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999578 exec time (total:209356087, rem:0)
+455 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999659 exec time (total:15079378, rem:4920622)
+454 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999719 exec time (total:213355806, rem:0)
+457 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999721 exec time (total:19079099, rem:920901)
+456 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999703 exec time (total:217355509, rem:0)
+458 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999632 exec time (total:23078731, rem:0)
+459 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999712 exec time (total:221355221, rem:0)
+460 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999664 exec time (total:27078395, rem:0)
+461 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999644 exec time (total:225354865, rem:0)
+463 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999662 exec time (total:31078057, rem:0)
+462 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999577 exec time (total:229354442, rem:0)
+465 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999654 exec time (total:35077711, rem:0)
+464 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999706 exec time (total:233354148, rem:0)
+466 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999674 exec time (total:39077385, rem:0)
+467 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999703 exec time (total:237353851, rem:0)
+468 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999664 exec time (total:43077049, rem:0)
+469 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999663 exec time (total:241353514, rem:0)
+471 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999726 exec time (total:47076775, rem:0)
+470 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999709 exec time (total:245353223, rem:0)
+472 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999639 exec time (total:51076414, rem:0)
+473 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999656 exec time (total:249352879, rem:0)
+475 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999667 exec time (total:55076081, rem:0)
+474 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999631 exec time (total:253352510, rem:0)
+476 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999691 exec time (total:59075772, rem:0)
+477 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999765 exec time (total:257352275, rem:0)
+478 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999716 exec time (total:63075488, rem:0)
+479 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999711 exec time (total:261351986, rem:0)
+480 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999675 exec time (total:67075163, rem:0)
+481 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999675 exec time (total:265351661, rem:0)
+482 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999692 exec time (total:269351353, rem:0)
+483 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 3999965 exec time (total:71075128, rem:0)
+484 P5 [complete_job@litmus/jobs.c:104]: (blackscholes/3043:2) job completion indicated at 8486422833158
+485 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:2) charged 2834156 exec time (total:73909284, rem:0)
+486 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+487 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/3043:2) job_completion(forced=0).
+488 P5 [__add_release@litmus/rt_domain.c:346]: (blackscholes/3043:3) add_release(), rel=8486548910949
+489 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:3) scheduled_on = NO_CPU
+490 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999697 exec time (total:273351050, rem:0)
+491 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999663 exec time (total:277350713, rem:0)
+492 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999760 exec time (total:281350473, rem:0)
+493 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999695 exec time (total:285350168, rem:0)
+494 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999717 exec time (total:289349885, rem:0)
+495 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999554 exec time (total:293349439, rem:0)
+496 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999767 exec time (total:297349206, rem:0)
+497 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:3) linking to local CPU 4 to avoid IPI
+498 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:3) check preempt membudget==350
+499 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:3) get curbudget==540
+500 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/4/0:0) will be preempted by streamcluster/3040
+501 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/3040:3) scheduled_on = P4
+502 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:3) job completion indicated at 8486451225605
+503 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:3) charged 620922 exec time (total:620922, rem:19379078)
+504 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+505 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:3) job_completion(forced=0).
+506 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:4) add_release(), rel=8486600596277
+507 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:4) scheduled_on = NO_CPU
+508 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999695 exec time (total:301348901, rem:0)
+509 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999666 exec time (total:305348567, rem:0)
+510 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999600 exec time (total:309348167, rem:0)
+511 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999800 exec time (total:313347967, rem:0)
+512 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999664 exec time (total:317347631, rem:0)
+513 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999622 exec time (total:321347253, rem:0)
+514 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999760 exec time (total:325347013, rem:0)
+515 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999594 exec time (total:329346607, rem:0)
+516 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999674 exec time (total:333346281, rem:0)
+517 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999720 exec time (total:337346001, rem:0)
+518 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999678 exec time (total:341345679, rem:0)
+519 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999663 exec time (total:345345342, rem:0)
+520 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999644 exec time (total:349344986, rem:0)
+521 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999742 exec time (total:353344728, rem:0)
+522 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999686 exec time (total:357344414, rem:0)
+523 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999627 exec time (total:361344041, rem:0)
+524 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999753 exec time (total:365343794, rem:0)
+525 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999627 exec time (total:369343421, rem:0)
+526 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999695 exec time (total:373343116, rem:0)
+527 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999697 exec time (total:377342813, rem:0)
+528 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999701 exec time (total:381342514, rem:0)
+529 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999691 exec time (total:385342205, rem:0)
+530 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999642 exec time (total:389341847, rem:0)
+531 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999698 exec time (total:393341545, rem:0)
+532 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999607 exec time (total:397341152, rem:0)
+533 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:3) linking to local CPU 5 to avoid IPI
+534 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:3) check preempt membudget==100
+535 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:3) get curbudget==540
+536 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+537 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:3) scheduled_on = P5
+538 P5 [complete_job@litmus/jobs.c:104]: (blackscholes/3043:3) job completion indicated at 8486548927565
+539 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3043:3) charged 9035 exec time (total:9035, rem:19990965)
+540 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3043:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+541 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/3043:3) job_completion(forced=0).
+542 P5 [__add_release@litmus/rt_domain.c:346]: (blackscholes/3043:4) add_release(), rel=8486748910949
+543 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/3043:4) scheduled_on = NO_CPU
+544 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999723 exec time (total:401340875, rem:0)
+545 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999726 exec time (total:405340601, rem:0)
+546 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999657 exec time (total:409340258, rem:0)
+547 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999625 exec time (total:413339883, rem:0)
+548 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999779 exec time (total:417339662, rem:0)
+549 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999645 exec time (total:421339307, rem:0)
+550 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999707 exec time (total:425339014, rem:0)
+551 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999716 exec time (total:429338730, rem:0)
+552 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999612 exec time (total:433338342, rem:0)
+553 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999726 exec time (total:437338068, rem:0)
+554 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999662 exec time (total:441337730, rem:0)
+555 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999647 exec time (total:445337377, rem:0)
+556 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999717 exec time (total:449337094, rem:0)
+557 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:4) linking to local CPU 4 to avoid IPI
+558 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:4) check preempt membudget==350
+559 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:4) get curbudget==540
+560 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/4/0:0) will be preempted by streamcluster/3040
+561 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/3040:4) scheduled_on = P4
+562 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:4) job completion indicated at 8486601218111
+563 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:4) charged 614063 exec time (total:614063, rem:19385937)
+564 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+565 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:4) job_completion(forced=0).
+566 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:5) add_release(), rel=8486750596277
+567 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:5) scheduled_on = NO_CPU
+568 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999700 exec time (total:453336794, rem:0)
+569 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999723 exec time (total:457336517, rem:0)
+570 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999668 exec time (total:461336185, rem:0)
+571 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999576 exec time (total:465335761, rem:0)
+572 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999953 exec time (total:469335714, rem:0)
+573 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999497 exec time (total:473335211, rem:0)
+574 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999723 exec time (total:477334934, rem:0)
+575 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999611 exec time (total:481334545, rem:0)
+576 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999814 exec time (total:485334359, rem:0)
+577 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999538 exec time (total:489333897, rem:0)
+578 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999703 exec time (total:493333600, rem:0)
+579 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999711 exec time (total:497333311, rem:0)
+580 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999710 exec time (total:501333021, rem:0)
+581 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999598 exec time (total:505332619, rem:0)
+582 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999733 exec time (total:509332352, rem:0)
+583 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999666 exec time (total:513332018, rem:0)
+584 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999743 exec time (total:517331761, rem:0)
+585 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999665 exec time (total:521331426, rem:0)
+586 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999683 exec time (total:525331109, rem:0)
+587 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999633 exec time (total:529330742, rem:0)
+588 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999747 exec time (total:533330489, rem:0)
+589 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999610 exec time (total:537330099, rem:0)
+590 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999739 exec time (total:541329838, rem:0)
+591 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999636 exec time (total:545329474, rem:0)
+592 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999715 exec time (total:549329189, rem:0)
+593 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999638 exec time (total:553328827, rem:0)
+594 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999703 exec time (total:557328530, rem:0)
+595 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999631 exec time (total:561328161, rem:0)
+596 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999769 exec time (total:565327930, rem:0)
+597 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999632 exec time (total:569327562, rem:0)
+598 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999704 exec time (total:573327266, rem:0)
+599 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999644 exec time (total:577326910, rem:0)
+600 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999780 exec time (total:581326690, rem:0)
+601 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999581 exec time (total:585326271, rem:0)
+602 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999754 exec time (total:589326025, rem:0)
+603 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999689 exec time (total:593325714, rem:0)
+604 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999675 exec time (total:597325389, rem:0)
+605 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3043:4) linking to local CPU 5 to avoid IPI
+606 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3043:4) check preempt membudget==100
+607 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3043:4) get curbudget==540
+608 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by blackscholes/3043
+609 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3043:4) scheduled_on = P5
+610 P5 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes/3043:4) RIP
+611 P5 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (blackscholes/3043:4) ignoring a dequeue, not going to sleep.
+612 P5 [litmus_dealloc@litmus/litmus.c:622]: (blackscholes/3043:4) Deallocating real-time task data
+613 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:5) linking to local CPU 4 to avoid IPI
+614 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:5) check preempt membudget==350
+615 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:5) get curbudget==540
+616 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/4/0:0) will be preempted by streamcluster/3040
+617 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/3040:5) scheduled_on = P4
+618 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:5) job completion indicated at 8486751214228
+619 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:5) charged 610594 exec time (total:610594, rem:19389406)
+620 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:5) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+621 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:5) job_completion(forced=0).
+622 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:6) add_release(), rel=8486900596277
+623 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:6) scheduled_on = NO_CPU
+624 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999692 exec time (total:601325081, rem:0)
+625 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (blackscholes/3043:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+626 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (blackscholes/3043:0) litmus/ctrl: 00007fb2b24f4000:00007fb2b24f5000 vma:ffff927718fd6480 vma->vm_private_data:          (null) closed.
+627 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999801 exec time (total:605324882, rem:0)
+628 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999504 exec time (total:609324386, rem:0)
+629 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999715 exec time (total:613324101, rem:0)
+630 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999758 exec time (total:617323859, rem:0)
+631 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999723 exec time (total:621323582, rem:0)
+632 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999500 exec time (total:625323082, rem:0)
+633 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999792 exec time (total:629322874, rem:0)
+634 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999720 exec time (total:633322594, rem:0)
+635 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999757 exec time (total:637322351, rem:0)
+636 P3 [exit_litmus@litmus/litmus.c:600]: (blackscholes/3043:0) freeing ctrl_page ffff9277053e4000
+637 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999608 exec time (total:641321959, rem:0)
+638 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999735 exec time (total:645321694, rem:0)
+639 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999536 exec time (total:649321230, rem:0)
+640 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999836 exec time (total:653321066, rem:0)
+641 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999608 exec time (total:657320674, rem:0)
+642 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999637 exec time (total:661320311, rem:0)
+643 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999731 exec time (total:665320042, rem:0)
+644 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999705 exec time (total:669319747, rem:0)
+645 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999527 exec time (total:673319274, rem:0)
+646 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999856 exec time (total:677319130, rem:0)
+647 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999617 exec time (total:681318747, rem:0)
+648 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999680 exec time (total:685318427, rem:0)
+649 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999707 exec time (total:689318134, rem:0)
+650 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999597 exec time (total:693317731, rem:0)
+651 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999667 exec time (total:697317398, rem:0)
+652 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999721 exec time (total:701317119, rem:0)
+653 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999653 exec time (total:705316772, rem:0)
+654 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999654 exec time (total:709316426, rem:0)
+655 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999714 exec time (total:713316140, rem:0)
+656 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999718 exec time (total:717315858, rem:0)
+657 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999591 exec time (total:721315449, rem:0)
+658 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999728 exec time (total:725315177, rem:0)
+659 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999722 exec time (total:729314899, rem:0)
+660 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999647 exec time (total:733314546, rem:0)
+661 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999701 exec time (total:737314247, rem:0)
+662 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999767 exec time (total:741314014, rem:0)
+663 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999586 exec time (total:745313600, rem:0)
+664 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999737 exec time (total:749313337, rem:0)
+665 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:6) linking to local CPU 4 to avoid IPI
+666 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:6) check preempt membudget==350
+667 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:6) get curbudget==540
+668 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/4/0:0) will be preempted by streamcluster/3040
+669 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/3040:6) scheduled_on = P4
+670 P4 [complete_job@litmus/jobs.c:104]: (streamcluster/3040:6) job completion indicated at 8486900617627
+671 P4 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/3040:6) charged 12686 exec time (total:12686, rem:19987314)
+672 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/3040:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+673 P4 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/3040:6) job_completion(forced=0).
+674 P4 [__add_release@litmus/rt_domain.c:346]: (streamcluster/3040:7) add_release(), rel=8487050596277
+675 P4 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/3040:7) scheduled_on = NO_CPU
+676 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999660 exec time (total:753312997, rem:0)
+677 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 3999747 exec time (total:757312744, rem:0)
+678 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:1) try_to_wake_up() state:0
+679 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:1) try_to_wake_up() done state:0
+680 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:1) try_to_wake_up() state:0
+681 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:1) try_to_wake_up() done state:0
+682 P2 [complete_job@litmus/jobs.c:104]: (swaptions/3041:1) job completion indicated at 8486910172258
+683 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:1) charged 2172987 exec time (total:759485731, rem:0)
+684 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3041:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:1 state:0 sig:0,membudget=500Mb/s
+685 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3041:1) job_completion(forced=0).
+686 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8486650621491 to ready queue at 8486910180015
+687 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:2) linking to local CPU 2 to avoid IPI
+688 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:2) check preempt membudget==500
+689 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:2) get curbudget==692
+690 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 1814427 exec time (total:1814427, rem:18185573)
+691 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999581 exec time (total:5814008, rem:14185992)
+692 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999622 exec time (total:9813630, rem:10186370)
+693 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999751 exec time (total:13813381, rem:6186619)
+694 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999579 exec time (total:17812960, rem:2187040)
+695 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999671 exec time (total:21812631, rem:0)
+696 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999688 exec time (total:25812319, rem:0)
+697 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999760 exec time (total:29812079, rem:0)
+698 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999651 exec time (total:33811730, rem:0)
+699 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999635 exec time (total:37811365, rem:0)
+700 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999682 exec time (total:41811047, rem:0)
+701 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999743 exec time (total:45810790, rem:0)
+702 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999644 exec time (total:49810434, rem:0)
+703 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999683 exec time (total:53810117, rem:0)
+704 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999703 exec time (total:57809820, rem:0)
+705 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999667 exec time (total:61809487, rem:0)
+706 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999688 exec time (total:65809175, rem:0)
+707 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999672 exec time (total:69808847, rem:0)
+708 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999677 exec time (total:73808524, rem:0)
+709 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999766 exec time (total:77808290, rem:0)
+710 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999629 exec time (total:81807919, rem:0)
+711 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999669 exec time (total:85807588, rem:0)
+712 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999711 exec time (total:89807299, rem:0)
+713 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999765 exec time (total:93807064, rem:0)
+714 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999606 exec time (total:97806670, rem:0)
+715 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999744 exec time (total:101806414, rem:0)
+716 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999636 exec time (total:105806050, rem:0)
+717 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999710 exec time (total:109805760, rem:0)
+718 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999674 exec time (total:113805434, rem:0)
+719 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999633 exec time (total:117805067, rem:0)
+720 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999740 exec time (total:121804807, rem:0)
+721 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999712 exec time (total:125804519, rem:0)
+722 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999670 exec time (total:129804189, rem:0)
+723 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999660 exec time (total:133803849, rem:0)
+724 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999692 exec time (total:137803541, rem:0)
+725 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/3040:7) linking to local CPU 4 to avoid IPI
+726 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/3040:7) check preempt membudget==350
+727 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/3040:7) get curbudget==292
+728 P4 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (streamcluster/3040:7) task budget350>cur_budget292
+729 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999691 exec time (total:141803232, rem:0)
+730 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999787 exec time (total:145803019, rem:0)
+731 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999594 exec time (total:149802613, rem:0)
+732 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999650 exec time (total:153802263, rem:0)
+733 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999684 exec time (total:157801947, rem:0)
+734 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999663 exec time (total:161801610, rem:0)
+735 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999657 exec time (total:165801267, rem:0)
+736 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999701 exec time (total:169800968, rem:0)
+737 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999744 exec time (total:173800712, rem:0)
+738 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999635 exec time (total:177800347, rem:0)
+739 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999593 exec time (total:181799940, rem:0)
+740 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999747 exec time (total:185799687, rem:0)
+741 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999723 exec time (total:189799410, rem:0)
+742 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999690 exec time (total:193799100, rem:0)
+743 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999675 exec time (total:197798775, rem:0)
+744 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999632 exec time (total:201798407, rem:0)
+745 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999718 exec time (total:205798125, rem:0)
+746 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999699 exec time (total:209797824, rem:0)
+747 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999689 exec time (total:213797513, rem:0)
+748 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999654 exec time (total:217797167, rem:0)
+749 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999723 exec time (total:221796890, rem:0)
+750 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999620 exec time (total:225796510, rem:0)
+751 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999722 exec time (total:229796232, rem:0)
+752 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999632 exec time (total:233795864, rem:0)
+753 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999743 exec time (total:237795607, rem:0)
+754 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999675 exec time (total:241795282, rem:0)
+755 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999638 exec time (total:245794920, rem:0)
+756 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999740 exec time (total:249794660, rem:0)
+757 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999709 exec time (total:253794369, rem:0)
+758 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999644 exec time (total:257794013, rem:0)
+759 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999694 exec time (total:261793707, rem:0)
+760 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999620 exec time (total:265793327, rem:0)
+761 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999787 exec time (total:269793114, rem:0)
+762 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999630 exec time (total:273792744, rem:0)
+763 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999617 exec time (total:277792361, rem:0)
+764 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999693 exec time (total:281792054, rem:0)
+765 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999733 exec time (total:285791787, rem:0)
+766 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999712 exec time (total:289791499, rem:0)
+767 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999672 exec time (total:293791171, rem:0)
+768 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999676 exec time (total:297790847, rem:0)
+769 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999727 exec time (total:301790574, rem:0)
+770 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999613 exec time (total:305790187, rem:0)
+771 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999730 exec time (total:309789917, rem:0)
+772 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999637 exec time (total:313789554, rem:0)
+773 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999743 exec time (total:317789297, rem:0)
+774 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999637 exec time (total:321788934, rem:0)
+775 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999655 exec time (total:325788589, rem:0)
+776 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999702 exec time (total:329788291, rem:0)
+777 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999744 exec time (total:333788035, rem:0)
+778 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999612 exec time (total:337787647, rem:0)
+779 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999662 exec time (total:341787309, rem:0)
+780 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999706 exec time (total:345787015, rem:0)
+781 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999781 exec time (total:349786796, rem:0)
+782 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999627 exec time (total:353786423, rem:0)
+783 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999664 exec time (total:357786087, rem:0)
+784 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999693 exec time (total:361785780, rem:0)
+785 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999687 exec time (total:365785467, rem:0)
+786 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999680 exec time (total:369785147, rem:0)
+787 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999611 exec time (total:373784758, rem:0)
+788 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999762 exec time (total:377784520, rem:0)
+789 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999704 exec time (total:381784224, rem:0)
+790 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999623 exec time (total:385783847, rem:0)
+791 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999695 exec time (total:389783542, rem:0)
+792 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999729 exec time (total:393783271, rem:0)
+793 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999707 exec time (total:397782978, rem:0)
+794 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999593 exec time (total:401782571, rem:0)
+795 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999656 exec time (total:405782227, rem:0)
+796 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999726 exec time (total:409781953, rem:0)
+797 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999698 exec time (total:413781651, rem:0)
+798 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999648 exec time (total:417781299, rem:0)
+799 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999654 exec time (total:421780953, rem:0)
+800 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999994 exec time (total:425780947, rem:0)
+801 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999424 exec time (total:429780371, rem:0)
+802 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999635 exec time (total:433780006, rem:0)
+803 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999686 exec time (total:437779692, rem:0)
+804 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999718 exec time (total:441779410, rem:0)
+805 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999749 exec time (total:445779159, rem:0)
+806 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999632 exec time (total:449778791, rem:0)
+807 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999672 exec time (total:453778463, rem:0)
+808 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999644 exec time (total:457778107, rem:0)
+809 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999787 exec time (total:461777894, rem:0)
+810 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999650 exec time (total:465777544, rem:0)
+811 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999644 exec time (total:469777188, rem:0)
+812 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999725 exec time (total:473776913, rem:0)
+813 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999694 exec time (total:477776607, rem:0)
+814 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999625 exec time (total:481776232, rem:0)
+815 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999654 exec time (total:485775886, rem:0)
+816 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999666 exec time (total:489775552, rem:0)
+817 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999759 exec time (total:493775311, rem:0)
+818 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999689 exec time (total:497775000, rem:0)
+819 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999676 exec time (total:501774676, rem:0)
+820 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999673 exec time (total:505774349, rem:0)
+821 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999735 exec time (total:509774084, rem:0)
+822 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999663 exec time (total:513773747, rem:0)
+823 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999619 exec time (total:517773366, rem:0)
+824 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999738 exec time (total:521773104, rem:0)
+825 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999739 exec time (total:525772843, rem:0)
+826 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999531 exec time (total:529772374, rem:0)
+827 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999854 exec time (total:533772228, rem:0)
+828 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999602 exec time (total:537771830, rem:0)
+829 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999657 exec time (total:541771487, rem:0)
+830 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999713 exec time (total:545771200, rem:0)
+831 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999609 exec time (total:549770809, rem:0)
+832 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999782 exec time (total:553770591, rem:0)
+833 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999804 exec time (total:557770395, rem:0)
+834 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999555 exec time (total:561769950, rem:0)
+835 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999643 exec time (total:565769593, rem:0)
+836 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999681 exec time (total:569769274, rem:0)
+837 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999780 exec time (total:573769054, rem:0)
+838 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999629 exec time (total:577768683, rem:0)
+839 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999627 exec time (total:581768310, rem:0)
+840 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999692 exec time (total:585768002, rem:0)
+841 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999702 exec time (total:589767704, rem:0)
+842 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999709 exec time (total:593767413, rem:0)
+843 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999586 exec time (total:597766999, rem:0)
+844 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999680 exec time (total:601766679, rem:0)
+845 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999722 exec time (total:605766401, rem:0)
+846 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999708 exec time (total:609766109, rem:0)
+847 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999687 exec time (total:613765796, rem:0)
+848 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999728 exec time (total:617765524, rem:0)
+849 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999638 exec time (total:621765162, rem:0)
+850 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999672 exec time (total:625764834, rem:0)
+851 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999648 exec time (total:629764482, rem:0)
+852 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999709 exec time (total:633764191, rem:0)
+853 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999701 exec time (total:637763892, rem:0)
+854 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999699 exec time (total:641763591, rem:0)
+855 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999601 exec time (total:645763192, rem:0)
+856 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999658 exec time (total:649762850, rem:0)
+857 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999804 exec time (total:653762654, rem:0)
+858 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999598 exec time (total:657762252, rem:0)
+859 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999740 exec time (total:661761992, rem:0)
+860 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999762 exec time (total:665761754, rem:0)
+861 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999635 exec time (total:669761389, rem:0)
+862 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999659 exec time (total:673761048, rem:0)
+863 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999688 exec time (total:677760736, rem:0)
+864 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999639 exec time (total:681760375, rem:0)
+865 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999700 exec time (total:685760075, rem:0)
+866 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999676 exec time (total:689759751, rem:0)
+867 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999707 exec time (total:693759458, rem:0)
+868 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999626 exec time (total:697759084, rem:0)
+869 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999800 exec time (total:701758884, rem:0)
+870 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999597 exec time (total:705758481, rem:0)
+871 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999746 exec time (total:709758227, rem:0)
+872 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999656 exec time (total:713757883, rem:0)
+873 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999705 exec time (total:717757588, rem:0)
+874 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999686 exec time (total:721757274, rem:0)
+875 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999677 exec time (total:725756951, rem:0)
+876 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999666 exec time (total:729756617, rem:0)
+877 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999730 exec time (total:733756347, rem:0)
+878 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999591 exec time (total:737755938, rem:0)
+879 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999710 exec time (total:741755648, rem:0)
+880 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999703 exec time (total:745755351, rem:0)
+881 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999639 exec time (total:749754990, rem:0)
+882 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999670 exec time (total:753754660, rem:0)
+883 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 3999725 exec time (total:757754385, rem:0)
+884 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:2) try_to_wake_up() state:0
+885 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:2) try_to_wake_up() done state:0
+886 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:2) try_to_wake_up() state:0
+887 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:2) try_to_wake_up() done state:0
+888 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:2) try_to_wake_up() state:0
+889 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:2) try_to_wake_up() done state:0
+890 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:2) try_to_wake_up() state:0
+891 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:2) try_to_wake_up() done state:0
+892 P2 [complete_job@litmus/jobs.c:104]: (swaptions/3041:2) job completion indicated at 8487669177572
+893 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:2) charged 1178120 exec time (total:758932505, rem:0)
+894 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3041:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=500Mb/s
+895 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3041:2) job_completion(forced=0).
+896 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8487150621491 to ready queue at 8487669184739
+897 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:3) linking to local CPU 2 to avoid IPI
+898 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:3) check preempt membudget==500
+899 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:3) get curbudget==692
+900 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 2810020 exec time (total:2810020, rem:17189980)
+901 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999649 exec time (total:6809669, rem:13190331)
+902 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999691 exec time (total:10809360, rem:9190640)
+903 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999652 exec time (total:14809012, rem:5190988)
+904 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999720 exec time (total:18808732, rem:1191268)
+905 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999682 exec time (total:22808414, rem:0)
+906 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999674 exec time (total:26808088, rem:0)
+907 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999674 exec time (total:30807762, rem:0)
+908 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999632 exec time (total:34807394, rem:0)
+909 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999760 exec time (total:38807154, rem:0)
+910 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999653 exec time (total:42806807, rem:0)
+911 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999669 exec time (total:46806476, rem:0)
+912 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999683 exec time (total:50806159, rem:0)
+913 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999652 exec time (total:54805811, rem:0)
+914 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999687 exec time (total:58805498, rem:0)
+915 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999686 exec time (total:62805184, rem:0)
+916 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999789 exec time (total:66804973, rem:0)
+917 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999670 exec time (total:70804643, rem:0)
+918 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999615 exec time (total:74804258, rem:0)
+919 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999712 exec time (total:78803970, rem:0)
+920 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999593 exec time (total:82803563, rem:0)
+921 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999786 exec time (total:86803349, rem:0)
+922 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999608 exec time (total:90802957, rem:0)
+923 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999658 exec time (total:94802615, rem:0)
+924 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999708 exec time (total:98802323, rem:0)
+925 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999748 exec time (total:102802071, rem:0)
+926 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999595 exec time (total:106801666, rem:0)
+927 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999707 exec time (total:110801373, rem:0)
+928 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999644 exec time (total:114801017, rem:0)
+929 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999790 exec time (total:118800807, rem:0)
+930 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999612 exec time (total:122800419, rem:0)
+931 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999734 exec time (total:126800153, rem:0)
+932 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999662 exec time (total:130799815, rem:0)
+933 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999806 exec time (total:134799621, rem:0)
+934 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999564 exec time (total:138799185, rem:0)
+935 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999710 exec time (total:142798895, rem:0)
+936 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999588 exec time (total:146798483, rem:0)
+937 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999750 exec time (total:150798233, rem:0)
+938 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999587 exec time (total:154797820, rem:0)
+939 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999778 exec time (total:158797598, rem:0)
+940 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999663 exec time (total:162797261, rem:0)
+941 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999674 exec time (total:166796935, rem:0)
+942 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999662 exec time (total:170796597, rem:0)
+943 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999739 exec time (total:174796336, rem:0)
+944 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999649 exec time (total:178795985, rem:0)
+945 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999781 exec time (total:182795766, rem:0)
+946 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999547 exec time (total:186795313, rem:0)
+947 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999751 exec time (total:190795064, rem:0)
+948 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999636 exec time (total:194794700, rem:0)
+949 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999725 exec time (total:198794425, rem:0)
+950 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999637 exec time (total:202794062, rem:0)
+951 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999702 exec time (total:206793764, rem:0)
+952 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999619 exec time (total:210793383, rem:0)
+953 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999834 exec time (total:214793217, rem:0)
+954 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999582 exec time (total:218792799, rem:0)
+955 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999770 exec time (total:222792569, rem:0)
+956 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999637 exec time (total:226792206, rem:0)
+957 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999761 exec time (total:230791967, rem:0)
+958 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999661 exec time (total:234791628, rem:0)
+959 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999714 exec time (total:238791342, rem:0)
+960 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999560 exec time (total:242790902, rem:0)
+961 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999742 exec time (total:246790644, rem:0)
+962 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999631 exec time (total:250790275, rem:0)
+963 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999750 exec time (total:254790025, rem:0)
+964 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999645 exec time (total:258789670, rem:0)
+965 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999672 exec time (total:262789342, rem:0)
+966 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999668 exec time (total:266789010, rem:0)
+967 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999706 exec time (total:270788716, rem:0)
+968 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999727 exec time (total:274788443, rem:0)
+969 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999643 exec time (total:278788086, rem:0)
+970 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999813 exec time (total:282787899, rem:0)
+971 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999590 exec time (total:286787489, rem:0)
+972 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999668 exec time (total:290787157, rem:0)
+973 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999640 exec time (total:294786797, rem:0)
+974 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999617 exec time (total:298786414, rem:0)
+975 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999781 exec time (total:302786195, rem:0)
+976 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999601 exec time (total:306785796, rem:0)
+977 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999716 exec time (total:310785512, rem:0)
+978 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999657 exec time (total:314785169, rem:0)
+979 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999765 exec time (total:318784934, rem:0)
+980 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999639 exec time (total:322784573, rem:0)
+981 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999685 exec time (total:326784258, rem:0)
+982 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999733 exec time (total:330783991, rem:0)
+983 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999670 exec time (total:334783661, rem:0)
+984 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999603 exec time (total:338783264, rem:0)
+985 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999732 exec time (total:342782996, rem:0)
+986 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999640 exec time (total:346782636, rem:0)
+987 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999752 exec time (total:350782388, rem:0)
+988 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999600 exec time (total:354781988, rem:0)
+989 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999687 exec time (total:358781675, rem:0)
+990 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999666 exec time (total:362781341, rem:0)
+991 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999792 exec time (total:366781133, rem:0)
+992 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999593 exec time (total:370780726, rem:0)
+993 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999790 exec time (total:374780516, rem:0)
+994 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999646 exec time (total:378780162, rem:0)
+995 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999681 exec time (total:382779843, rem:0)
+996 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999643 exec time (total:386779486, rem:0)
+997 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999736 exec time (total:390779222, rem:0)
+998 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999615 exec time (total:394778837, rem:0)
+999 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999707 exec time (total:398778544, rem:0)
+1000 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999669 exec time (total:402778213, rem:0)
+1001 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999651 exec time (total:406777864, rem:0)
+1002 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999676 exec time (total:410777540, rem:0)
+1003 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999693 exec time (total:414777233, rem:0)
+1004 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999778 exec time (total:418777011, rem:0)
+1005 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999563 exec time (total:422776574, rem:0)
+1006 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999712 exec time (total:426776286, rem:0)
+1007 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999674 exec time (total:430775960, rem:0)
+1008 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999663 exec time (total:434775623, rem:0)
+1009 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999740 exec time (total:438775363, rem:0)
+1010 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999716 exec time (total:442775079, rem:0)
+1011 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999656 exec time (total:446774735, rem:0)
+1012 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999668 exec time (total:450774403, rem:0)
+1013 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999772 exec time (total:454774175, rem:0)
+1014 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999586 exec time (total:458773761, rem:0)
+1015 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999731 exec time (total:462773492, rem:0)
+1016 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999683 exec time (total:466773175, rem:0)
+1017 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999631 exec time (total:470772806, rem:0)
+1018 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999725 exec time (total:474772531, rem:0)
+1019 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999648 exec time (total:478772179, rem:0)
+1020 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999711 exec time (total:482771890, rem:0)
+1021 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999663 exec time (total:486771553, rem:0)
+1022 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999702 exec time (total:490771255, rem:0)
+1023 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999677 exec time (total:494770932, rem:0)
+1024 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999651 exec time (total:498770583, rem:0)
+1025 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999747 exec time (total:502770330, rem:0)
+1026 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999696 exec time (total:506770026, rem:0)
+1027 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999668 exec time (total:510769694, rem:0)
+1028 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999653 exec time (total:514769347, rem:0)
+1029 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999745 exec time (total:518769092, rem:0)
+1030 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999639 exec time (total:522768731, rem:0)
+1031 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999751 exec time (total:526768482, rem:0)
+1032 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999542 exec time (total:530768024, rem:0)
+1033 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999736 exec time (total:534767760, rem:0)
+1034 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999656 exec time (total:538767416, rem:0)
+1035 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999710 exec time (total:542767126, rem:0)
+1036 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999674 exec time (total:546766800, rem:0)
+1037 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999796 exec time (total:550766596, rem:0)
+1038 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999564 exec time (total:554766160, rem:0)
+1039 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999694 exec time (total:558765854, rem:0)
+1040 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999660 exec time (total:562765514, rem:0)
+1041 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999735 exec time (total:566765249, rem:0)
+1042 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999692 exec time (total:570764941, rem:0)
+1043 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999637 exec time (total:574764578, rem:0)
+1044 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999691 exec time (total:578764269, rem:0)
+1045 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999733 exec time (total:582764002, rem:0)
+1046 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999617 exec time (total:586763619, rem:0)
+1047 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999633 exec time (total:590763252, rem:0)
+1048 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999710 exec time (total:594762962, rem:0)
+1049 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999717 exec time (total:598762679, rem:0)
+1050 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999707 exec time (total:602762386, rem:0)
+1051 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999656 exec time (total:606762042, rem:0)
+1052 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999709 exec time (total:610761751, rem:0)
+1053 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999672 exec time (total:614761423, rem:0)
+1054 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999817 exec time (total:618761240, rem:0)
+1055 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999503 exec time (total:622760743, rem:0)
+1056 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999718 exec time (total:626760461, rem:0)
+1057 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999657 exec time (total:630760118, rem:0)
+1058 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999693 exec time (total:634759811, rem:0)
+1059 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999708 exec time (total:638759519, rem:0)
+1060 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999643 exec time (total:642759162, rem:0)
+1061 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999727 exec time (total:646758889, rem:0)
+1062 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999721 exec time (total:650758610, rem:0)
+1063 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999628 exec time (total:654758238, rem:0)
+1064 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999689 exec time (total:658757927, rem:0)
+1065 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999647 exec time (total:662757574, rem:0)
+1066 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999778 exec time (total:666757352, rem:0)
+1067 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999596 exec time (total:670756948, rem:0)
+1068 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999745 exec time (total:674756693, rem:0)
+1069 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999612 exec time (total:678756305, rem:0)
+1070 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999826 exec time (total:682756131, rem:0)
+1071 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999557 exec time (total:686755688, rem:0)
+1072 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999705 exec time (total:690755393, rem:0)
+1073 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999680 exec time (total:694755073, rem:0)
+1074 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999705 exec time (total:698754778, rem:0)
+1075 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999744 exec time (total:702754522, rem:0)
+1076 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999627 exec time (total:706754149, rem:0)
+1077 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999688 exec time (total:710753837, rem:0)
+1078 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999763 exec time (total:714753600, rem:0)
+1079 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999598 exec time (total:718753198, rem:0)
+1080 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999640 exec time (total:722752838, rem:0)
+1081 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999692 exec time (total:726752530, rem:0)
+1082 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999676 exec time (total:730752206, rem:0)
+1083 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999626 exec time (total:734751832, rem:0)
+1084 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999865 exec time (total:738751697, rem:0)
+1085 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999570 exec time (total:742751267, rem:0)
+1086 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999712 exec time (total:746750979, rem:0)
+1087 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999667 exec time (total:750750646, rem:0)
+1088 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3999661 exec time (total:754750307, rem:0)
+1089 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:3) try_to_wake_up() state:0
+1090 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:3) try_to_wake_up() done state:0
+1091 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:3) try_to_wake_up() state:0
+1092 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:3) try_to_wake_up() done state:0
+1093 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:3) try_to_wake_up() state:0
+1094 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:3) try_to_wake_up() done state:0
+1095 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:3) try_to_wake_up() state:0
+1096 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:3) try_to_wake_up() done state:0
+1097 P2 [complete_job@litmus/jobs.c:104]: (swaptions/3041:3) job completion indicated at 8488427794731
+1098 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:3) charged 3795101 exec time (total:758545408, rem:0)
+1099 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3041:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=500Mb/s
+1100 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3041:3) job_completion(forced=0).
+1101 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8487650621491 to ready queue at 8488427802451
+1102 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:4) linking to local CPU 2 to avoid IPI
+1103 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:4) check preempt membudget==500
+1104 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:4) get curbudget==692
+1105 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 192475 exec time (total:192475, rem:19807525)
+1106 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999614 exec time (total:4192089, rem:15807911)
+1107 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999561 exec time (total:8191650, rem:11808350)
+1108 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999763 exec time (total:12191413, rem:7808587)
+1109 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999616 exec time (total:16191029, rem:3808971)
+1110 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999767 exec time (total:20190796, rem:0)
+1111 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999647 exec time (total:24190443, rem:0)
+1112 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999717 exec time (total:28190160, rem:0)
+1113 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999614 exec time (total:32189774, rem:0)
+1114 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999718 exec time (total:36189492, rem:0)
+1115 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999618 exec time (total:40189110, rem:0)
+1116 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999793 exec time (total:44188903, rem:0)
+1117 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999595 exec time (total:48188498, rem:0)
+1118 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999717 exec time (total:52188215, rem:0)
+1119 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999675 exec time (total:56187890, rem:0)
+1120 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999715 exec time (total:60187605, rem:0)
+1121 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999706 exec time (total:64187311, rem:0)
+1122 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999627 exec time (total:68186938, rem:0)
+1123 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999698 exec time (total:72186636, rem:0)
+1124 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999742 exec time (total:76186378, rem:0)
+1125 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999519 exec time (total:80185897, rem:0)
+1126 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999812 exec time (total:84185709, rem:0)
+1127 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999731 exec time (total:88185440, rem:0)
+1128 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999583 exec time (total:92185023, rem:0)
+1129 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 4001056 exec time (total:96186079, rem:0)
+1130 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3998284 exec time (total:100184363, rem:0)
+1131 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999734 exec time (total:104184097, rem:0)
+1132 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999712 exec time (total:108183809, rem:0)
+1133 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999669 exec time (total:112183478, rem:0)
+1134 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999725 exec time (total:116183203, rem:0)
+1135 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999707 exec time (total:120182910, rem:0)
+1136 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999614 exec time (total:124182524, rem:0)
+1137 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999658 exec time (total:128182182, rem:0)
+1138 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999643 exec time (total:132181825, rem:0)
+1139 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999742 exec time (total:136181567, rem:0)
+1140 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999686 exec time (total:140181253, rem:0)
+1141 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999777 exec time (total:144181030, rem:0)
+1142 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999580 exec time (total:148180610, rem:0)
+1143 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999734 exec time (total:152180344, rem:0)
+1144 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999609 exec time (total:156179953, rem:0)
+1145 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999765 exec time (total:160179718, rem:0)
+1146 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999578 exec time (total:164179296, rem:0)
+1147 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999793 exec time (total:168179089, rem:0)
+1148 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999625 exec time (total:172178714, rem:0)
+1149 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999658 exec time (total:176178372, rem:0)
+1150 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999760 exec time (total:180178132, rem:0)
+1151 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999691 exec time (total:184177823, rem:0)
+1152 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999627 exec time (total:188177450, rem:0)
+1153 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999766 exec time (total:192177216, rem:0)
+1154 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999559 exec time (total:196176775, rem:0)
+1155 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999688 exec time (total:200176463, rem:0)
+1156 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999690 exec time (total:204176153, rem:0)
+1157 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999681 exec time (total:208175834, rem:0)
+1158 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999737 exec time (total:212175571, rem:0)
+1159 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999770 exec time (total:216175341, rem:0)
+1160 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999592 exec time (total:220174933, rem:0)
+1161 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999713 exec time (total:224174646, rem:0)
+1162 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999606 exec time (total:228174252, rem:0)
+1163 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999693 exec time (total:232173945, rem:0)
+1164 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999658 exec time (total:236173603, rem:0)
+1165 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999773 exec time (total:240173376, rem:0)
+1166 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999654 exec time (total:244173030, rem:0)
+1167 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999724 exec time (total:248172754, rem:0)
+1168 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999592 exec time (total:252172346, rem:0)
+1169 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999659 exec time (total:256172005, rem:0)
+1170 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999739 exec time (total:260171744, rem:0)
+1171 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999670 exec time (total:264171414, rem:0)
+1172 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999728 exec time (total:268171142, rem:0)
+1173 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999630 exec time (total:272170772, rem:0)
+1174 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999695 exec time (total:276170467, rem:0)
+1175 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999763 exec time (total:280170230, rem:0)
+1176 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999608 exec time (total:284169838, rem:0)
+1177 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999702 exec time (total:288169540, rem:0)
+1178 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999726 exec time (total:292169266, rem:0)
+1179 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999626 exec time (total:296168892, rem:0)
+1180 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999693 exec time (total:300168585, rem:0)
+1181 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999615 exec time (total:304168200, rem:0)
+1182 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999698 exec time (total:308167898, rem:0)
+1183 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999732 exec time (total:312167630, rem:0)
+1184 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999724 exec time (total:316167354, rem:0)
+1185 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999577 exec time (total:320166931, rem:0)
+1186 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999720 exec time (total:324166651, rem:0)
+1187 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999637 exec time (total:328166288, rem:0)
+1188 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999741 exec time (total:332166029, rem:0)
+1189 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999782 exec time (total:336165811, rem:0)
+1190 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999609 exec time (total:340165420, rem:0)
+1191 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999723 exec time (total:344165143, rem:0)
+1192 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999580 exec time (total:348164723, rem:0)
+1193 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999748 exec time (total:352164471, rem:0)
+1194 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999638 exec time (total:356164109, rem:0)
+1195 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999743 exec time (total:360163852, rem:0)
+1196 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999589 exec time (total:364163441, rem:0)
+1197 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999710 exec time (total:368163151, rem:0)
+1198 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999692 exec time (total:372162843, rem:0)
+1199 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999757 exec time (total:376162600, rem:0)
+1200 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999623 exec time (total:380162223, rem:0)
+1201 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999720 exec time (total:384161943, rem:0)
+1202 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999592 exec time (total:388161535, rem:0)
+1203 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999793 exec time (total:392161328, rem:0)
+1204 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999602 exec time (total:396160930, rem:0)
+1205 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999753 exec time (total:400160683, rem:0)
+1206 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999662 exec time (total:404160345, rem:0)
+1207 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999729 exec time (total:408160074, rem:0)
+1208 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999646 exec time (total:412159720, rem:0)
+1209 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999669 exec time (total:416159389, rem:0)
+1210 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999617 exec time (total:420159006, rem:0)
+1211 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999837 exec time (total:424158843, rem:0)
+1212 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999571 exec time (total:428158414, rem:0)
+1213 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999731 exec time (total:432158145, rem:0)
+1214 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999631 exec time (total:436157776, rem:0)
+1215 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999769 exec time (total:440157545, rem:0)
+1216 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999629 exec time (total:444157174, rem:0)
+1217 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999620 exec time (total:448156794, rem:0)
+1218 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999698 exec time (total:452156492, rem:0)
+1219 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999671 exec time (total:456156163, rem:0)
+1220 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999702 exec time (total:460155865, rem:0)
+1221 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999658 exec time (total:464155523, rem:0)
+1222 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999669 exec time (total:468155192, rem:0)
+1223 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999767 exec time (total:472154959, rem:0)
+1224 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999671 exec time (total:476154630, rem:0)
+1225 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999693 exec time (total:480154323, rem:0)
+1226 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999660 exec time (total:484153983, rem:0)
+1227 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999740 exec time (total:488153723, rem:0)
+1228 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999597 exec time (total:492153320, rem:0)
+1229 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999792 exec time (total:496153112, rem:0)
+1230 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999618 exec time (total:500152730, rem:0)
+1231 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999730 exec time (total:504152460, rem:0)
+1232 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999675 exec time (total:508152135, rem:0)
+1233 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999626 exec time (total:512151761, rem:0)
+1234 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999642 exec time (total:516151403, rem:0)
+1235 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999742 exec time (total:520151145, rem:0)
+1236 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999692 exec time (total:524150837, rem:0)
+1237 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999678 exec time (total:528150515, rem:0)
+1238 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999615 exec time (total:532150130, rem:0)
+1239 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999785 exec time (total:536149915, rem:0)
+1240 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999709 exec time (total:540149624, rem:0)
+1241 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999684 exec time (total:544149308, rem:0)
+1242 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999575 exec time (total:548148883, rem:0)
+1243 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999722 exec time (total:552148605, rem:0)
+1244 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999630 exec time (total:556148235, rem:0)
+1245 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999714 exec time (total:560147949, rem:0)
+1246 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999640 exec time (total:564147589, rem:0)
+1247 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999793 exec time (total:568147382, rem:0)
+1248 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999640 exec time (total:572147022, rem:0)
+1249 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999747 exec time (total:576146769, rem:0)
+1250 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999584 exec time (total:580146353, rem:0)
+1251 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999701 exec time (total:584146054, rem:0)
+1252 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999711 exec time (total:588145765, rem:0)
+1253 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999675 exec time (total:592145440, rem:0)
+1254 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999706 exec time (total:596145146, rem:0)
+1255 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999677 exec time (total:600144823, rem:0)
+1256 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999696 exec time (total:604144519, rem:0)
+1257 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999709 exec time (total:608144228, rem:0)
+1258 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999579 exec time (total:612143807, rem:0)
+1259 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999770 exec time (total:616143577, rem:0)
+1260 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999609 exec time (total:620143186, rem:0)
+1261 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999705 exec time (total:624142891, rem:0)
+1262 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999612 exec time (total:628142503, rem:0)
+1263 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999857 exec time (total:632142360, rem:0)
+1264 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999489 exec time (total:636141849, rem:0)
+1265 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999798 exec time (total:640141647, rem:0)
+1266 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999720 exec time (total:644141367, rem:0)
+1267 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999671 exec time (total:648141038, rem:0)
+1268 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999607 exec time (total:652140645, rem:0)
+1269 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999725 exec time (total:656140370, rem:0)
+1270 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999670 exec time (total:660140040, rem:0)
+1271 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999678 exec time (total:664139718, rem:0)
+1272 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999749 exec time (total:668139467, rem:0)
+1273 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999640 exec time (total:672139107, rem:0)
+1274 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999652 exec time (total:676138759, rem:0)
+1275 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999690 exec time (total:680138449, rem:0)
+1276 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999636 exec time (total:684138085, rem:0)
+1277 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999706 exec time (total:688137791, rem:0)
+1278 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999658 exec time (total:692137449, rem:0)
+1279 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999716 exec time (total:696137165, rem:0)
+1280 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999684 exec time (total:700136849, rem:0)
+1281 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999758 exec time (total:704136607, rem:0)
+1282 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999610 exec time (total:708136217, rem:0)
+1283 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999717 exec time (total:712135934, rem:0)
+1284 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999670 exec time (total:716135604, rem:0)
+1285 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999721 exec time (total:720135325, rem:0)
+1286 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999625 exec time (total:724134950, rem:0)
+1287 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999750 exec time (total:728134700, rem:0)
+1288 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999605 exec time (total:732134305, rem:0)
+1289 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999683 exec time (total:736133988, rem:0)
+1290 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999693 exec time (total:740133681, rem:0)
+1291 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999786 exec time (total:744133467, rem:0)
+1292 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999578 exec time (total:748133045, rem:0)
+1293 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999676 exec time (total:752132721, rem:0)
+1294 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999688 exec time (total:756132409, rem:0)
+1295 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 3999775 exec time (total:760132184, rem:0)
+1296 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:4) try_to_wake_up() state:0
+1297 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:4) try_to_wake_up() done state:0
+1298 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:4) try_to_wake_up() state:0
+1299 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:4) try_to_wake_up() done state:0
+1300 P0 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3041:4) try_to_wake_up() state:0
+1301 P0 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3041:4) try_to_wake_up() done state:0
+1302 P2 [complete_job@litmus/jobs.c:104]: (swaptions/3041:4) job completion indicated at 8489188654393
+1303 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:4) charged 655035 exec time (total:760787219, rem:0)
+1304 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3041:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=500Mb/s
+1305 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3041:4) job_completion(forced=0).
+1306 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8488150621491 to ready queue at 8489188661748
+1307 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:5) linking to local CPU 2 to avoid IPI
+1308 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:5) check preempt membudget==500
+1309 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:5) get curbudget==692
+1310 P2 [complete_job@litmus/jobs.c:104]: (swaptions/3041:5) job completion indicated at 8489188671905
+1311 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3041:5) charged 5352 exec time (total:5352, rem:19994648)
+1312 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3041:5) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=500Mb/s
+1313 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3041:5) job_completion(forced=0).
+1314 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3041 (20000000, 500000000, 500000000) rel=8488650621491 to ready queue at 8489188677540
+1315 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3041:6) linking to local CPU 2 to avoid IPI
+1316 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3041:6) check preempt membudget==500
+1317 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3041:6) get curbudget==692
+1318 P2 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (swaptions/3041:6) RIP
+1319 P2 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (swaptions/3041:6) ignoring a dequeue, not going to sleep.
+1320 P2 [litmus_dealloc@litmus/litmus.c:622]: (swaptions/3041:6) Deallocating real-time task data
+1321 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (swaptions/3041:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+1322 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (swaptions/3041:0) litmus/ctrl: 00007f1b6e85e000:00007f1b6e85f000 vma:ffff92774ca7fa40 vma->vm_private_data:          (null) closed.
+1323 P5 [exit_litmus@litmus/litmus.c:600]: (swaptions/3041:0) freeing ctrl_page ffff92774f00e000
