@@ -64,13 +64,14 @@ struct core_info {
 	long period_cnt;         /* active periods count */
 };
 
-int get_master,get_curbudget;
+int get_master,g_cpu;
 static struct memguard_info memguard_info;
 static struct core_info __percpu *core_info;
 
 static int g_period_us=1000;
 static int g_budget_pct[MAX_NCPUS];
-static int g_budget_max_bw=3000;
+static int g_budget_max_bw=2100;
+//static int g_budget_max_bw=6089;
 
 static struct dentry *memguard_dir;
 
@@ -80,7 +81,8 @@ static void period_timer_callback_slave(void *info);
 static void memguard_process_overflow(struct irq_work *entry);
 static int throttle_thread(void *arg);
 int get_membudget(int get_cpu,int get_membudget);
-int get_cur_budget(int g_cpu);
+int get_cur_budget(void);
+int clean_budget(int g_cpu);
 module_param(g_budget_max_bw, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP);
 MODULE_PARM_DESC(g_budget_max_bw, "maximum memory bandwidth (MB/s)");
 
@@ -117,12 +119,13 @@ static void __update_budget(void *info){
 	smp_mb();	
 	trace_printk("MSG: new budget of Core%d is %d \n",smp_processor_id(),cinfo->budget);
 }
+
 static void __update_curbudget(void *info){
 	struct core_info *cinfo=this_cpu_ptr(core_info);
 	smp_mb();
-	
-	get_curbudget=(unsigned long)convert_events_to_mb(cinfo->limit);
-	trace_printk("get-curbudget==%d \n",get_curbudget);
+
+	cinfo->limit=(unsigned long)convert_mb_to_events(100);
+	trace_printk("clean curbudget at cpu%d \n",smp_processor_id());
 }
 int get_membudget(int get_cpu,int get_membudget){
 	
@@ -130,12 +133,29 @@ int get_membudget(int get_cpu,int get_membudget){
 	g_budget=(unsigned long)convert_mb_to_events(get_membudget);
 	smp_call_function_single(get_cpu,__update_budget,g_budget,0);	
 	
-	trace_printk("get cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
+	trace_printk("set cpu==%d,membudget==%d.\n",get_cpu,get_membudget);
 	return 0;
 }
-int get_cur_budget(int g_cpu){
+int get_cur_budget(void){
+//	smp_call_function_single(g_cpu,__update_curbudget,NULL,0);
+	int use,i,get_curbudget=0;
+	get_online_cpus();
+	for_each_online_cpu(i){
+		struct core_info *cinfo=per_cpu_ptr(core_info,i);
+//		int get_curbudget;
+		get_curbudget+=(unsigned long)convert_events_to_mb(cinfo->limit);
+		
+	}
+	use=g_budget_max_bw-get_curbudget;
+	trace_printk("use==%dget_curbudget==%d.\n",use,get_curbudget);
+//	pr_info("use==%dget_curbudget==%d.\n",use,get_curbudget);
+	put_online_cpus();	
+	return use;
+}
+int clean_budget(int g_cpu)
+{
 	smp_call_function_single(g_cpu,__update_curbudget,NULL,0);
-	return get_curbudget;
+	return 0;
 }
 static void __start_throttle(void *info){
          struct core_info *cinfo = (struct core_info *)info;
@@ -344,8 +364,8 @@ static ssize_t memguard_limit_write(struct file *filp,const char __user *ubuf,si
 	
 	p++;
 	smp_mb();
-	global->max_budget+=events;
-	g_budget_max_bw=convert_events_to_mb(global->max_budget);	
+//	global->max_budget+=events;
+//	g_budget_max_bw=convert_events_to_mb(global->max_budget);	
 	put_online_cpus();
 	
 	return cnt;
@@ -362,8 +382,8 @@ static int memguard_limit_show(struct seq_file *m,void *v){
 
 	for_each_online_cpu(i){
 		struct core_info *cinfo=per_cpu_ptr(core_info,i);
-		int budget=0,pct;
-		if(cinfo->limit>0)
+		int budget,pct;
+		if(cinfo->limit>=0)
 			budget=cinfo->limit;
 		WARN_ON_ONCE(budget==0);
 
@@ -580,7 +600,7 @@ int __init init_mem(void){
 		if(g_budget_pct[i]==0)
 			g_budget_pct[i]=100/num_online_cpus();
 		mb=div64_u64((u64)g_budget_max_bw * g_budget_pct[i],100);
-		
+	//	mb=100;
 		budget=convert_mb_to_events(mb);
 
 		pr_info("budget[%d]=%d(%d MB/s)\n",i,budget,mb);
@@ -670,7 +690,7 @@ module_init(init_mem);
 module_exit(exit_mem);
 EXPORT_SYMBOL(get_membudget);
 EXPORT_SYMBOL(get_master);
-//EXPORT_SYMBOL(get_curbudget);
+EXPORT_SYMBOL(clean_budget);
 EXPORT_SYMBOL(get_cur_budget);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("wsm");

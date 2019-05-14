@@ -1,0 +1,708 @@
+191 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+192 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+193 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+194 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+195 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+196 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+197 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+198 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+199 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+200 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+201 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+202 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+203 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+204 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+205 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+206 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+207 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+208 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+209 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+210 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+211 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+212 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+213 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+214 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+215 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+216 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+217 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+218 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+219 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+220 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+221 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+222 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+223 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+224 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+225 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+226 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+227 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+228 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+229 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+230 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+231 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+232 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+233 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+234 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+235 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+236 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+237 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+238 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+239 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+240 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+241 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+242 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+243 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+244 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+245 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+246 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+247 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+248 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+249 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+250 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+251 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+252 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+253 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+254 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+255 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+256 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+257 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+258 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+259 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+260 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+261 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+262 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+263 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+264 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+265 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+266 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+267 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+268 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+269 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+270 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+271 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+272 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+273 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+274 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+275 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+276 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+277 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+278 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+279 P7 [alloc_ctrl_page@litmus/ctrldev.c:28]: (blackscholes/2300:0) alloc_ctrl_page ctrl_page = ffff9c3a4ba04000
+280 P5 [alloc_ctrl_page@litmus/ctrldev.c:28]: (dedup/2299:0) alloc_ctrl_page ctrl_page = ffff9c3a4de94000
+281 P7 [map_ctrl_page@litmus/ctrldev.c:42]: (blackscholes/2300:0) litmus/ctrl: mapping ffff9c3a4ba04000 (pfn:fcba04) to 0x7f753c57c000 (prot:8000000000000027)
+282 P5 [map_ctrl_page@litmus/ctrldev.c:42]: (dedup/2299:0) litmus/ctrl: mapping ffff9c3a4de94000 (pfn:fcde94) to 0x7f50fc8c5000 (prot:8000000000000027)
+283 P7 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (blackscholes/2300:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+284 P5 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (dedup/2299:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+285 P7 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 2300.
+286 P5 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 2299.
+287 P5 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 2299
+288 P7 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 2300
+289 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup/2299 (20000000, 100000000, 100000000) rel=165677405518 to ready queue at 165677405790
+290 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2299:1) linking to local CPU 5 to avoid IPI
+291 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2299:1) check preempt membudget==50
+292 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2299:1) get curbudget==540
+293 P5 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (dedup/2299:1) ignoring an enqueue, not a wake up.
+294 P7 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/2300 (20000000, 200000000, 200000000) rel=165677414666 to ready queue at 165677414846
+296 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2300:1) linking to local CPU 7 to avoid IPI
+295 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 2491 exec time (total:2491, rem:19997509)
+297 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2300:1) check preempt membudget==100
+298 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2300:1) get curbudget==742
+299 P7 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (blackscholes/2300:1) ignoring an enqueue, not a wake up.
+300 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2299:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=50Mb/s
+301 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 2444 exec time (total:2444, rem:19997556)
+302 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2300:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=100Mb/s
+303 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 2573122 exec time (total:2575566, rem:17424434)
+304 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 2577185 exec time (total:2579676, rem:17420324)
+305 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3998331 exec time (total:6578007, rem:13421993)
+306 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3998690 exec time (total:6574256, rem:13425744)
+307 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4001168 exec time (total:10579175, rem:9420825)
+308 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4001153 exec time (total:10575409, rem:9424591)
+309 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999592 exec time (total:14575001, rem:5424999)
+310 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999732 exec time (total:14578907, rem:5421093)
+311 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3998959 exec time (total:18573960, rem:1426040)
+312 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3998933 exec time (total:18577840, rem:1422160)
+313 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4000110 exec time (total:22577950, rem:0)
+314 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4000215 exec time (total:22574175, rem:0)
+315 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4000272 exec time (total:26574447, rem:0)
+316 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4000244 exec time (total:26578194, rem:0)
+317 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999413 exec time (total:30577607, rem:0)
+318 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999624 exec time (total:30574071, rem:0)
+319 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999600 exec time (total:34573671, rem:0)
+320 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999918 exec time (total:34577525, rem:0)
+321 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999305 exec time (total:38572976, rem:0)
+322 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999519 exec time (total:38577044, rem:0)
+323 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999860 exec time (total:42572836, rem:0)
+324 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999724 exec time (total:42576768, rem:0)
+325 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4000028 exec time (total:46572864, rem:0)
+326 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4002585 exec time (total:46579353, rem:0)
+327 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999903 exec time (total:50572767, rem:0)
+328 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3997546 exec time (total:50576899, rem:0)
+329 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999382 exec time (total:54576281, rem:0)
+330 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4000165 exec time (total:54572932, rem:0)
+331 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4001570 exec time (total:58574502, rem:0)
+332 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4002042 exec time (total:58578323, rem:0)
+333 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3998299 exec time (total:62572801, rem:0)
+334 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3998480 exec time (total:62576803, rem:0)
+336 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 4000746 exec time (total:66573547, rem:0)
+335 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4000477 exec time (total:66577280, rem:0)
+338 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3999445 exec time (total:70572992, rem:0)
+337 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999393 exec time (total:70576673, rem:0)
+339 P7 [complete_job@litmus/jobs.c:104]: (blackscholes/2300:1) job completion indicated at 165751680084
+340 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:1) charged 3681820 exec time (total:74254812, rem:0)
+341 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2300:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+342 P7 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/2300:1) job_completion(forced=0).
+343 P7 [__add_release@litmus/rt_domain.c:346]: (blackscholes/2300:2) add_release(), rel=165877414666
+344 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/2300:2) scheduled_on = NO_CPU
+345 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999959 exec time (total:74576632, rem:0)
+346 P6 [alloc_ctrl_page@litmus/ctrldev.c:28]: (streamcluster/2298:0) alloc_ctrl_page ctrl_page = ffff9c3a4b9ba000
+347 P6 [map_ctrl_page@litmus/ctrldev.c:42]: (streamcluster/2298:0) litmus/ctrl: mapping ffff9c3a4b9ba000 (pfn:fcb9ba) to 0x7f0129988000 (prot:8000000000000027)
+348 P6 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (streamcluster/2298:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+349 P6 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 2298.
+350 P6 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 2298
+351 P6 [__add_ready@litmus/rt_domain.c:310]: rt: adding streamcluster/2298 (20000000, 150000000, 150000000) rel=165752441137 to ready queue at 165752441434
+352 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:1) linking to local CPU 6 to avoid IPI
+353 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:1) check preempt membudget==350
+354 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:1) get curbudget==894
+355 P6 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (streamcluster/2298:1) ignoring an enqueue, not a wake up.
+356 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:1) charged 3352 exec time (total:3352, rem:19996648)
+357 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=350Mb/s
+358 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:1) job completion indicated at 165753108380
+359 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:1) charged 652685 exec time (total:656037, rem:19343963)
+360 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+361 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:1) job_completion(forced=0).
+362 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:2) add_release(), rel=165902441137
+363 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:2) scheduled_on = NO_CPU
+364 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4000088 exec time (total:78576720, rem:0)
+365 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999618 exec time (total:82576338, rem:0)
+366 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999345 exec time (total:86575683, rem:0)
+367 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999656 exec time (total:90575339, rem:0)
+368 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 4000167 exec time (total:94575506, rem:0)
+369 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 3999872 exec time (total:98575378, rem:0)
+370 P5 [complete_job@litmus/jobs.c:104]: (dedup/2299:1) job completion indicated at 165777098143
+371 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:1) charged 1099598 exec time (total:99674976, rem:0)
+372 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2299:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+373 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2299:1) job_completion(forced=0).
+374 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2299:2) add_release(), rel=165777405518
+375 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2299:2) scheduled_on = NO_CPU
+376 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2299:2) linking to local CPU 5 to avoid IPI
+377 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2299:2) check preempt membudget==50
+378 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2299:2) get curbudget==844
+379 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2299
+380 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2299:2) scheduled_on = P5
+381 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 2585346 exec time (total:2585346, rem:17414654)
+382 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3998809 exec time (total:6584155, rem:13415845)
+383 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000755 exec time (total:10584910, rem:9415090)
+384 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999412 exec time (total:14584322, rem:5415678)
+385 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000231 exec time (total:18584553, rem:1415447)
+386 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999407 exec time (total:22583960, rem:0)
+387 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000709 exec time (total:26584669, rem:0)
+388 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999360 exec time (total:30584029, rem:0)
+389 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999677 exec time (total:34583706, rem:0)
+390 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999202 exec time (total:38582908, rem:0)
+391 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000219 exec time (total:42583127, rem:0)
+392 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000892 exec time (total:46584019, rem:0)
+393 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3998757 exec time (total:50582776, rem:0)
+394 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999606 exec time (total:54582382, rem:0)
+395 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4001129 exec time (total:58583511, rem:0)
+396 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3998949 exec time (total:62582460, rem:0)
+397 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000358 exec time (total:66582818, rem:0)
+398 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999799 exec time (total:70582617, rem:0)
+399 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999840 exec time (total:74582457, rem:0)
+400 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999938 exec time (total:78582395, rem:0)
+401 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000050 exec time (total:82582445, rem:0)
+402 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999122 exec time (total:86581567, rem:0)
+403 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999889 exec time (total:90581456, rem:0)
+404 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 4000801 exec time (total:94582257, rem:0)
+405 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 3999961 exec time (total:98582218, rem:0)
+406 P5 [complete_job@litmus/jobs.c:104]: (dedup/2299:2) job completion indicated at 165876607085
+407 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:2) charged 607624 exec time (total:99189842, rem:0)
+408 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2299:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+409 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2299:2) job_completion(forced=0).
+410 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2299:3) add_release(), rel=165877405518
+411 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2299:3) scheduled_on = NO_CPU
+412 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2299:3) linking to local CPU 5 to avoid IPI
+413 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2299:3) check preempt membudget==50
+414 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2299:3) get curbudget==844
+415 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2300:2) linking to local CPU 7 to avoid IPI
+416 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2300:2) check preempt membudget==100
+417 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2300:2) get curbudget==894
+418 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2299
+419 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2299:3) scheduled_on = P5
+420 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/7/0:0) will be preempted by blackscholes/2300
+421 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2300:2) scheduled_on = P7
+422 P5 [complete_job@litmus/jobs.c:104]: (dedup/2299:3) job completion indicated at 165877462709
+423 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2299:3) charged 22486 exec time (total:22486, rem:19977514)
+424 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2299:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+425 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2299:3) job_completion(forced=0).
+426 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2299:4) add_release(), rel=165977405518
+427 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2299:4) scheduled_on = NO_CPU
+428 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 2551948 exec time (total:2551948, rem:17448052)
+429 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999512 exec time (total:6551460, rem:13448540)
+430 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999740 exec time (total:10551200, rem:9448800)
+431 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 4000026 exec time (total:14551226, rem:5448774)
+432 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999794 exec time (total:18551020, rem:1448980)
+433 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999749 exec time (total:22550769, rem:0)
+434 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:2) linking to local CPU 6 to avoid IPI
+435 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:2) check preempt membudget==350
+436 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:2) get curbudget==844
+437 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+438 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:2) scheduled_on = P6
+439 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:2) job completion indicated at 165903097674
+440 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:2) charged 648113 exec time (total:648113, rem:19351887)
+441 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+442 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:2) job_completion(forced=0).
+443 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:3) add_release(), rel=166052441137
+444 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:3) scheduled_on = NO_CPU
+445 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 4000011 exec time (total:26550780, rem:0)
+446 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999631 exec time (total:30550411, rem:0)
+447 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 4000247 exec time (total:34550658, rem:0)
+448 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999677 exec time (total:38550335, rem:0)
+449 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999789 exec time (total:42550124, rem:0)
+450 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 4000078 exec time (total:46550202, rem:0)
+451 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999681 exec time (total:50549883, rem:0)
+452 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999844 exec time (total:54549727, rem:0)
+453 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999837 exec time (total:58549564, rem:0)
+454 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999807 exec time (total:62549371, rem:0)
+455 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999981 exec time (total:66549352, rem:0)
+456 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3999828 exec time (total:70549180, rem:0)
+457 P7 [complete_job@litmus/jobs.c:104]: (blackscholes/2300:2) job completion indicated at 165951613058
+458 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:2) charged 3614437 exec time (total:74163617, rem:0)
+459 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2300:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+460 P7 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/2300:2) job_completion(forced=0).
+461 P7 [__add_release@litmus/rt_domain.c:346]: (blackscholes/2300:3) add_release(), rel=166077414666
+462 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/2300:3) scheduled_on = NO_CPU
+463 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2299:4) linking to local CPU 5 to avoid IPI
+464 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2299:4) check preempt membudget==50
+465 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2299:4) get curbudget==844
+466 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2299
+467 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2299:4) scheduled_on = P5
+468 P5 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup/2299:4) RIP
+469 P5 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (dedup/2299:4) ignoring a dequeue, not going to sleep.
+470 P5 [litmus_dealloc@litmus/litmus.c:622]: (dedup/2299:4) Deallocating real-time task data
+471 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (dedup/2299:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+472 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (dedup/2299:0) litmus/ctrl: 00007f50fc8c5000:00007f50fc8c6000 vma:ffff9c3a4ba3b980 vma->vm_private_data:          (null) closed.
+473 P0 [exit_litmus@litmus/litmus.c:600]: (dedup/2299:0) freeing ctrl_page ffff9c3a4de94000
+474 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:3) linking to local CPU 6 to avoid IPI
+475 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:3) check preempt membudget==350
+476 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:3) get curbudget==844
+477 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+478 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:3) scheduled_on = P6
+479 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:3) job completion indicated at 166053172307
+480 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:3) charged 707992 exec time (total:707992, rem:19292008)
+481 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+482 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:3) job_completion(forced=0).
+483 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:4) add_release(), rel=166202441137
+484 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:4) scheduled_on = NO_CPU
+485 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2300:3) linking to local CPU 7 to avoid IPI
+486 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2300:3) check preempt membudget==100
+487 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2300:3) get curbudget==844
+488 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/7/0:0) will be preempted by blackscholes/2300
+489 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2300:3) scheduled_on = P7
+490 P7 [complete_job@litmus/jobs.c:104]: (blackscholes/2300:3) job completion indicated at 166077460689
+491 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2300:3) charged 27364 exec time (total:27364, rem:19972636)
+492 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2300:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+493 P7 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/2300:3) job_completion(forced=0).
+494 P7 [__add_release@litmus/rt_domain.c:346]: (blackscholes/2300:4) add_release(), rel=166277414666
+495 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/2300:4) scheduled_on = NO_CPU
+496 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:4) linking to local CPU 6 to avoid IPI
+497 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:4) check preempt membudget==350
+498 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:4) get curbudget==844
+499 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+500 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:4) scheduled_on = P6
+501 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:4) job completion indicated at 166203089598
+502 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:4) charged 619303 exec time (total:619303, rem:19380697)
+503 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+504 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:4) job_completion(forced=0).
+505 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:5) add_release(), rel=166352441137
+506 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:5) scheduled_on = NO_CPU
+507 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2300:4) linking to local CPU 7 to avoid IPI
+508 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2300:4) check preempt membudget==100
+509 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2300:4) get curbudget==844
+510 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/7/0:0) will be preempted by blackscholes/2300
+511 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2300:4) scheduled_on = P7
+512 P7 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes/2300:4) RIP
+513 P7 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (blackscholes/2300:4) ignoring a dequeue, not going to sleep.
+514 P7 [litmus_dealloc@litmus/litmus.c:622]: (blackscholes/2300:4) Deallocating real-time task data
+515 P7 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (blackscholes/2300:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+516 P7 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (blackscholes/2300:0) litmus/ctrl: 00007f753c57c000:00007f753c57d000 vma:ffff9c3a4ba3f740 vma->vm_private_data:          (null) closed.
+517 P2 [exit_litmus@litmus/litmus.c:600]: (blackscholes/2300:0) freeing ctrl_page ffff9c3a4ba04000
+518 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:5) linking to local CPU 6 to avoid IPI
+519 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:5) check preempt membudget==350
+520 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:5) get curbudget==844
+521 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+522 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:5) scheduled_on = P6
+523 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:5) job completion indicated at 166353328390
+524 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:5) charged 865264 exec time (total:865264, rem:19134736)
+525 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:5) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+526 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:5) job_completion(forced=0).
+527 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:6) add_release(), rel=166502441137
+528 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:6) scheduled_on = NO_CPU
+529 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:6) linking to local CPU 6 to avoid IPI
+530 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:6) check preempt membudget==350
+531 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:6) get curbudget==844
+532 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+533 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:6) scheduled_on = P6
+534 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/2298:6) job completion indicated at 166502507027
+535 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2298:6) charged 46410 exec time (total:46410, rem:19953590)
+536 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2298:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+537 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2298:6) job_completion(forced=0).
+538 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2298:7) add_release(), rel=166652441137
+539 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2298:7) scheduled_on = NO_CPU
+540 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2298:7) linking to local CPU 6 to avoid IPI
+541 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2298:7) check preempt membudget==350
+542 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2298:7) get curbudget==844
+543 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/2298
+544 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2298:7) scheduled_on = P6
+545 P6 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (streamcluster/2298:7) RIP
+546 P6 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (streamcluster/2298:7) ignoring a dequeue, not going to sleep.
+547 P6 [litmus_dealloc@litmus/litmus.c:622]: (streamcluster/2298:7) Deallocating real-time task data
+548 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (streamcluster/2298:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+549 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (streamcluster/2298:0) litmus/ctrl: 00007f0129988000:00007f0129989000 vma:ffff9c3a4b9d1980 vma->vm_private_data:          (null) closed.
+550 P0 [exit_litmus@litmus/litmus.c:600]: (streamcluster/2298:0) freeing ctrl_page ffff9c3a4b9ba000
+551 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+552 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+553 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+554 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+555 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+556 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+557 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+558 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+559 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+560 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+561 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+562 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+563 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+564 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+565 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+566 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+567 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+568 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+569 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+570 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+571 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+572 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+573 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+574 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+575 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+576 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+577 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+578 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+579 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+580 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+581 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+582 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+583 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+584 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+585 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+586 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+587 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+588 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+589 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+590 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+591 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+592 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+593 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+594 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+595 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+596 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+597 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+598 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+599 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+600 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+601 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+602 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+603 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+604 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+605 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+606 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+607 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+608 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+609 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+610 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+611 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+612 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+613 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+614 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+615 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+616 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+617 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+618 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+619 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+620 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+621 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+622 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+623 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+624 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+625 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+626 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+627 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+628 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+629 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+630 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+631 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+632 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+633 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+634 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+635 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+636 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+637 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+638 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+639 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+640 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+641 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+642 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+643 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+644 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+645 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+646 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+647 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu5,input252
+648 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU5:New budget=4128 (252 Mb/s)
+649 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu3,input252
+650 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU3:New budget=4128 (252 Mb/s)
+651 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu4,input252
+652 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU4:New budget=4128 (252 Mb/s)
+653 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu6,input252
+654 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU6:New budget=4128 (252 Mb/s)
+655 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu7,input252
+656 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU7:New budget=4128 (252 Mb/s)
+657 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+658 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+659 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+660 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+661 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+662 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+663 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+664 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+665 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+666 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+667 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+668 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+669 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+670 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+671 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+672 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+673 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+674 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+675 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+676 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+677 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+678 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+679 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+680 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+681 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+682 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+683 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+684 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+685 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+686 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+687 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+688 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+689 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+690 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+691 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+692 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+693 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+694 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+695 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+696 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+697 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+698 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+699 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+700 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+701 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+702 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+703 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+704 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+705 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+706 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+707 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+708 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+709 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+710 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+711 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+712 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+713 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+714 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+715 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+716 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+717 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+718 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+719 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+720 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+721 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+722 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+723 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+724 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+725 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+726 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+727 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+728 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+729 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+730 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+731 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+732 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+733 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+734 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+735 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+736 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+737 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+738 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+739 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+740 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+741 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+742 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+743 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+744 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+837 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:1) charged 3999341 exec time (total:96596665, rem:0)
+838 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup/2451:1) try_to_wake_up() state:0
+839 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup/2451:1) try_to_wake_up() done state:0
+840 P5 [complete_job@litmus/jobs.c:104]: (dedup/2451:1) job completion indicated at 357859244188
+841 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:1) charged 3245597 exec time (total:99842262, rem:0)
+842 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2451:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+843 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2451:1) job_completion(forced=0).
+844 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2451:2) add_release(), rel=357859387239
+845 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2451:2) scheduled_on = NO_CPU
+846 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2451:2) linking to local CPU 5 to avoid IPI
+847 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2451:2) check preempt membudget==50
+848 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2451:2) get curbudget==540
+849 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2451
+850 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2451:2) scheduled_on = P5
+851 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 580934 exec time (total:580934, rem:19419066)
+852 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3998929 exec time (total:4579863, rem:15420137)
+853 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4001301 exec time (total:8581164, rem:11418836)
+854 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3998372 exec time (total:12579536, rem:7420464)
+855 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000015 exec time (total:16579551, rem:3420449)
+856 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999999 exec time (total:20579550, rem:0)
+857 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999256 exec time (total:24578806, rem:0)
+858 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000493 exec time (total:28579299, rem:0)
+859 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999590 exec time (total:32578889, rem:0)
+860 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000470 exec time (total:36579359, rem:0)
+861 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3998283 exec time (total:40577642, rem:0)
+862 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000963 exec time (total:44578605, rem:0)
+863 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999835 exec time (total:48578440, rem:0)
+864 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:2) linking to local CPU 1 to avoid IPI
+865 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:2) check preempt membudget==350
+866 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:2) get curbudget==590
+867 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+868 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:2) scheduled_on = P1
+869 P1 [complete_job@litmus/jobs.c:104]: (streamcluster/2450:2) job completion indicated at 357910356882
+870 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:2) charged 657331 exec time (total:657331, rem:19342669)
+871 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2450:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+872 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2450:2) job_completion(forced=0).
+873 P1 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2450:3) add_release(), rel=358059689498
+874 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2450:3) scheduled_on = NO_CPU
+875 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3998717 exec time (total:52577157, rem:0)
+876 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000170 exec time (total:56577327, rem:0)
+877 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999932 exec time (total:60577259, rem:0)
+878 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000275 exec time (total:64577534, rem:0)
+879 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999253 exec time (total:68576787, rem:0)
+880 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999829 exec time (total:72576616, rem:0)
+881 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999524 exec time (total:76576140, rem:0)
+882 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000526 exec time (total:80576666, rem:0)
+883 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999179 exec time (total:84575845, rem:0)
+884 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3999391 exec time (total:88575236, rem:0)
+885 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 4000970 exec time (total:92576206, rem:0)
+886 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 3998771 exec time (total:96574977, rem:0)
+887 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup/2451:2) try_to_wake_up() state:0
+888 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup/2451:2) try_to_wake_up() done state:0
+889 P5 [complete_job@litmus/jobs.c:104]: (dedup/2451:2) job completion indicated at 357958824492
+890 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:2) charged 2825707 exec time (total:99400684, rem:0)
+891 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2451:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+892 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2451:2) job_completion(forced=0).
+893 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2451:3) add_release(), rel=357959387239
+894 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2451:3) scheduled_on = NO_CPU
+895 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2452:2) linking to local CPU 0 to avoid IPI
+896 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2452:2) check preempt membudget==100
+897 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2452:2) get curbudget==540
+898 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2451:3) linking to local CPU 5 to avoid IPI
+899 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2451:3) check preempt membudget==50
+900 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2451:3) get curbudget==540
+901 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/0/0:0) will be preempted by blackscholes/2452
+902 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2452:2) scheduled_on = P0
+903 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2451
+904 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2451:3) scheduled_on = P5
+905 P5 [complete_job@litmus/jobs.c:104]: (dedup/2451:3) job completion indicated at 357959442766
+906 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/2451:3) charged 25261 exec time (total:25261, rem:19974739)
+907 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/2451:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=50Mb/s
+908 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/2451:3) job_completion(forced=0).
+909 P5 [__add_release@litmus/rt_domain.c:346]: (dedup/2451:4) add_release(), rel=358059387239
+910 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup/2451:4) scheduled_on = NO_CPU
+911 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 586167 exec time (total:586167, rem:19413833)
+912 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999808 exec time (total:4585975, rem:15414025)
+913 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999610 exec time (total:8585585, rem:11414415)
+914 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999812 exec time (total:12585397, rem:7414603)
+915 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999833 exec time (total:16585230, rem:3414770)
+916 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999596 exec time (total:20584826, rem:0)
+917 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999983 exec time (total:24584809, rem:0)
+918 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999724 exec time (total:28584533, rem:0)
+919 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999661 exec time (total:32584194, rem:0)
+920 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999850 exec time (total:36584044, rem:0)
+921 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999648 exec time (total:40583692, rem:0)
+922 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999865 exec time (total:44583557, rem:0)
+923 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 4000253 exec time (total:48583810, rem:0)
+924 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999255 exec time (total:52583065, rem:0)
+925 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999865 exec time (total:56582930, rem:0)
+926 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999770 exec time (total:60582700, rem:0)
+927 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999609 exec time (total:64582309, rem:0)
+928 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 3999863 exec time (total:68582172, rem:0)
+929 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 4000082 exec time (total:72582254, rem:0)
+930 P0 [complete_job@litmus/jobs.c:104]: (blackscholes/2452:2) job completion indicated at 358032995617
+931 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:2) charged 995659 exec time (total:73577913, rem:0)
+932 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2452:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+933 P0 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/2452:2) job_completion(forced=0).
+934 P0 [__add_release@litmus/rt_domain.c:346]: (blackscholes/2452:3) add_release(), rel=358159378687
+935 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/2452:3) scheduled_on = NO_CPU
+936 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/2451:4) linking to local CPU 5 to avoid IPI
+937 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/2451:4) check preempt membudget==50
+938 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/2451:4) get curbudget==540
+939 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/5/0:0) will be preempted by dedup/2451
+940 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/2451:4) scheduled_on = P5
+941 P5 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup/2451:4) RIP
+942 P5 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (dedup/2451:4) ignoring a dequeue, not going to sleep.
+943 P5 [litmus_dealloc@litmus/litmus.c:622]: (dedup/2451:4) Deallocating real-time task data
+944 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:3) linking to local CPU 1 to avoid IPI
+945 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:3) check preempt membudget==350
+946 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:3) get curbudget==540
+947 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+948 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:3) scheduled_on = P1
+949 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:3) charged 302269 exec time (total:302269, rem:19697731)
+950 P1 [complete_job@litmus/jobs.c:104]: (streamcluster/2450:3) job completion indicated at 358060309025
+951 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:3) charged 309564 exec time (total:611833, rem:19388167)
+952 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2450:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+953 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2450:3) job_completion(forced=0).
+954 P1 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2450:4) add_release(), rel=358209689498
+955 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2450:4) scheduled_on = NO_CPU
+956 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (dedup/2451:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+957 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (dedup/2451:0) litmus/ctrl: 00007fbff094b000:00007fbff094c000 vma:ffff9c3a4b9958c0 vma->vm_private_data:          (null) closed.
+958 P6 [exit_litmus@litmus/litmus.c:600]: (dedup/2451:0) freeing ctrl_page ffff9c3a4817e000
+959 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2452:3) linking to local CPU 0 to avoid IPI
+960 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2452:3) check preempt membudget==100
+961 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2452:3) get curbudget==540
+962 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/0/0:0) will be preempted by blackscholes/2452
+963 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2452:3) scheduled_on = P0
+964 P0 [complete_job@litmus/jobs.c:104]: (blackscholes/2452:3) job completion indicated at 358159422860
+965 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/2452:3) charged 24996 exec time (total:24996, rem:19975004)
+966 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/2452:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+967 P0 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/2452:3) job_completion(forced=0).
+968 P0 [__add_release@litmus/rt_domain.c:346]: (blackscholes/2452:4) add_release(), rel=358359378687
+969 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (blackscholes/2452:4) scheduled_on = NO_CPU
+970 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:4) linking to local CPU 1 to avoid IPI
+971 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:4) check preempt membudget==350
+972 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:4) get curbudget==540
+973 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+974 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:4) scheduled_on = P1
+975 P1 [complete_job@litmus/jobs.c:104]: (streamcluster/2450:4) job completion indicated at 358210543877
+976 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:4) charged 834050 exec time (total:834050, rem:19165950)
+977 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2450:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+978 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2450:4) job_completion(forced=0).
+979 P1 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2450:5) add_release(), rel=358359689498
+980 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2450:5) scheduled_on = NO_CPU
+1114 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1115 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1116 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1117 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1118 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1119 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1120 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1121 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+1126 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu5,input252
+1127 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU5:New budget=4128 (252 Mb/s)

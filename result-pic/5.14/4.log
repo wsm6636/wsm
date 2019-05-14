@@ -1,0 +1,200 @@
+747 P5 [alloc_ctrl_page@litmus/ctrldev.c:28]: (dedup/2451:0) alloc_ctrl_page ctrl_page = ffff9c3a4817e000
+748 P0 [alloc_ctrl_page@litmus/ctrldev.c:28]: (blackscholes/2452:0) alloc_ctrl_page ctrl_page = ffff9c3a4608b000
+749 P5 [map981 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/2452:4) linking to local CPU 0 to avoid IPI
+982 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/2452:4) check preempt membudget==100
+983 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/2452:4) get curbudget==540
+984 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/0/0:0) will be preempted by blackscholes/2452
+985 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/2452:4) scheduled_on = P0
+986 P0 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes/2452:4) RIP
+987 P0 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (blackscholes/2452:4) ignoring a dequeue, not going to sleep.
+988 P0 [litmus_dealloc@litmus/litmus.c:622]: (blackscholes/2452:4) Deallocating real-time task data
+989 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:5) linking to local CPU 1 to avoid IPI
+990 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:5) check preempt membudget==350
+991 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:5) get curbudget==540
+992 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+993 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:5) scheduled_on = P1
+994 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:5) charged 302810 exec time (total:302810, rem:19697190)
+995 P1 [complete_job@litmus/jobs.c:104]: (streamcluster/2450:5) job completion indicated at 358360297367
+996 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:5) charged 297886 exec time (total:600696, rem:19399304)
+997 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2450:5) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+998 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2450:5) job_completion(forced=0).
+999 P1 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2450:6) add_release(), rel=358509689498
+1000 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2450:6) scheduled_on = NO_CPU
+1001 P0 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (blackscholes/2452:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+1002 P0 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (blackscholes/2452:0) litmus/ctrl: 00007f0aba01b000:00007f0aba01c000 vma:ffff9c3a460ac900 vma->vm_private_data:          (null) closed.
+1003 P3 [exit_litmus@litmus/litmus.c:600]: (blackscholes/2452:0) freeing ctrl_page ffff9c3a4608b000
+1004 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:6) linking to local CPU 1 to avoid IPI
+1005 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:6) check preempt membudget==350
+1006 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:6) get curbudget==540
+1007 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+1008 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:6) scheduled_on = P1
+1009 P1 [complete_job@litmus/jobs.c:104]: (streamcluster/2450:6) job completion indicated at 358509729752
+1010 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/2450:6) charged 21516 exec time (total:21516, rem:19978484)
+1011 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/2450:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+1012 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/2450:6) job_completion(forced=0).
+1013 P1 [__add_release@litmus/rt_domain.c:346]: (streamcluster/2450:7) add_release(), rel=358659689498
+1014 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/2450:7) scheduled_on = NO_CPU
+1015 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/2450:7) linking to local CPU 1 to avoid IPI
+1016 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/2450:7) check preempt membudget==350
+1017 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/2450:7) get curbudget==540
+1018 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/1/0:0) will be preempted by streamcluster/2450
+1019 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/2450:7) scheduled_on = P1
+1020 P1 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (streamcluster/2450:7) RIP
+1021 P1 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (streamcluster/2450:7) ignoring a dequeue, not going to sleep.
+1022 P1 [litmus_dealloc@litmus/litmus.c:622]: (streamcluster/2450:7) Deallocating real-time task data
+1023 P1 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (streamcluster/2450:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+1024 P1 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (streamcluster/2450:0) litmus/ctrl: 00007fcfbcf04000:00007fcfbcf05000 vma:ffff9c3a46084300 vma->vm_private_data:          (null) closed.
+1025 P4 [exit_litmus@litmus/litmus.c:600]: (streamcluster/2450:0) freeing ctrl_page ffff9c3a483f9000
+1122 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu0,input252
+1123 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU0:New budget=4128 (252 Mb/s)
+1128 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1129 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1130 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1131 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1132 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1133 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1134 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1135 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1136 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1137 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1138 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1139 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1140 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1141 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1142 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1143 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1144 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1145 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1146 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1147 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1148 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1149 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1150 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1151 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1152 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1153 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1154 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1155 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1156 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1157 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1158 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1159 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1160 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1161 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1162 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1163 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1164 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1165 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1166 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1167 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1168 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1169 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1170 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1171 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1172 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1173 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1174 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1175 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1176 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1177 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1178 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1179 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1180 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1181 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1182 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1183 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1184 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1185 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1186 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1187 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1188 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1189 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1190 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1191 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1192 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1193 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1194 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1195 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1196 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1197 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1198 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1199 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1200 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1201 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1202 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1203 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1204 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+1205 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+1206 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+1207 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+1208 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+1209 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+1210 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+1211 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+1212 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+1213 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+1214 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+1215 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+r-trace event 507.
+1054 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1055 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1056 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1057 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1058 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1059 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1060 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1061 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1062 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1063 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1064 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1065 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1066 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1067 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1068 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1069 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1070 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1071 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1072 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1073 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1074 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1075 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1076 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1077 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1078 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1079 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1080 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1081 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1082 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1083 P2 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1084 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1085 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1086 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1087 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1088 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1089 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1090 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1091 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1092 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1093 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1094 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1095 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1096 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1097 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1098 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1099 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1100 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1101 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1102 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1103 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1104 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1105 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1106 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1107 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1108 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1109 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1110 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1111 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1112 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1113 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1124 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu1,input252
+1125 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU1:New budget=4128 (252 Mb/s)

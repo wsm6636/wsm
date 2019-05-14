@@ -119,7 +119,7 @@ typedef struct  {
 	struct task_struct*	scheduled;	/* only RT tasks */
 	struct bheap_node*	hn;
 
-	int 			cur_budget;    /* currently available budget */
+//	int 			cur_budget;    /* currently available budget */
 //	int 			mem_master;	/* memguard master cpu*/
 //	int			task_budget;
 } cpu_entry_t;
@@ -134,12 +134,12 @@ static struct bheap      gsnedf_cpu_heap;
 
 static rt_domain_t gsnedf;
 #define gsnedf_lock (gsnedf.ready_lock)
-
+static void gsnedf_task_block(struct task_struct *t);
 asmlinkage long sys_get_rt_task_param(pid_t pid, struct rt_task __user * param);
 extern int get_membudget(int get_cpu,int get_membudget);
 extern int get_master;
-//extern int get_curbudget;
-extern int get_cur_budget(int g_cpu);
+extern int clean_budget(int g_cpu);
+extern int get_cur_budget(void);
 //extern int get_taskbudget;
 
 /* Uncomment this if you want to see all scheduling decisions in the
@@ -246,7 +246,7 @@ static noinline void link_task_to_cpu(struct task_struct* linked,
 static noinline void unlink(struct task_struct* t)
 {
 	cpu_entry_t *entry;
-
+//	clean_budget(t->rt_param.linked_on);
 	if (t->rt_param.linked_on != NO_CPU) {
 		/* unlink */
 		entry = &per_cpu(gsnedf_cpu_entries, t->rt_param.linked_on);
@@ -262,6 +262,7 @@ static noinline void unlink(struct task_struct* t)
 		 */
 		remove(&gsnedf, t);
 	}
+	
 }
 
 
@@ -312,7 +313,7 @@ static void check_for_preemptions(void)
 	struct task_struct *task;
 	cpu_entry_t *last;
 	struct rt_task task_params;
-	
+	int cur_budget;
 #ifdef CONFIG_PREFER_LOCAL_LINKING
 	cpu_entry_t *local;
 	//get_edf();
@@ -332,20 +333,26 @@ static void check_for_preemptions(void)
 		task_params =task->rt_param.task_params;
 		sys_get_rt_task_param(task->pid,&task_params);	
 		TRACE_TASK(task,"check preempt membudget==%d\n",task_params.mem_budget_task);
-		local->cur_budget=get_cur_budget(local->cpu);
-		TRACE_TASK(task, "get curbudget==%d\n", local->cur_budget);
+//		get_membudget(local->cpu,task_params.mem_budget_task);		
+		
+		cur_budget=get_cur_budget();
+		TRACE_TASK(task, "get curbudget==%d\n", cur_budget);
 //		get_edf(local);
-	
-		if(task_params.mem_budget_task>local->cur_budget){
-			__add_ready(&gsnedf, task);
-			smp_mb();
+		
+		if(task_params.mem_budget_task>cur_budget){
+
+/*			smp_mb();
 			get_membudget(local->cpu,task_params.mem_budget_task);
 			TRACE_TASK(task,"task_budget%d>cur_budget%d\n"
-				,task_params.mem_budget_task,local->cur_budget);
+				,task_params.mem_budget_task,local->cur_budget);*/
+//			gsnedf_task_block(task);
+			 TRACE_TASK(task, "task budget%d>cur_budget%d\n"
+			,task_params.mem_budget_task, cur_budget);
+//			__add_release(&gsnedf, task);
+			__add_ready(&gsnedf, task);
 
-//			link_task_to_cpu(task, local);
-//                        preempt(local);
 		}else{
+			get_membudget(local->cpu,task_params.mem_budget_task);
 			smp_mb();			
 			link_task_to_cpu(task, local);
 			preempt(local);
@@ -381,20 +388,26 @@ static void check_for_preemptions(void)
 		task_params =task->rt_param.task_params;
 		sys_get_rt_task_param(task->pid,&task_params);	
 		TRACE_TASK(task,"check preempt membudget==%d\n",task_params.mem_budget_task);
-		last->cur_budget=get_cur_budget(last->cpu);
-		TRACE_TASK(task, "get curbudget==%d\n", last->cur_budget);	
+		
+//		get_membudget(last->cpu,task_params.mem_budget_task);		
+
+		cur_budget=get_cur_budget();
+		TRACE_TASK(task, "get curbudget==%d\n", cur_budget);	
 //		get_edf(last);
 		
-		if(task_params.mem_budget_task>last->cur_budget){
+		if(task_params.mem_budget_task>cur_budget){
+//			gsnedf_task_block(task);
+		        TRACE_TASK(task, "task budget%d>cur_budget%d\n"
+			,task_params.mem_budget_task, cur_budget);				
+//			__add_release(&gsnedf, task);
 			__add_ready(&gsnedf, task);	
-			smp_mb();		
+/*			smp_mb();		
                         get_membudget(last->cpu,task_params.mem_budget_task);
                 	TRACE_TASK(task,"task_budget%d>cur_budget%d\n"
-				,task_params.mem_budget_task,last->cur_budget);
-//			break;
-//		        link_task_to_cpu(task, last);
-//                       preempt(last);
-}else{		
+				,task_params.mem_budget_task,last->cur_budget);*/
+
+		}else{
+			get_membudget(last->cpu,task_params.mem_budget_task);		
 			smp_mb();
                         link_task_to_cpu(task, last);
                         preempt(last);
@@ -428,7 +441,7 @@ static noinline void curr_job_completion(int forced)
 {
 	struct task_struct *t = current;
 	BUG_ON(!t);
-
+	clean_budget(smp_processor_id());
 	sched_trace_task_completion(t, forced);
 
 	TRACE_TASK(t, "job_completion(forced=%d).\n", forced);
@@ -511,9 +524,9 @@ static struct task_struct* gsnedf_schedule(struct task_struct * prev)
 		
 		TRACE_TASK(prev,
 			   "blocks:%d out_of_time:%d np:%d sleep:%d preempt:%d "
-			   "state:%d sig:%d,membudget=%dMb/s,cur_budget==%d\n",
+			   "state:%d sig:%d,membudget=%dMb/s\n",
 			   blocks, out_of_time, np, sleep, preempt,
-			   prev->state, signal_pending(prev),task_params.mem_budget_task,entry->cur_budget);
+			   prev->state, signal_pending(prev),task_params.mem_budget_task);
 /*		if(entry->cur_budget<entry->task_budget){
 			TRACE_TASK(prev,"entry->cur_budget<task_budget\n");
 			unlink(prev);
@@ -683,7 +696,7 @@ static void gsnedf_task_block(struct task_struct *t)
 static void gsnedf_task_exit(struct task_struct * t)
 {
 	unsigned long flags;
-
+	clean_budget(smp_processor_id());
 	/* unlink if necessary */
 	raw_spin_lock_irqsave(&gsnedf_lock, flags);
 	unlink(t);
@@ -691,6 +704,7 @@ static void gsnedf_task_exit(struct task_struct * t)
 		gsnedf_cpus[tsk_rt(t)->scheduled_on]->scheduled = NULL;
 		tsk_rt(t)->scheduled_on = NO_CPU;
 	}
+
 	raw_spin_unlock_irqrestore(&gsnedf_lock, flags);
 
 	BUG_ON(!is_realtime(t));
@@ -1141,7 +1155,7 @@ static int __init init_gsn_edf(void)
 		entry->cpu 	 = cpu;
 		entry->hn        = &gsnedf_heap_node[cpu];
 		bheap_node_init(&entry->hn, entry);
-		entry->cur_budget= 360;
+//		entry->cur_budget= 360;
 		
 	}
 
