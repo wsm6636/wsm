@@ -1,0 +1,19 @@
+22 P1 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3006
+28 P1 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup/3006 (20000000, 100000000, 100000000) rel=10951162431039 to ready queue at 10951162431235
+29 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/3006:1) linking to local CPU 1 to avoid IPI
+30 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/3006:1) check preempt membudget==50
+31 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/3006:1) get curbudget==84
+34 P1 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/3006:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=50Mb/s
+256 P1 [complete_job@litmus/jobs.c:104]: (dedup/3006:1) job completion indicated at 10951263161069
+259 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/3006:1) job_completion(forced=0).
+260 P1 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup/3006 (20000000, 100000000, 100000000) rel=10951262431039 to ready queue at 10951263172502
+261 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/3006:2) linking to local CPU 1 to avoid IPI
+262 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/3006:2) check preempt membudget==50
+263 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/3006:2) get curbudget==540
+332 P1 [complete_job@litmus/jobs.c:104]: (dedup/3006:2) job completion indicated at 10951362756510
+335 P1 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup/3006:2) job_completion(forced=0).
+
+.......
+
+519 P1 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup/3006:4) RIP
+

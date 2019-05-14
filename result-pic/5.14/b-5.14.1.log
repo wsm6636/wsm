@@ -1,0 +1,28 @@
+20 P6 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3008
+21 P6 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3008 (20000000, 200000000, 200000000) rel=10951162422590 to ready queue at 10951162422864
+23 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3008:1) linking to local CPU 6 to avoid IPI
+24 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3008:1) check preempt membudget==100
+25 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3008:1) get curbudget==84
+26 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (blackscholes/3008:1) task budget100>cur_budget84
+37 P6 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (blackscholes/3008:1) block at 10951162459899
+42 P6 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (blackscholes/3008:1) wake_up at 10951162606960
+43 P6 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3008 (20000000, 200000000, 200000000) rel=10951162422590 to ready queue at 10951162608083
+44 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3008:1) linking to local CPU 6 to avoid IPI
+45 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3008:1) check preempt membudget==100
+46 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3008:1) get curbudget==286
+49 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3008:1) scheduled_on = P6
+82 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3008:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=100Mb/s
+238 P6 [complete_job@litmus/jobs.c:104]: (blackscholes/3008:1) job completion indicated at 10951237637710
+241 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/3008:1) job_completion(forced=0).
+242 P6 [__add_release@litmus/rt_domain.c:346]: (blackscholes/3008:2) add_release(), rel=10951362422590
+325 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3008:2) linking to local CPU 6 to avoid IPI
+326 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3008:2) check preempt membudget==100
+327 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3008:2) get curbudget==590
+329 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (blackscholes/3008:2) scheduled_on = P6
+388 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes/3008:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=100Mb/s
+389 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes/3008:2) job_completion(forced=0).
+
+......
+
+638 P6 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes/3008:4) RIP
+
