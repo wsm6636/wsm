@@ -1,0 +1,297 @@
+          <idle>-0     [004] d.h2 13308.888142: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13308.888142: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     dbus-daemon-924   [006] d.h1 13308.888143: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13308.888143: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13308.888144: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     dbus-daemon-924   [006] d.Z. 13308.888220: event_overflow_callback: overflow callback
+     dbus-daemon-924   [006] d.h. 13308.888228: memguard_process_overflow: overflow at 6
+     dbus-daemon-924   [006] d.h. 13308.888228: memguard_process_overflow: perf_event_count(cinfo->event)=5565159
+          <idle>-0     [005] d.h2 13311.165973: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13311.165974: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13311.165975: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638       JS Helper-1349  [007] d.h1 13311.165975: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-1329  [004] d.h1 13311.165976: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128       JS Helper-1349  [007] d.Z. 13311.166690: event_overflow_callback: overflow callback
+       JS Helper-1349  [007] d.h. 13311.166701: memguard_process_overflow: overflow at 7
+       JS Helper-1349  [007] d.h. 13311.166701: memguard_process_overflow: perf_event_count(cinfo->event)=14350426
+          <idle>-0     [007] d.h2 13317.599510: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13317.599511: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     InputThread-1947  [006] d.Z. 13317.600271: event_overflow_callback: overflow callback
+     InputThread-1947  [006] d.h. 13317.600298: memguard_process_overflow: overflow at 6
+     InputThread-1947  [006] d.h. 13317.600298: memguard_process_overflow: perf_event_count(cinfo->event)=5569238
+          <idle>-0     [005] d.h2 13318.095472: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.095473: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.095474: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13318.095475: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.096325: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.096334: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.096335: memguard_process_overflow: perf_event_count(cinfo->event)=14374655
+         firefox-2430  [007] d.Z. 13318.096552: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.096555: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.096555: memguard_process_overflow: perf_event_count(cinfo->event)=14378783
+         firefox-2430  [007] d.Z. 13318.098036: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.098040: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.098041: memguard_process_overflow: perf_event_count(cinfo->event)=14382925
+         firefox-2430  [007] d.Z. 13318.098580: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.098583: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.098583: memguard_process_overflow: perf_event_count(cinfo->event)=14387053
+         firefox-2430  [007] d.Z. 13318.099688: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.099690: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.099690: memguard_process_overflow: perf_event_count(cinfo->event)=14391185
+         firefox-2430  [007] d.Z. 13318.100574: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.100577: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.100577: memguard_process_overflow: perf_event_count(cinfo->event)=14395324
+         firefox-2430  [007] d.Z. 13318.101592: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.101595: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.101595: memguard_process_overflow: perf_event_count(cinfo->event)=14399452
+         firefox-2430  [007] d.Z. 13318.102606: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.102610: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.102610: memguard_process_overflow: perf_event_count(cinfo->event)=14403598
+         firefox-2430  [007] d.Z. 13318.103571: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.103574: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.103574: memguard_process_overflow: perf_event_count(cinfo->event)=14407730
+     gnome-shell-2055  [000] d.h1 13318.104465: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.104571: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.104574: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.104574: memguard_process_overflow: perf_event_count(cinfo->event)=14411875
+         firefox-2430  [007] d.Z. 13318.105585: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.105588: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.105588: memguard_process_overflow: perf_event_count(cinfo->event)=14416018
+         firefox-2430  [007] d.Z. 13318.106712: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.106714: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.106715: memguard_process_overflow: perf_event_count(cinfo->event)=14420150
+         firefox-2430  [007] d.Z. 13318.107649: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.107652: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.107652: memguard_process_overflow: perf_event_count(cinfo->event)=14424286
+         firefox-2430  [007] d.Z. 13318.108636: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.108639: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.108639: memguard_process_overflow: perf_event_count(cinfo->event)=14428416
+         firefox-2430  [007] d.Z. 13318.109573: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.109575: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.109576: memguard_process_overflow: perf_event_count(cinfo->event)=14432546
+         firefox-2430  [007] d.Z. 13318.110629: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.110632: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.110632: memguard_process_overflow: perf_event_count(cinfo->event)=14436681
+         firefox-2430  [007] d.Z. 13318.111611: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.111614: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.111614: memguard_process_overflow: perf_event_count(cinfo->event)=14440811
+          <idle>-0     [006] dNh2 13318.112491: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638         firefox-2430  [007] d.Z. 13318.112643: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.112646: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.112646: memguard_process_overflow: perf_event_count(cinfo->event)=14444952
+         firefox-2430  [007] d.Z. 13318.113558: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.113560: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.113561: memguard_process_overflow: perf_event_count(cinfo->event)=14449094
+         firefox-2430  [007] d.Z. 13318.114562: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.114564: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.114564: memguard_process_overflow: perf_event_count(cinfo->event)=14453233
+         firefox-2430  [007] d.Z. 13318.115608: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.115610: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.115610: memguard_process_overflow: perf_event_count(cinfo->event)=14457366
+            Xorg-1942  [003] d.h1 13318.117462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.117462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.117463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.117463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13318.117464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.117464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.118024: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.118028: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.118028: memguard_process_overflow: perf_event_count(cinfo->event)=14465006
+         firefox-2430  [007] d.Z. 13318.118622: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.118624: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.118624: memguard_process_overflow: perf_event_count(cinfo->event)=14469137
+         firefox-2430  [007] d.Z. 13318.119649: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.119651: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.119652: memguard_process_overflow: perf_event_count(cinfo->event)=14473298
+          <idle>-0     [003] d.h2 13318.120463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.120571: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.120573: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.120573: memguard_process_overflow: perf_event_count(cinfo->event)=14477428
+         firefox-2430  [007] d.Z. 13318.121631: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.121634: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.121634: memguard_process_overflow: perf_event_count(cinfo->event)=14481557
+         firefox-2430  [007] d.Z. 13318.122584: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.122587: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.122587: memguard_process_overflow: perf_event_count(cinfo->event)=14485687
+          <idle>-0     [006] d.h2 13318.123462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638         firefox-2430  [007] d.Z. 13318.123567: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.123569: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.123570: memguard_process_overflow: perf_event_count(cinfo->event)=14489819
+         firefox-2430  [007] d.Z. 13318.124748: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.124751: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.124751: memguard_process_overflow: perf_event_count(cinfo->event)=14493949
+         firefox-2430  [007] d.Z. 13318.125603: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.125606: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.125606: memguard_process_overflow: perf_event_count(cinfo->event)=14498081
+         firefox-2430  [007] d.Z. 13318.126587: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.126590: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.126590: memguard_process_overflow: perf_event_count(cinfo->event)=14502212
+         firefox-2430  [007] d.Z. 13318.127574: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.127577: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.127577: memguard_process_overflow: perf_event_count(cinfo->event)=14506348
+         firefox-2430  [007] d.Z. 13318.128701: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.128704: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.128704: memguard_process_overflow: perf_event_count(cinfo->event)=14510477
+          <idle>-0     [007] d.h2 13318.367443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.367444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.367444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.367445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.368296: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.368300: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.368301: memguard_process_overflow: perf_event_count(cinfo->event)=14518813
+         firefox-2430  [007] d.Z. 13318.368539: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.368542: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.368542: memguard_process_overflow: perf_event_count(cinfo->event)=14522947
+         firefox-2430  [007] d.Z. 13318.369618: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.369621: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.369621: memguard_process_overflow: perf_event_count(cinfo->event)=14527078
+         firefox-2430  [007] d.Z. 13318.370614: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.370617: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.370617: memguard_process_overflow: perf_event_count(cinfo->event)=14531208
+         firefox-2430  [007] d.Z. 13318.371626: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.371628: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.371628: memguard_process_overflow: perf_event_count(cinfo->event)=14535353
+         firefox-2430  [007] d.Z. 13318.372559: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.372561: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.372562: memguard_process_overflow: perf_event_count(cinfo->event)=14539494
+         firefox-2430  [007] d.Z. 13318.373666: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.373669: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.373669: memguard_process_overflow: perf_event_count(cinfo->event)=14543631
+         firefox-2430  [007] d.Z. 13318.374677: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.374680: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.374680: memguard_process_overflow: perf_event_count(cinfo->event)=14547766
+         firefox-2430  [007] d.Z. 13318.375592: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.375595: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.375595: memguard_process_overflow: perf_event_count(cinfo->event)=14551909
+         firefox-2430  [007] d.Z. 13318.376591: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.376594: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.376594: memguard_process_overflow: perf_event_count(cinfo->event)=14556040
+         firefox-2430  [007] d.Z. 13318.377586: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.377589: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.377590: memguard_process_overflow: perf_event_count(cinfo->event)=14560176
+         firefox-2430  [007] d.Z. 13318.378536: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.378539: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.378539: memguard_process_overflow: perf_event_count(cinfo->event)=14564304
+         firefox-2430  [007] d.Z. 13318.379542: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.379544: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.379544: memguard_process_overflow: perf_event_count(cinfo->event)=14568449
+         firefox-2430  [007] d.Z. 13318.380566: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.380568: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.380569: memguard_process_overflow: perf_event_count(cinfo->event)=14572580
+         firefox-2430  [007] d.Z. 13318.381563: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.381565: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.381566: memguard_process_overflow: perf_event_count(cinfo->event)=14576722
+          <idle>-0     [006] d.h2 13318.382443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [005] d.h2 13318.382444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [007] d.Z. 13318.382596: event_overflow_callback: overflow callback
+         firefox-2430  [007] d.h. 13318.382598: memguard_process_overflow: overflow at 7
+         firefox-2430  [007] d.h. 13318.382598: memguard_process_overflow: perf_event_count(cinfo->event)=14580860
+  ProcessHangMon-2514  [007] d.Z. 13318.383655: event_overflow_callback: overflow callback
+  ProcessHangMon-2514  [007] d.h. 13318.383658: memguard_process_overflow: overflow at 7
+  ProcessHangMon-2514  [007] d.h. 13318.383658: memguard_process_overflow: perf_event_count(cinfo->event)=14584991
+         firefox-2430  [001] d.Z. 13318.384561: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.384568: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.384568: memguard_process_overflow: perf_event_count(cinfo->event)=5421212
+           <...>-2805  [005] d.h1 13318.385447: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.385591: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.385599: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.385599: memguard_process_overflow: perf_event_count(cinfo->event)=5441007
+         firefox-2430  [001] d.Z. 13318.386521: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.386531: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.386531: memguard_process_overflow: perf_event_count(cinfo->event)=5464558
+            Xorg-1942  [006] d.Z. 13318.387342: event_overflow_callback: overflow callback
+            Xorg-1942  [006] d.h. 13318.387350: memguard_process_overflow: overflow at 6
+            Xorg-1942  [006] d.h. 13318.387351: memguard_process_overflow: perf_event_count(cinfo->event)=5579358
+         firefox-2430  [001] d.Z. 13318.387724: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.387731: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.387731: memguard_process_overflow: perf_event_count(cinfo->event)=5479514
+          <idle>-0     [006] d.h2 13318.388449: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638         firefox-2430  [001] d.Z. 13318.388543: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.388551: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.388552: memguard_process_overflow: perf_event_count(cinfo->event)=5506581
+         firefox-2430  [001] d.Z. 13318.389521: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.389529: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.389530: memguard_process_overflow: perf_event_count(cinfo->event)=5529405
+         firefox-2430  [001] d.Z. 13318.390528: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.390536: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.390536: memguard_process_overflow: perf_event_count(cinfo->event)=5553254
+         firefox-2430  [001] d.Z. 13318.391549: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.391558: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.391558: memguard_process_overflow: perf_event_count(cinfo->event)=5578041
+     PaintThread-2825  [003] d.h1 13318.392447: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.392447: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.392568: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.392575: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.392576: memguard_process_overflow: perf_event_count(cinfo->event)=5587571
+         firefox-2430  [001] d.Z. 13318.393609: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.393617: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.393617: memguard_process_overflow: perf_event_count(cinfo->event)=5608482
+      Compositor-2466  [007] d.h1 13318.394445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128      Compositor-2466  [007] d.Z. 13318.394576: event_overflow_callback: overflow callback
+      Compositor-2466  [007] d.h. 13318.394582: memguard_process_overflow: overflow at 7
+      Compositor-2466  [007] d.h. 13318.394582: memguard_process_overflow: perf_event_count(cinfo->event)=14591742
+   irq/73-nvidia-1295  [006] d.h1 13318.395526: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638         firefox-2430  [001] d.Z. 13318.395652: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.395657: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.395657: memguard_process_overflow: perf_event_count(cinfo->event)=5615900
+          <idle>-0     [006] d.h2 13318.399441: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13318.399442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.400281: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.400288: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.400289: memguard_process_overflow: perf_event_count(cinfo->event)=5624227
+          <idle>-0     [005] d.h2 13318.400443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.400444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.400444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638         firefox-2430  [001] d.Z. 13318.400490: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.400493: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.400493: memguard_process_overflow: perf_event_count(cinfo->event)=5632429
+          <idle>-0     [006] d.h2 13318.412443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            Xorg-1942  [007] d.Z. 13318.413258: event_overflow_callback: overflow callback
+            Xorg-1942  [007] d.h. 13318.413267: memguard_process_overflow: overflow at 7
+            Xorg-1942  [007] d.h. 13318.413267: memguard_process_overflow: perf_event_count(cinfo->event)=14605089
+           <...>-2805  [005] d.h1 13318.414441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.414442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.414442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            Xorg-1942  [007] d.h1 13318.414443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.415354: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.415363: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.415364: memguard_process_overflow: perf_event_count(cinfo->event)=5642699
+          <idle>-0     [007] d.h2 13318.415442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.415509: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.415512: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.415512: memguard_process_overflow: perf_event_count(cinfo->event)=5646197
+          <idle>-0     [006] d.h2 13318.416446: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [000] d.h2 13318.416446: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13318.416447: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128         firefox-2430  [001] d.Z. 13318.416484: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.416493: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.416493: memguard_process_overflow: perf_event_count(cinfo->event)=5676618
+         firefox-2430  [001] d.Z. 13318.417530: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.417540: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.417540: memguard_process_overflow: perf_event_count(cinfo->event)=5703691
+         firefox-2430  [001] d.Z. 13318.418602: event_overflow_callback: overflow callback
+         firefox-2430  [001] d.h. 13318.418610: memguard_process_overflow: overflow at 1
+         firefox-2430  [001] d.h. 13318.418610: memguard_process_overflow: perf_event_count(cinfo->event)=5723138
+          <idle>-0     [002] d.h2 13318.434437: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     PaintThread-2825  [003] d.h1 13318.434437: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.434438: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13318.434438: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.434439: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [005] d.h2 13318.434439: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128      Compositor-2466  [001] d.Z. 13318.434665: event_overflow_callback: overflow callback
+      Compositor-2466  [001] d.h. 13318.434675: memguard_process_overflow: overflow at 1
+      Compositor-2466  [001] d.h. 13318.434676: memguard_process_overflow: perf_event_count(cinfo->event)=5748676
+      Compositor-2466  [001] d.Z. 13318.436301: event_overflow_callback: overflow callback
+      Compositor-2466  [001] d.h. 13318.436309: memguard_process_overflow: overflow at 1
+      Compositor-2466  [001] d.h. 13318.436310: memguard_process_overflow: perf_event_count(cinfo->event)=5777817
+     gnome-shell-2055  [000] d.h1 13318.450437: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.450438: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.450438: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13318.450439: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128      Compositor-2466  [001] d.Z. 13318.450773: event_overflow_callback: overflow callback
+      Compositor-2466  [001] d.h. 13318.450776: memguard_process_overflow: overflow at 1
+      Compositor-2466  [001] d.h. 13318.450776: memguard_process_overflow: perf_event_count(cinfo->event)=5783266
+          <idle>-0     [005] d.h2 13318.816409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            Xorg-1942  [007] d.h1 13318.816410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.816411: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638 gnome-terminal--3928  [007] d.Z. 13318.816645: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13318.816653: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13318.816654: memguard_process_overflow: perf_event_count(cinfo->event)=14644775
+ gnome-terminal--3928  [007] d.Z. 13318.817708: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13318.817714: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13318.817715: memguard_process_overflow: perf_event_count(cinfo->event)=14648918
+ gnome-terminal--3928  [007] d.Z. 13318.818802: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13318.818807: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13318.818808: memguard_process_overflow: perf_event_count(cinfo->event)=14653054
+ gnome-terminal--3928  [007] d.Z. 13318.819957: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13318.819962: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13318.819963: memguard_process_overflow: perf_event_count(cinfo->event)=14657185
+            Xorg-1942  [006] d.Z. 13318.820683: event_overflow_callback: overflow callback
+            Xorg-1942  [006] d.h. 13318.820690: memguard_process_overflow: overflow at 6
+            Xorg-1942  [006] d.h. 13318.820690: memguard_process_overflow: perf_event_count(cinfo->event)=5587410
+ gnome-terminal--3928  [007] d.Z. 13318.820820: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13318.820825: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13318.820826: memguard_process_overflow: perf_event_count(cinfo->event)=14661315
+            Xorg-1942  [006] d.Z. 13318.821481: event_overflow_callback: overflow callback
+            Xorg-1942  [006] d.h. 13318.821485: memguard_process_overflow: overflow at 6
+            Xorg-1942  [006] d.h. 13318.821485: memguard_process_overflow: perf_event_count(cinfo->event)=5589059
+          <idle>-0     [007] d.h2 13318.822412: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            Xorg-1942  [006] d.Z. 13318.822617: event_overflow_callback: overflow callback
+            Xorg-1942  [006] d.h. 13318.822622: memguard_process_overflow: overflow at 6
+            Xorg-1942  [006] d.h. 13318.822623: memguard_process_overflow: perf_event_count(cinfo->event)=5590702
+          <idle>-0     [004] d.h2 13318.984397: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.984398: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.984398: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638 gnome-terminal--3928  [007] d.h1 13318.984399: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            Xorg-1942  [007] d.Z. 13318.984805: event_overflow_callback: overflow callback
+            Xorg-1942  [007] d.h. 13318.984815: memguard_process_overflow: overflow at 7
+            Xorg-1942  [007] d.h. 13318.984815: memguard_process_overflow: perf_event_count(cinfo->event)=14679774
+          <idle>-0     [004] d.h2 13319.418374: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13319.418375: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13319.418376: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13319.418377: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            Xorg-1942  [007] d.Z. 13319.419048: event_overflow_callback: overflow callback
+            Xorg-1942  [007] d.h. 13319.419063: memguard_process_overflow: overflow at 7
+            Xorg-1942  [007] d.h. 13319.419064: memguard_process_overflow: perf_event_count(cinfo->event)=14687928
+          <idle>-0     [004] d.h2 13319.816336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13319.816336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13319.816337: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            Xorg-1942  [007] d.h1 13319.816337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128 gnome-terminal--3928  [007] d.Z. 13319.816598: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13319.816604: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13319.816605: memguard_process_overflow: perf_event_count(cinfo->event)=14698351
+ gnome-terminal--3928  [007] d.Z. 13319.818101: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13319.818106: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13319.818106: memguard_process_overflow: perf_event_count(cinfo->event)=14702485
+          <idle>-0     [006] d.h2 13319.818339: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            sudo-4671  [001] d.Z. 13319.819329: event_overflow_callback: overflow callback
+            sudo-4671  [001] d.h. 13319.819337: memguard_process_overflow: overflow at 1
+            sudo-4671  [001] d.h. 13319.819337: memguard_process_overflow: perf_event_count(cinfo->event)=5788743
+          <idle>-0     [005] d.h2 13319.819349: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13319.819349: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13319.819350: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128   irq/73-nvidia-1295  [006] d.h1 13319.819350: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13319.819351: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            sudo-4671  [001] d.Z. 13319.819612: event_overflow_callback: overflow callback
+            sudo-4671  [001] d.h. 13319.819615: memguard_process_overflow: overflow at 1
+            sudo-4671  [001] d.h. 13319.819616: memguard_process_overflow: perf_event_count(cinfo->event)=5790382
+          <idle>-0     [007] d.h2 13319.820340: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h2 13319.820341: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            sudo-4671  [001] d.Z. 13319.820831: event_overflow_callback: overflow callback
+            sudo-4671  [001] d.h. 13319.820837: memguard_process_overflow: overflow at 1
+            sudo-4671  [001] d.h. 13319.820838: memguard_process_overflow: perf_event_count(cinfo->event)=5794342
+          <idle>-0     [007] d.h2 13319.821340: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13319.821340: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            sudo-4671  [001] d.Z. 13319.821807: event_overflow_callback: overflow callback
+            sudo-4671  [001] d.h. 13319.821811: memguard_process_overflow: overflow at 1
+            sudo-4671  [001] d.h. 13319.821812: memguard_process_overflow: perf_event_count(cinfo->event)=5799638
+          <idle>-0     [006] d.h2 13319.822338: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            sudo-4671  [001] d.Z. 13319.823127: event_overflow_callback: overflow callback
+            sudo-4671  [001] d.h. 13319.823133: memguard_process_overflow: overflow at 1
+            sudo-4671  [001] d.h. 13319.823134: memguard_process_overflow: perf_event_count(cinfo->event)=5802259
+ gnome-terminal--3928  [007] d.h1 13319.829337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13319.829338: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            sudo-4673  [005] d.h1 13319.829338: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128 gnome-terminal--3928  [007] d.Z. 13319.829579: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13319.829588: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13319.829588: memguard_process_overflow: perf_event_count(cinfo->event)=14711437
+     gnome-shell-2055  [003] d.h1 13319.830338: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128 gnome-terminal--3928  [007] d.Z. 13319.830562: event_overflow_callback: overflow callback
+ gnome-terminal--3928  [007] d.h. 13319.830567: memguard_process_overflow: overflow at 7
+ gnome-terminal--3928  [007] d.h. 13319.830567: memguard_process_overflow: perf_event_count(cinfo->event)=14715566
+ gsd-housekeepin-2204  [006] d.Z. 13319.830913: event_overflow_callback: overflow callback
+ gsd-housekeepin-2204  [006] d.h. 13319.830921: memguard_process_overflow: overflow at 6
+ gsd-housekeepin-2204  [006] d.h. 13319.830921: memguard_process_overflow: perf_event_count(cinfo->event)=5598304
+         systemd-1     [001] d.Z. 13319.831245: event_overflow_callback: overflow callback
+         systemd-1     [001] d.h. 13319.831251: memguard_process_overflow: overflow at 1
+         systemd-1     [001] d.h. 13319.831251: memguard_process_overflow: perf_event_count(cinfo->event)=5806379
+          <idle>-0     [006] d.h2 13321.308228: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638            sudo-4675  [007] d.h1 13321.308228: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            sudo-4675  [007] d.Z. 13321.308965: event_overflow_callback: overflow callback
+            sudo-4675  [007] d.h. 13321.308976: memguard_process_overflow: overflow at 7
+            sudo-4675  [007] d.h. 13321.308976: memguard_process_overflow: perf_event_count(cinfo->event)=14782226

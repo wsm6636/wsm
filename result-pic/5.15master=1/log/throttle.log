@@ -1,0 +1,491 @@
+     dbus-daemon-924   [006] d.h1 13308.888229: __start_throttle: throttle at 13309805662649
+     kthrottle/6-144   [006] .... 13308.888232: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13308.889137: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13308.889140: period_timer_callback_slave: ffff9e462a378000|New period 13306730.
+     kthrottle/6-144   [006] d.h. 13308.889140: update_statistics: count==5565160,old_val==5563518,used==1642
+          <idle>-0     [002] d.h2 13308.889140: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [003] d.h2 13308.889141: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13308.889142: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13308.889143: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13308.889143: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13308.889144: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13308.889144: throttle_thread: wait an event
+       JS Helper-1349  [007] d.h1 13311.166702: __start_throttle: throttle at 13312084303523
+     kthrottle/7-145   [007] .... 13311.166707: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13311.166969: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13311.166972: period_timer_callback_slave: ffff9e462ce71e80|New period 13309008.
+     gnome-shell-2055  [000] d.h1 13311.166972: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13311.166972: update_statistics: count==14350427,old_val==14346296,used==4131
+          <idle>-0     [003] d.h2 13311.166974: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13311.166974: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13311.166975: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13311.166975: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13311.166976: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13311.166976: throttle_thread: wait an event
+     InputThread-1947  [006] d.h1 13317.600299: __start_throttle: throttle at 13318518374562
+     kthrottle/6-144   [006] .... 13317.600303: throttle_thread: got an event
+          <idle>-0     [000] d.h2 13317.600494: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13317.600494: period_timer_callback_slave: slave at 6
+          <idle>-0     [002] d.h2 13317.600496: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h. 13317.600497: period_timer_callback_slave: ffff9e462869db80|New period 13315442.
+     kthrottle/6-144   [006] d.h. 13317.600497: update_statistics: count==5569239,old_val==5567584,used==1655
+          <idle>-0     [003] d.h2 13317.600498: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13317.600498: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h3 13317.600499: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h1 13317.600499: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [001] d.h1 13317.600499: period_timer_callback_master: master end
+          <idle>-0     [005] d.h2 13317.600500: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13317.600501: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13317.600501: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.096336: __start_throttle: throttle at 13319014447796
+     kthrottle/7-145   [007] .... 13318.096340: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.096458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.096462: period_timer_callback_slave: ffff9e4623958000|New period 13315938.
+     kthrottle/7-145   [007] d.h. 13318.096462: update_statistics: count==14374655,old_val==14370520,used==4135
+          <idle>-0     [004] d.h2 13318.096464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.096464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.096465: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.096466: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.096556: __start_throttle: throttle at 13319014668163
+     kthrottle/7-145   [007] .... 13318.096558: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.097458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.097461: period_timer_callback_slave: ffff9e4623958000|New period 13315939.
+     kthrottle/7-145   [007] d.h. 13318.097461: update_statistics: count==14378783,old_val==14374655,used==4128
+          <idle>-0     [004] d.h2 13318.097463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.097463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.097464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.097465: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.098041: __start_throttle: throttle at 13319016153555
+     kthrottle/7-145   [007] .... 13318.098043: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.098458: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.098460: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [003] d.h2 13318.098460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.098461: period_timer_callback_slave: ffff9e4623958000|New period 13315940.
+     kthrottle/7-145   [007] d.h. 13318.098461: update_statistics: count==14382925,old_val==14378783,used==4142
+          <idle>-0     [000] d.h2 13318.098462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.098463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.098463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.098464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.098465: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.098465: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.098584: __start_throttle: throttle at 13319016696234
+     kthrottle/7-145   [007] .... 13318.098586: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.099458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.099460: period_timer_callback_slave: ffff9e4623958000|New period 13315941.
+     kthrottle/7-145   [007] d.h. 13318.099461: update_statistics: count==14387054,old_val==14382925,used==4129
+          <idle>-0     [004] d.h2 13318.099462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.099463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.099463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.099464: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.099464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.099691: __start_throttle: throttle at 13319017802940
+     kthrottle/7-145   [007] .... 13318.099692: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.100458: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.100460: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.100460: period_timer_callback_slave: ffff9e4623958000|New period 13315942.
+     kthrottle/7-145   [007] d.h. 13318.100461: update_statistics: count==14391185,old_val==14387054,used==4131
+          <idle>-0     [004] d.h2 13318.100462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.100463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.100463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.100463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.100464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.100578: __start_throttle: throttle at 13319018690055
+     kthrottle/7-145   [007] .... 13318.100579: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.101458: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.101461: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.101461: period_timer_callback_slave: ffff9e4623958000|New period 13315943.
+     kthrottle/7-145   [007] d.h. 13318.101462: update_statistics: count==14395324,old_val==14391185,used==4139
+          <idle>-0     [004] d.h2 13318.101463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.101464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.101464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.101465: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.101465: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.101466: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.101596: __start_throttle: throttle at 13319019708415
+     kthrottle/7-145   [007] .... 13318.101598: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.102458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.102462: period_timer_callback_slave: ffff9e4623958000|New period 13315944.
+     kthrottle/7-145   [007] d.h. 13318.102463: update_statistics: count==14399453,old_val==14395324,used==4129
+          <idle>-0     [004] d.h2 13318.102463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.102464: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [005] d.h2 13318.102464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.102465: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.102465: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.102466: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.102610: __start_throttle: throttle at 13319020723031
+     kthrottle/7-145   [007] .... 13318.102613: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.103457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.103461: period_timer_callback_slave: ffff9e4623958000|New period 13315945.
+          <idle>-0     [003] d.h2 13318.103462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.103462: update_statistics: count==14403598,old_val==14399453,used==4145
+          <idle>-0     [004] d.h2 13318.103463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.103463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.103464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.103464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.103465: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.103465: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.103575: __start_throttle: throttle at 13319021687367
+     kthrottle/7-145   [007] .... 13318.103577: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.104458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.104462: period_timer_callback_slave: ffff9e4623958000|New period 13315946.
+     kthrottle/7-145   [007] d.h. 13318.104462: update_statistics: count==14407739,old_val==14403598,used==4141
+          <idle>-0     [004] d.h2 13318.104463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.104464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.104464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.104465: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.104465: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.104575: __start_throttle: throttle at 13319022687538
+     kthrottle/7-145   [007] .... 13318.104577: throttle_thread: got an event
+          <idle>-0     [002] d.h2 13318.105458: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.105458: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.105461: period_timer_callback_slave: ffff9e4623958000|New period 13315947.
+     kthrottle/7-145   [007] d.h. 13318.105461: update_statistics: count==14411877,old_val==14407739,used==4138
+          <idle>-0     [003] d.h2 13318.105462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.105462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.105463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.105463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.105464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.105464: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.105465: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.105589: __start_throttle: throttle at 13319023701733
+     kthrottle/7-145   [007] .... 13318.105591: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.106457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.106461: period_timer_callback_slave: ffff9e4623958000|New period 13315948.
+     kthrottle/7-145   [007] d.h. 13318.106461: update_statistics: count==14416018,old_val==14411877,used==4141
+          <idle>-0     [006] d.h2 13318.106463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [004] d.h2 13318.106463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.106464: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.106464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.106715: __start_throttle: throttle at 13319024828033
+     kthrottle/7-145   [007] .... 13318.106718: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.107457: period_timer_callback_slave: slave at 7
+          <idle>-0     [003] d.h2 13318.107460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.107460: period_timer_callback_slave: ffff9e4623958000|New period 13315949.
+     kthrottle/7-145   [007] d.h. 13318.107461: update_statistics: count==14420150,old_val==14416018,used==4132
+          <idle>-0     [006] d.h2 13318.107462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.107463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.107463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.107464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.107653: __start_throttle: throttle at 13319025765462
+     kthrottle/7-145   [007] .... 13318.107655: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.108457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.108460: period_timer_callback_slave: ffff9e4623958000|New period 13315950.
+     kthrottle/7-145   [007] d.h. 13318.108461: update_statistics: count==14424286,old_val==14420150,used==4136
+          <idle>-0     [004] d.h2 13318.108462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.108462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.108463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.108463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.108464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.108640: __start_throttle: throttle at 13319026752996
+     kthrottle/7-145   [007] .... 13318.108643: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.109457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.109460: period_timer_callback_slave: ffff9e4623958000|New period 13315951.
+     kthrottle/7-145   [007] d.h. 13318.109460: update_statistics: count==14428416,old_val==14424286,used==4130
+          <idle>-0     [004] d.h2 13318.109462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.109462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.109463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.109463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.109576: __start_throttle: throttle at 13319027689324
+     kthrottle/7-145   [007] .... 13318.109578: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.110457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.110460: period_timer_callback_slave: ffff9e4623958000|New period 13315952.
+     kthrottle/7-145   [007] d.h. 13318.110461: update_statistics: count==14432546,old_val==14428416,used==4130
+          <idle>-0     [005] d.h2 13318.110462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.110463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.110463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.110464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.110633: __start_throttle: throttle at 13319028746145
+     kthrottle/7-145   [007] .... 13318.110635: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.111457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.111460: period_timer_callback_slave: ffff9e4623958000|New period 13315953.
+     kthrottle/7-145   [007] d.h. 13318.111461: update_statistics: count==14436681,old_val==14432546,used==4135
+          <idle>-0     [003] d.h2 13318.111461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.111462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.111462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.111463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.111463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.111464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.111615: __start_throttle: throttle at 13319029727877
+     kthrottle/7-145   [007] .... 13318.111617: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.112457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.112460: period_timer_callback_slave: ffff9e4623958000|New period 13315954.
+     kthrottle/7-145   [007] d.h. 13318.112461: update_statistics: count==14440811,old_val==14436681,used==4130
+          <idle>-0     [004] d.h2 13318.112462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.112463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128            Xorg-1942  [003] d.h1 13318.112463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.112464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.112647: __start_throttle: throttle at 13319030760322
+     kthrottle/7-145   [007] .... 13318.112650: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.113457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.113461: period_timer_callback_slave: ffff9e4623958000|New period 13315955.
+          <idle>-0     [004] d.h2 13318.113461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.113461: update_statistics: count==14444952,old_val==14440811,used==4141
+          <idle>-0     [003] d.h2 13318.113461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.113462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.113462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.113463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.113463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.113464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.113561: __start_throttle: throttle at 13319031674470
+     kthrottle/7-145   [007] .... 13318.113563: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.114456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.114460: period_timer_callback_slave: ffff9e4623958000|New period 13315956.
+          <idle>-0     [003] d.h2 13318.114460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.114460: update_statistics: count==14449097,old_val==14444952,used==4145
+          <idle>-0     [006] d.h2 13318.114462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.114463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.114463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.114564: __start_throttle: throttle at 13319032677924
+     kthrottle/7-145   [007] .... 13318.114567: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.115456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.115460: period_timer_callback_slave: ffff9e4623958000|New period 13315957.
+          <idle>-0     [001] d.h3 13318.115460: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.115460: update_statistics: count==14453233,old_val==14449097,used==4136
+          <idle>-0     [002] d.h2 13318.115461: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [005] d.h2 13318.115462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.115462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.115463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.115464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.115611: __start_throttle: throttle at 13319033724316
+     kthrottle/7-145   [007] .... 13318.115613: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.116457: period_timer_callback_slave: slave at 7
+          <idle>-0     [003] d.h2 13318.116459: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.116459: period_timer_callback_slave: ffff9e4623958000|New period 13315958.
+     kthrottle/7-145   [007] d.h. 13318.116459: update_statistics: count==14457367,old_val==14453233,used==4134
+     kthrottle/7-145   [007] d.h1 13318.116462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.116463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.116463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.118029: __start_throttle: throttle at 13319036142740
+     kthrottle/7-145   [007] .... 13318.118032: throttle_thread: got an event
+          <idle>-0     [002] d.h2 13318.118457: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.118457: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.118460: period_timer_callback_slave: ffff9e4623958000|New period 13315960.
+     kthrottle/7-145   [007] d.h. 13318.118461: update_statistics: count==14465007,old_val==14460877,used==4130
+          <idle>-0     [004] d.h2 13318.118461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.118461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.118462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.118462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     gnome-shell-2055  [000] d.h1 13318.118463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.118463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.118464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.118625: __start_throttle: throttle at 13319036738313
+     kthrottle/7-145   [007] .... 13318.118626: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.119456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.119460: period_timer_callback_slave: ffff9e4623958000|New period 13315961.
+     kthrottle/7-145   [007] d.h. 13318.119460: update_statistics: count==14469137,old_val==14465007,used==4130
+          <idle>-0     [003] d.h2 13318.119461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.119461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.119462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.119462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.119463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.119463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.119464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.119652: __start_throttle: throttle at 13319037766021
+     kthrottle/7-145   [007] .... 13318.119654: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.120456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.120458: period_timer_callback_slave: ffff9e4623958000|New period 13315962.
+     kthrottle/7-145   [007] d.h. 13318.120459: update_statistics: count==14473298,old_val==14469137,used==4161
+          <idle>-0     [004] d.h2 13318.120460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.120461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.120461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.120462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.120462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.120463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.120574: __start_throttle: throttle at 13319038687962
+     kthrottle/7-145   [007] .... 13318.120576: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.121456: period_timer_callback_slave: slave at 7
+          <idle>-0     [003] d.h2 13318.121459: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.121460: period_timer_callback_slave: ffff9e4623958000|New period 13315963.
+     kthrottle/7-145   [007] d.h. 13318.121460: update_statistics: count==14477428,old_val==14473298,used==4130
+          <idle>-0     [004] d.h2 13318.121462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.121462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.121463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.121463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.121464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.121635: __start_throttle: throttle at 13319039748752
+     kthrottle/7-145   [007] .... 13318.121637: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.122456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.122459: period_timer_callback_slave: ffff9e4623958000|New period 13315964.
+          <idle>-0     [001] d.h3 13318.122459: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.122459: update_statistics: count==14481557,old_val==14477428,used==4129
+          <idle>-0     [004] d.h2 13318.122460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.122460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.122461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.122461: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.122462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.122462: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.122588: __start_throttle: throttle at 13319040701535
+     kthrottle/7-145   [007] .... 13318.122589: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.123456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.123458: period_timer_callback_slave: ffff9e4623958000|New period 13315965.
+     kthrottle/7-145   [007] d.h. 13318.123459: update_statistics: count==14485687,old_val==14481557,used==4130
+          <idle>-0     [003] d.h2 13318.123459: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.123460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h3 13318.123460: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.123461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h1 13318.123461: period_timer_callback_master: master end
+          <idle>-0     [004] d.h2 13318.123462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.123462: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.123570: __start_throttle: throttle at 13319041684403
+     kthrottle/7-145   [007] .... 13318.123572: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.124456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.124460: period_timer_callback_slave: ffff9e4623958000|New period 13315966.
+     kthrottle/7-145   [007] d.h. 13318.124460: update_statistics: count==14489819,old_val==14485687,used==4132
+          <idle>-0     [003] d.h2 13318.124461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.124461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.124462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.124462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.124463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.124463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.124752: __start_throttle: throttle at 13319042865975
+     kthrottle/7-145   [007] .... 13318.124754: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.125456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.125459: period_timer_callback_slave: ffff9e4623958000|New period 13315967.
+     kthrottle/7-145   [007] d.h. 13318.125459: update_statistics: count==14493951,old_val==14489819,used==4132
+          <idle>-0     [002] d.h2 13318.125462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [005] d.h2 13318.125463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.125463: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.125464: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.125464: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.125607: __start_throttle: throttle at 13319043721003
+     kthrottle/7-145   [007] .... 13318.125609: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.126456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.126460: period_timer_callback_slave: ffff9e4623958000|New period 13315968.
+          <idle>-0     [001] d.h3 13318.126460: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.126460: update_statistics: count==14498081,old_val==14493951,used==4130
+          <idle>-0     [005] d.h2 13318.126461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.126461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.126462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.126462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.126463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.126591: __start_throttle: throttle at 13319044705039
+     kthrottle/7-145   [007] .... 13318.126593: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.127456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.127459: period_timer_callback_slave: ffff9e4623958000|New period 13315969.
+          <idle>-0     [003] d.h2 13318.127459: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.127459: update_statistics: count==14502212,old_val==14498081,used==4131
+          <idle>-0     [004] d.h2 13318.127461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.127461: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.127462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.127462: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.127578: __start_throttle: throttle at 13319045692207
+     kthrottle/7-145   [007] .... 13318.127580: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.128456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.128459: period_timer_callback_slave: ffff9e4623958000|New period 13315970.
+     kthrottle/7-145   [007] d.h. 13318.128459: update_statistics: count==14506348,old_val==14502212,used==4136
+          <idle>-0     [002] d.h2 13318.128461: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [004] d.h2 13318.128461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.128462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.128462: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.128463: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.128463: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.128705: __start_throttle: throttle at 13319046819510
+     kthrottle/7-145   [007] .... 13318.128708: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.129456: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.129459: period_timer_callback_slave: ffff9e4623958000|New period 13315971.
+     kthrottle/7-145   [007] d.h. 13318.129459: update_statistics: count==14510477,old_val==14506348,used==4129
+          <idle>-0     [005] d.h2 13318.129460: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.129461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.129461: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.129462: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.129462: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.368302: __start_throttle: throttle at 13319286433646
+     kthrottle/7-145   [007] .... 13318.368305: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.368438: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.368440: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [003] d.h2 13318.368441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.368441: period_timer_callback_slave: ffff9e4623958000|New period 13316210.
+     kthrottle/7-145   [007] d.h. 13318.368442: update_statistics: count==14518814,old_val==14514680,used==4134
+            Xorg-1942  [004] d.h1 13318.368443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.368444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.368444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.368445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [000] d.h2 13318.368445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.368446: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.368543: __start_throttle: throttle at 13319286675348
+     kthrottle/7-145   [007] .... 13318.368545: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.369438: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.369443: period_timer_callback_slave: ffff9e4623958000|New period 13316211.
+          <idle>-0     [004] d.h2 13318.369443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.369443: update_statistics: count==14522947,old_val==14518814,used==4133
+          <idle>-0     [005] d.h2 13318.369443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.369444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [000] d.h2 13318.369444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.369445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.369446: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.369622: __start_throttle: throttle at 13319287754246
+     kthrottle/7-145   [007] .... 13318.369624: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.370438: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.370441: period_timer_callback_slave: ffff9e4623958000|New period 13316212.
+          <idle>-0     [001] d.h3 13318.370442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.370442: update_statistics: count==14527078,old_val==14522947,used==4131
+          <idle>-0     [003] d.h2 13318.370442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.370443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.370443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.370444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.370444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.370445: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.370617: __start_throttle: throttle at 13319288749525
+     kthrottle/7-145   [007] .... 13318.370619: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.371438: period_timer_callback_slave: slave at 7
+          <idle>-0     [003] d.h2 13318.371441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.371442: period_timer_callback_slave: ffff9e4623958000|New period 13316213.
+          <idle>-0     [001] d.h3 13318.371442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.371442: update_statistics: count==14531208,old_val==14527078,used==4130
+          <idle>-0     [005] d.h2 13318.371443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.371444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.371444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.371445: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.371629: __start_throttle: throttle at 13319289761003
+     kthrottle/7-145   [007] .... 13318.371630: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.372438: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.372441: period_timer_callback_slave: ffff9e4623958000|New period 13316214.
+          <idle>-0     [001] d.h3 13318.372441: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.372441: update_statistics: count==14535353,old_val==14531208,used==4145
+          <idle>-0     [004] d.h2 13318.372442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.372443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.372443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.372444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.372444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.372445: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.372562: __start_throttle: throttle at 13319290694829
+     kthrottle/7-145   [007] .... 13318.372564: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.373437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.373441: period_timer_callback_slave: ffff9e4623958000|New period 13316215.
+          <idle>-0     [003] d.h2 13318.373441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.373441: update_statistics: count==14539494,old_val==14535353,used==4141
+          <idle>-0     [004] d.h2 13318.373441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.373442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.373442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [001] d.h3 13318.373443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.373443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h1 13318.373443: period_timer_callback_master: master end
+     kthrottle/7-145   [007] .... 13318.373444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.373670: __start_throttle: throttle at 13319291802124
+     kthrottle/7-145   [007] .... 13318.373672: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.374437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.374440: period_timer_callback_slave: ffff9e4623958000|New period 13316216.
+     kthrottle/7-145   [007] d.h. 13318.374441: update_statistics: count==14543631,old_val==14539494,used==4137
+          <idle>-0     [006] d.h2 13318.374443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.374444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.374444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.374681: __start_throttle: throttle at 13319292813405
+     kthrottle/7-145   [007] .... 13318.374684: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.375437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.375441: period_timer_callback_slave: ffff9e4623958000|New period 13316217.
+          <idle>-0     [003] d.h2 13318.375441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.375441: update_statistics: count==14547772,old_val==14543631,used==4141
+          <idle>-0     [005] d.h2 13318.375442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.375443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.375443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.375444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.375595: __start_throttle: throttle at 13319293728064
+     kthrottle/7-145   [007] .... 13318.375598: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.376437: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.376440: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.376441: period_timer_callback_slave: ffff9e4623958000|New period 13316218.
+     kthrottle/7-145   [007] d.h. 13318.376441: update_statistics: count==14551909,old_val==14547772,used==4137
+          <idle>-0     [004] d.h2 13318.376443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.376444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.376444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] .... 13318.376445: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.376595: __start_throttle: throttle at 13319294727651
+     kthrottle/7-145   [007] .... 13318.376597: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.377437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.377440: period_timer_callback_slave: ffff9e4623958000|New period 13316219.
+          <idle>-0     [003] d.h2 13318.377440: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.377440: update_statistics: count==14556040,old_val==14551909,used==4131
+          <idle>-0     [005] d.h2 13318.377442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.377442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.377443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.377444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.377590: __start_throttle: throttle at 13319295723092
+     kthrottle/7-145   [007] .... 13318.377593: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.378437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.378441: period_timer_callback_slave: ffff9e4623958000|New period 13316220.
+     kthrottle/7-145   [007] d.h. 13318.378441: update_statistics: count==14560176,old_val==14556040,used==4136
+          <idle>-0     [004] d.h2 13318.378442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.378443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.378443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.378444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.378540: __start_throttle: throttle at 13319296672464
+     kthrottle/7-145   [007] .... 13318.378542: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.379437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.379440: period_timer_callback_slave: ffff9e4623958000|New period 13316221.
+          <idle>-0     [003] d.h2 13318.379440: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.379440: update_statistics: count==14564304,old_val==14560176,used==4128
+          <idle>-0     [004] d.h2 13318.379442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.379443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.379443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.379444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.379545: __start_throttle: throttle at 13319297677691
+     kthrottle/7-145   [007] .... 13318.379546: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.380437: period_timer_callback_slave: slave at 7
+          <idle>-0     [003] d.h2 13318.380440: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.380441: period_timer_callback_slave: ffff9e4623958000|New period 13316222.
+          <idle>-0     [001] d.h3 13318.380441: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.380441: update_statistics: count==14568449,old_val==14564304,used==4145
+          <idle>-0     [004] d.h2 13318.380442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.380442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.380443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.380443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.380444: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.380569: __start_throttle: throttle at 13319298702302
+     kthrottle/7-145   [007] .... 13318.380571: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.381437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.381440: period_timer_callback_slave: ffff9e4623958000|New period 13316223.
+     kthrottle/7-145   [007] d.h. 13318.381440: update_statistics: count==14572580,old_val==14568449,used==4131
+          <idle>-0     [005] d.h2 13318.381442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.381442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.381443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.381443: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.381566: __start_throttle: throttle at 13319299699528
+     kthrottle/7-145   [007] .... 13318.381569: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.382437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.382439: period_timer_callback_slave: ffff9e4623958000|New period 13316224.
+          <idle>-0     [002] d.h2 13318.382439: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.382439: update_statistics: count==14576722,old_val==14572580,used==4142
+          <idle>-0     [003] d.h2 13318.382441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h3 13318.382442: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.382442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [001] d.h1 13318.382442: period_timer_callback_master: master end
+          <idle>-0     [004] d.h2 13318.382443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.382443: throttle_thread: wait an event
+         firefox-2430  [007] d.h1 13318.382599: __start_throttle: throttle at 13319300732204
+     kthrottle/7-145   [007] .... 13318.382602: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.383437: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.383441: period_timer_callback_slave: ffff9e4623958000|New period 13316225.
+     kthrottle/7-145   [007] d.h. 13318.383441: update_statistics: count==14580860,old_val==14576722,used==4138
+          <idle>-0     [000] d.h2 13318.383441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.383442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.383442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.383443: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [004] d.h2 13318.383443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.383444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.383445: throttle_thread: wait an event
+  ProcessHangMon-2514  [007] d.h1 13318.383659: __start_throttle: throttle at 13319301792005
+     kthrottle/7-145   [007] .... 13318.383661: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.384438: period_timer_callback_slave: slave at 7
+          <idle>-0     [000] d.h2 13318.384441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.384441: period_timer_callback_slave: ffff9e462143db80|New period 13316226.
+          <idle>-0     [003] d.h2 13318.384442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.384442: update_statistics: count==14584992,old_val==14580860,used==4132
+          <idle>-0     [004] d.h2 13318.384443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.384444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.384444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           <...>-2805  [005] d.h1 13318.384445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.384445: throttle_thread: wait an event
+            Xorg-1942  [006] d.h1 13318.387352: __start_throttle: throttle at 13319305485532
+     kthrottle/6-144   [006] .... 13318.387355: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13318.387440: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13318.387442: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316229.
+          <idle>-0     [000] d.h2 13318.387442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13318.387442: update_statistics: count==5579359,old_val==5577719,used==1640
+     kthrottle/6-144   [006] d.h1 13318.387444: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13318.387445: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13318.387445: throttle_thread: wait an event
+      Compositor-2466  [007] d.h1 13318.394583: __start_throttle: throttle at 13319312716669
+     kthrottle/7-145   [007] .... 13318.394586: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.395436: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.395439: period_timer_callback_slave: ffff9e45d0b5bd00|New period 13316237.
+          <idle>-0     [001] d.h3 13318.395439: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.395439: update_statistics: count==14591747,old_val==14587603,used==4144
+          <idle>-0     [004] d.h2 13318.395439: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13318.395440: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.395441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.395441: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.395442: throttle_thread: wait an event
+            Xorg-1942  [007] d.h1 13318.413268: __start_throttle: throttle at 13319331403530
+     kthrottle/7-145   [007] .... 13318.413272: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.413438: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.413442: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316255.
+          <idle>-0     [003] d.h2 13318.413442: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.413443: update_statistics: count==14605090,old_val==14600958,used==4132
+          <idle>-0     [000] d.h2 13318.413443: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           <...>-2805  [005] d.h1 13318.413444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.413444: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [002] d.h2 13318.413445: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [006] d.h2 13318.413445: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.413446: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.413447: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13318.816655: __start_throttle: throttle at 13319734820181
+     kthrottle/7-145   [007] .... 13318.816660: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.817405: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.817409: period_timer_callback_slave: ffff9e46328edb80|New period 13316659.
+     kthrottle/7-145   [007] d.h. 13318.817409: update_statistics: count==14644775,old_val==14640637,used==4138
+          <idle>-0     [003] d.h2 13318.817409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.817410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.817410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.817411: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.817411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.817412: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13318.817715: __start_throttle: throttle at 13319735880562
+     kthrottle/7-145   [007] .... 13318.817719: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.818405: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.818409: period_timer_callback_slave: ffff9e46328edb80|New period 13316660.
+          <idle>-0     [000] d.h2 13318.818409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.818409: update_statistics: count==14648920,old_val==14644775,used==4145
+          <idle>-0     [004] d.h2 13318.818410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           gdbus-2095  [003] d.h1 13318.818410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           gdbus-2326  [006] d.h1 13318.818411: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638           gdbus-3930  [005] d.h1 13318.818411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.818412: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.818413: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13318.818809: __start_throttle: throttle at 13319736973839
+     kthrottle/7-145   [007] .... 13318.818812: throttle_thread: got an event
+          <idle>-0     [002] d.h2 13318.819405: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.819405: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.819408: period_timer_callback_slave: ffff9e46328edb80|New period 13316661.
+     kthrottle/7-145   [007] d.h. 13318.819409: update_statistics: count==14653055,old_val==14648920,used==4135
+          <idle>-0     [004] d.h2 13318.819409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           <...>-2059  [003] d.h1 13318.819410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.819411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13318.819411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.819412: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     gnome-shell-2055  [000] d.h1 13318.819412: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.819413: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13318.819963: __start_throttle: throttle at 13319738128720
+     kthrottle/7-145   [007] .... 13318.819967: throttle_thread: got an event
+          <idle>-0     [002] d.h2 13318.820405: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.820405: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13318.820409: period_timer_callback_slave: ffff9e46328edb80|New period 13316662.
+          <idle>-0     [004] d.h2 13318.820409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.820409: update_statistics: count==14657185,old_val==14653055,used==4130
+           gdbus-2095  [003] d.h1 13318.820410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128           <...>-2059  [005] d.h1 13318.820410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     gnome-shell-2055  [000] d.h1 13318.820411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.820411: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.820412: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.820413: throttle_thread: wait an event
+            Xorg-1942  [006] d.h1 13318.820691: __start_throttle: throttle at 13319738856704
+     kthrottle/6-144   [006] .... 13318.820695: throttle_thread: got an event
+ gnome-terminal--3928  [007] d.h1 13318.820827: __start_throttle: throttle at 13319738992786
+     kthrottle/6-144   [006] d.h. 13318.820828: __start_throttle: throttle at 13319738993554
+     kthrottle/7-145   [007] .... 13318.820831: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13318.821405: period_timer_callback_slave: slave at 6
+     kthrottle/7-145   [007] d.h. 13318.821405: period_timer_callback_slave: slave at 7
+     kthrottle/6-144   [006] d.h. 13318.821408: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316663.
+     kthrottle/6-144   [006] d.h. 13318.821408: update_statistics: count==5587410,old_val==5585772,used==1638
+     kthrottle/7-145   [007] d.h. 13318.821409: period_timer_callback_slave: ffff9e462755bd00|New period 13316663.
+          <idle>-0     [004] d.h2 13318.821409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.821409: update_statistics: count==14661315,old_val==14657185,used==4130
+          <idle>-0     [003] d.h2 13318.821409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.821410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13318.821410: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     gnome-shell-2055  [000] d.h1 13318.821411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13318.821411: throttle_thread: wait an event
+     kthrottle/7-145   [007] d.h1 13318.821412: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.821412: throttle_thread: wait an event
+            Xorg-1942  [006] d.h1 13318.821486: __start_throttle: throttle at 13319739651343
+     kthrottle/6-144   [006] .... 13318.821488: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13318.822404: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13318.822408: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316664.
+          <idle>-0     [003] d.h2 13318.822408: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13318.822408: update_statistics: count==5589060,old_val==5587410,used==1650
+          <idle>-0     [005] d.h2 13318.822409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13318.822410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13318.822411: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     gnome-shell-2055  [000] d.h1 13318.822411: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13318.822411: throttle_thread: wait an event
+            Xorg-1942  [006] d.h1 13318.822623: __start_throttle: throttle at 13319740788739
+     kthrottle/6-144   [006] .... 13318.822626: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13318.823404: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13318.823406: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316665.
+     kthrottle/6-144   [006] d.h. 13318.823407: update_statistics: count==5590702,old_val==5589060,used==1642
+          <idle>-0     [004] d.h2 13318.823409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13318.823409: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13318.823410: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [003] d.h2 13318.823410: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13318.823411: throttle_thread: wait an event
+            Xorg-1942  [007] d.h1 13318.984816: __start_throttle: throttle at 13319902993793
+     kthrottle/7-145   [007] .... 13318.984820: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13318.985392: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13318.985396: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13318.985397: period_timer_callback_slave: ffff9e4628ab5b80|New period 13316827.
+          <idle>-0     [003] d.h2 13318.985397: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13318.985397: update_statistics: count==14679775,old_val==14675645,used==4130
+          <idle>-0     [004] d.h2 13318.985398: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13318.985399: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13318.985399: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13318.985400: throttle_thread: wait an event
+            Xorg-1942  [007] d.h1 13319.419066: __start_throttle: throttle at 13320337275105
+     kthrottle/7-145   [007] .... 13319.419073: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13319.419361: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13319.419364: period_timer_callback_slave: ffff9e4628ab5b80|New period 13317261.
+          <idle>-0     [004] d.h2 13319.419364: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13319.419364: update_statistics: count==14687929,old_val==14683790,used==4139
+     kthrottle/7-145   [007] d.h1 13319.419366: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13319.419367: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13319.816606: __start_throttle: throttle at 13320734844682
+     kthrottle/7-145   [007] .... 13319.816609: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13319.817331: period_timer_callback_slave: slave at 7
+          <idle>-0     [001] d.h3 13319.817335: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13319.817335: period_timer_callback_slave: ffff9e46328edb80|New period 13317659.
+     kthrottle/7-145   [007] d.h. 13319.817335: update_statistics: count==14698352,old_val==14694219,used==4133
+          <idle>-0     [004] d.h2 13319.817336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13319.817337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13319.817337: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13319.817337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13319.817339: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13319.818107: __start_throttle: throttle at 13320736346158
+     kthrottle/7-145   [007] .... 13319.818111: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13319.818332: period_timer_callback_slave: slave at 7
+     kthrottle/7-145   [007] d.h. 13319.818335: period_timer_callback_slave: ffff9e46328edb80|New period 13317660.
+          <idle>-0     [001] d.h3 13319.818335: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13319.818335: update_statistics: count==14702485,old_val==14698352,used==4133
+            bash-4268  [004] d.h1 13319.818336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13319.818337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h1 13319.818338: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [003] d.h2 13319.818338: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13319.818338: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13319.829589: __start_throttle: throttle at 13320747828919
+     kthrottle/7-145   [007] .... 13319.829593: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13319.830331: period_timer_callback_slave: slave at 7
+          <idle>-0     [000] d.h2 13319.830334: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13319.830335: period_timer_callback_slave: ffff9e46328edb80|New period 13317672.
+     kthrottle/7-145   [007] d.h. 13319.830335: update_statistics: count==14711438,old_val==14707288,used==4150
+          <idle>-0     [006] d.h2 13319.830337: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13319.830337: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13319.830338: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13319.830338: throttle_thread: wait an event
+ gnome-terminal--3928  [007] d.h1 13319.830568: __start_throttle: throttle at 13320748807774
+     kthrottle/7-145   [007] .... 13319.830571: throttle_thread: got an event
+ gsd-housekeepin-2204  [006] d.h1 13319.830923: __start_throttle: throttle at 13320749162361
+     kthrottle/7-145   [007] d.h. 13319.830923: __start_throttle: throttle at 13320749163130
+     kthrottle/6-144   [006] .... 13319.830927: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13319.831253: __start_throttle: throttle at 13320749493257
+     kthrottle/6-144   [006] d.h. 13319.831254: __start_throttle: throttle at 13320749493275
+     kthrottle/1-139   [001] .... 13319.831258: throttle_thread: got an event
+     kthrottle/1-139   [001] d.h. 13319.831326: period_timer_callback_master: master begin
+     kthrottle/1-139   [001] d.h. 13319.831326: period_timer_callback_master: orun==1
+     kthrottle/1-139   [001] d.h1 13319.831329: period_timer_callback_slave: slave at 1
+     kthrottle/6-144   [006] d.h. 13319.831330: period_timer_callback_slave: slave at 6
+     kthrottle/7-145   [007] d.h. 13319.831330: period_timer_callback_slave: slave at 7
+     kthrottle/1-139   [001] d.h1 13319.831332: period_timer_callback_slave: ffff9e462755bd00|New period 13317673.
+          <idle>-0     [002] d.h2 13319.831332: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/1-139   [001] d.h1 13319.831332: update_statistics: count==5806384,old_val==5804740,used==1644
+     kthrottle/6-144   [006] d.h. 13319.831333: period_timer_callback_slave: ffff9e4627558000|New period 13317673.
+     kthrottle/6-144   [006] d.h. 13319.831333: update_statistics: count==5598304,old_val==5596663,used==1641
+     kthrottle/7-145   [007] d.h. 13319.831333: period_timer_callback_slave: ffff9e46328edb80|New period 13317673.
+     kthrottle/7-145   [007] d.h. 13319.831333: update_statistics: count==14715566,old_val==14711438,used==4128
+     kthrottle/1-139   [001] d.h2 13319.831334: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     gnome-shell-1329  [004] d.h. 13319.831334: update_statistics: count==0,old_val==0,used==0
+     kthrottle/6-144   [006] d.h1 13319.831335: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/1-139   [001] d.h. 13319.831335: period_timer_callback_master: master end
+          <idle>-0     [003] d.h2 13319.831335: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13319.831336: throttle_thread: wait an event
+     kthrottle/7-145   [007] d.h1 13319.831336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/1-139   [001] .... 13319.831336: throttle_thread: wait an event
+           <...>-2146  [005] d.h1 13319.831336: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13319.831337: throttle_thread: wait an event
+            sudo-4675  [007] d.h1 13321.308978: __start_throttle: throttle at 13322227326192
+     kthrottle/7-145   [007] .... 13321.308984: throttle_thread: got an event
+     kthrottle/7-145   [007] d.h. 13321.309222: period_timer_callback_slave: slave at 7
+          <idle>-0     [002] d.h2 13321.309224: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [003] d.h2 13321.309225: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] d.h. 13321.309226: period_timer_callback_slave: ffff9e456b238000|New period 13319151.
+          <idle>-0     [001] d.h3 13321.309226: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h. 13321.309226: update_statistics: count==14782227,old_val==14778095,used==4132
+          <idle>-0     [005] d.h2 13321.309226: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13321.309227: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [006] d.h2 13321.309227: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/7-145   [007] d.h1 13321.309228: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/7-145   [007] .... 13321.309229: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.216529: __start_throttle: throttle at 13325135091999
+     kthrottle/6-144   [006] .... 13324.216535: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13324.217007: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13324.217010: period_timer_callback_slave: ffff9e456b238000|New period 13322059.
+          <idle>-0     [003] d.h2 13324.217010: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13324.217010: update_statistics: count==5647968,old_val==5646329,used==1639
+     kthrottle/6-144   [006] d.h1 13324.217013: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13324.217013: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13324.217014: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.217873: __start_throttle: throttle at 13325136436333
+     kthrottle/6-144   [006] .... 13324.217878: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13324.218007: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13324.218010: period_timer_callback_slave: ffff9e456b238000|New period 13322060.
+     kthrottle/6-144   [006] d.h. 13324.218010: update_statistics: count==5649614,old_val==5647968,used==1646
+     kthrottle/6-144   [006] d.h1 13324.218013: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13324.218014: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13324.218015: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.218319: __start_throttle: throttle at 13325136882289
+     kthrottle/6-144   [006] .... 13324.218322: throttle_thread: got an event
+          <idle>-0     [000] d.h2 13324.219006: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13324.219006: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13324.219009: period_timer_callback_slave: ffff9e456b238000|New period 13322061.
+          <idle>-0     [001] d.h3 13324.219010: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h. 13324.219010: update_statistics: count==5651262,old_val==5649614,used==1648
+          <idle>-0     [003] d.h2 13324.219011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13324.219011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13324.219012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13324.219012: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638          <idle>-0     [007] d.h2 13324.219013: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] .... 13324.219013: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.219159: __start_throttle: throttle at 13325137722764
+     kthrottle/6-144   [006] .... 13324.219162: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13324.220006: period_timer_callback_slave: slave at 6
+          <idle>-0     [003] d.h2 13324.220009: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13324.220010: period_timer_callback_slave: ffff9e456b238000|New period 13322062.
+     kthrottle/6-144   [006] d.h. 13324.220010: update_statistics: count==5652904,old_val==5651262,used==1642
+     kthrottle/6-144   [006] d.h1 13324.220013: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] .... 13324.220014: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.220258: __start_throttle: throttle at 13325138821036
+     kthrottle/6-144   [006] .... 13324.220260: throttle_thread: got an event
+          <idle>-0     [000] d.h2 13324.221006: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h. 13324.221006: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13324.221010: period_timer_callback_slave: ffff9e456b238000|New period 13322063.
+     kthrottle/6-144   [006] d.h. 13324.221010: update_statistics: count==5654543,old_val==5652904,used==1639
+          <idle>-0     [003] d.h2 13324.221011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13324.221012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13324.221012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13324.221013: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13324.221013: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] .... 13324.221014: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.221779: __start_throttle: throttle at 13325140342841
+     kthrottle/6-144   [006] .... 13324.221783: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13324.222006: period_timer_callback_slave: slave at 6
+     kthrottle/6-144   [006] d.h. 13324.222010: period_timer_callback_slave: ffff9e456b238000|New period 13322064.
+          <idle>-0     [001] d.h3 13324.222010: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h. 13324.222011: update_statistics: count==5656182,old_val==5654543,used==1639
+          <idle>-0     [005] d.h2 13324.222011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13324.222012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [004] d.h2 13324.222012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13324.222013: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] .... 13324.222014: throttle_thread: wait an event
+            sudo-4683  [006] d.h1 13324.222396: __start_throttle: throttle at 13325140959794
+     kthrottle/6-144   [006] .... 13324.222399: throttle_thread: got an event
+     kthrottle/6-144   [006] d.h. 13324.223006: period_timer_callback_slave: slave at 6
+          <idle>-0     [002] d.h2 13324.223009: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h. 13324.223010: period_timer_callback_slave: ffff9e456b238000|New period 13322065.
+          <idle>-0     [001] d.h3 13324.223010: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] d.h. 13324.223010: update_statistics: count==5657829,old_val==5656182,used==1647
+          <idle>-0     [004] d.h2 13324.223011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [005] d.h2 13324.223011: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128          <idle>-0     [007] d.h2 13324.223012: period_timer_callback_slave: cinfo->limit==4128,cinfo->budget==4128     kthrottle/6-144   [006] d.h1 13324.223012: period_timer_callback_slave: cinfo->limit==1638,cinfo->budget==1638     kthrottle/6-144   [006] .... 13324.223013: throttle_thread: wait an event
