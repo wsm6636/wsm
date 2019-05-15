@@ -1,0 +1,392 @@
+590 P1 [alloc_ctrl_page@litmus/ctrldev.c:28]: (blackscholes/3551:0) alloc_ctrl_page ctrl_page = ffff9df851057000
+591 P1 [map_ctrl_page@litmus/ctrldev.c:42]: (blackscholes/3551:0) litmus/ctrl: mapping ffff9df851057000 (pfn:f51057) to 0x7f1aca5bd000 (prot:8000000000000027)
+592 P1 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (blackscholes/3551:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+593 P5 [alloc_ctrl_page@litmus/ctrldev.c:28]: (dedup/3552:0) alloc_ctrl_page ctrl_page = ffff9df8573da000
+594 P5 [map_ctrl_page@litmus/ctrldev.c:42]: (dedup/3552:0) litmus/ctrl: mapping ffff9df8573da000 (pfn:f573da) to 0x7f4793901000 (prot:8000000000000027)
+595 P5 [litmus_ctrl_mmap@litmus/ctrldev.c:117]: (dedup/3552:0) litmus_ctrl_mmap flags=0x10162073 prot=0x8000000000000027
+596 P1 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3551.
+597 P5 [vprintk_emit@kernel/printk/printk.c:1854]: Setting up rt task parameters for process 3552.
+598 P1 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3551
+599 P1 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes/3551 (20000000, 200000000, 200000000) rel=41567420157533 to ready queue at 41567420158220
+600 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes/3551:1) linking to local CPU 1 to avoid IPI
+601 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes/3551:1) check preempt membudget==100
+602 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes/3551:1) get curbudget==84
+603 P1 [check_for_preemptions@litmus/sched_gsn_edf.c:350]: (blackscholes/3551:1) task budget100>cur_budget84
+604 P5 [gsnedf_task_new@litmus/sched_gsn_edf.c:634]: gsn edf: task new 3552
+605 P1 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (blackscholes/3551:1) ignoring an enqueue, not a wake up.
+606 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup/3552 (20000000, 100000000, 100000000) rel=41567420179067 to ready queue at 41567420179852
+607 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/3552:1) linking to local CPU 5 to avoid IPI
+608 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/3552:1) check preempt membudget==50
+609 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/3552:1) get curbudget==84
+610 P5 [enqueue_task_litmus@kernel/sched/litmus.c:214]: (dedup/3552:1) ignoring an enqueue, not a wake up.
+611 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup/3552:1) charged 5266 exec time (total:5266, rem:19994734)
+612 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup/3552:1) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=50Mb/s
+613 P5 [litmus_do_exit@litmus/litmus.c:615]: (dedup/3552:1) exiting, demoted to SCHED_FIFO
+614 P5 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup/3552:1) RIP
+615 P5 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (dedup/3552:1) ignoring a dequeue, not going to sleep.
+616 P5 [litmus_dealloc@litmus/litmus.c:622]: (dedup/3552:1) Deallocating real-time task data
+617 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3824247 exec time (total:3824247, rem:16175753)
+618 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (dedup/3552:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+619 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (dedup/3552:0) litmus/ctrl: 00007f4793901000:00007f4793902000 vma:ffff9df84b6e52c0 vma->vm_private_data:          (null) closed.
+620 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999731 exec time (total:7823978, rem:12176022)
+621 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999303 exec time (total:11823281, rem:8176719)
+622 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999877 exec time (total:15823158, rem:4176842)
+623 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999651 exec time (total:19822809, rem:177191)
+624 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999549 exec time (total:23822358, rem:0)
+625 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999838 exec time (total:27822196, rem:0)
+626 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999744 exec time (total:31821940, rem:0)
+627 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999505 exec time (total:35821445, rem:0)
+628 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999795 exec time (total:39821240, rem:0)
+629 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999549 exec time (total:43820789, rem:0)
+630 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999720 exec time (total:47820509, rem:0)
+631 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999727 exec time (total:51820236, rem:0)
+632 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999644 exec time (total:55819880, rem:0)
+633 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999686 exec time (total:59819566, rem:0)
+634 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999702 exec time (total:63819268, rem:0)
+635 P1 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes/3551:1) charged 3999746 exec time (total:67819014, rem:0)
+636 P1 [litmus_do_exit@litmus/litmus.c:615]: (blackscholes/3551:1) exiting, demoted to SCHED_FIFO
+637 P1 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes/3551:1) RIP
+638 P1 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (blackscholes/3551:1) ignoring a dequeue, not going to sleep.
+639 P1 [litmus_dealloc@litmus/litmus.c:622]: (blackscholes/3551:1) Deallocating real-time task data
+640 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (blackscholes/3551:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+641 P5 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (blackscholes/3551:0) litmus/ctrl: 00007f1aca5bd000:00007f1aca5be000 vma:ffff9df8e57912c0 vma->vm_private_data:          (null) closed.
+642 P5 [exit_litmus@litmus/litmus.c:600]: (dedup/3552:0) freeing ctrl_page ffff9df8573da000
+643 P3 [exit_litmus@litmus/litmus.c:600]: (blackscholes/3551:0) freeing ctrl_page ffff9df851057000
+1080 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 7rfkill: input handler enabled
+1081 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1082 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1083 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1084 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1085 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1086 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1087 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1088 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1089 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1090 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1091 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1092 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1093 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1094 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1095 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1096 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1097 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1098 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1099 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1100 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1101 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1102 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1103 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1104 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1105 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1106 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1107 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1108 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1109 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1110 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1111 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1112 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1113 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1114 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1115 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1116 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1117 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1118 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1119 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1120 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1121 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1122 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1123 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1124 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1125 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1126 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1127 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1128 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1129 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1130 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1131 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1132 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1133 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1134 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1135 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1136 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1137 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1138 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1139 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1140 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1141 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1142 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1143 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1144 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1145 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1146 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1147 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1148 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1149 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1150 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1151 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1152 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1153 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1154 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1155 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1156 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1157 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+1158 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 501.
+1159 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 502.
+1160 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 503.
+1161 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 504.
+1162 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 505.
+1163 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+1164 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+1165 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+1166 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+1167 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+1168 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+intk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 506.
+727 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 507.
+728 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 508.
+729 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 509.
+730 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 510.
+731 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Disabling feather-trace event 511.
+732 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+733 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+734 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+735 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+736 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+737 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+738 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+739 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 1Failed trace writes: 0
+740 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu5,input252
+741 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU5:New budget=4128 (252 Mb/s)
+742 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu1,input252
+743 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU1:New budget=4128 (252 Mb/s)
+744 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6perf: interrupt took too long (2550 > 2500), lowering kernel.perf_event_max_sample_rate to 78250
+745 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu5,input100
+746 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU5:New budget=1638 (100 Mb/s)
+747 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu5,input252
+748 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU5:New budget=4128 (252 Mb/s)
+749 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+750 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+751 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+752 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+753 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+754 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+755 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+756 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+757 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+758 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+759 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+760 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+761 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+762 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+763 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+764 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+765 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+766 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+767 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+768 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+769 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+770 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+771 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+772 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+773 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+774 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+775 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+776 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+777 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+778 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+779 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+780 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+781 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+782 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+783 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+784 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+785 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+786 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+787 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+788 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+789 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+790 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+791 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+792 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+793 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+794 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+795 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+796 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+797 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+798 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+799 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+800 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+801 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+802 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+803 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+804 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+805 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+806 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+807 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+808 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+809 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+810 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+811 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+812 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+813 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+814 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+815 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+816 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+817 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+818 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+819 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+820 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+821 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+822 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+823 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+824 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+825 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+826 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+827 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+828 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+829 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+830 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+831 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+832 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+833 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+834 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+835 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+836 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+837 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task dedup:5246 blocked for more than 120 seconds.
+838 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+839 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+840 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6dedup           D841 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  5246   5242 0x00000000
+842 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  0000000000000000843 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df7f8584d80844 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c11ea80845 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df82bcc8000846 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+847 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9df934d4bd00848 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffab934b82fb58849 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938bd526850 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000851 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+852 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  00ff9df934d48000853 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c11ea80854 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000855 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df82bcc8000856 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+857 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+858 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bd526>] ? __schedule+0x2a6/0x8a0
+859 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdb60>] schedule+0x40/0x90
+860 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdfb8>] schedule_preempt_disabled+0x18/0x30
+861 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfba1>] __mutex_lock_slowpath+0xa1/0x150
+862 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfc67>] mutex_lock+0x17/0x30
+863 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93596298>] misc_open+0x28/0x170
+864 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff932347f3>] chrdev_open+0xa3/0x1c0
+865 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322cbf9>] do_dentry_open+0x1c9/0x300
+866 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93234750>] ? cdev_put.part.0+0x20/0x20
+867 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e1cc>] vfs_open+0x4c/0x70
+868 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323b5eb>] ? may_open+0x9b/0x100
+869 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323f723>] path_openat+0x6c3/0x1660
+870 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff931ce883>] ? workingset_activation+0x53/0x70
+871 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93241983>] do_filp_open+0x93/0x100
+872 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c224a>] ? _raw_spin_unlock+0x1a/0x30
+873 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93250882>] ? __alloc_fd+0xb2/0x160
+874 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e6aa>] do_sys_open+0x1ba/0x250
+875 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e774>] SyS_openat+0x14/0x20
+876 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+877 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task fluidanimate:5247 blocked for more than 120 seconds.
+878 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+879 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+880 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6fluidanimate    D881 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  5247   5241 0x00000000
+882 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  0000000000000000883 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df8d6b69f00884 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c05ea80885 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df7f8565b80886 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+887 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9df934d4db80888 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffab934b967b58889 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938bd526890 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938c22c4891 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+892 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  00ffab934b967b48893 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c05ea80894 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000895 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df7f8565b80896 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+897 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+898 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bd526>] ? __schedule+0x2a6/0x8a0
+899 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c22c4>] ? _raw_spin_unlock_irqrestore+0x24/0x40
+900 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdb60>] schedule+0x40/0x90
+901 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdfb8>] schedule_preempt_disabled+0x18/0x30
+902 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfba1>] __mutex_lock_slowpath+0xa1/0x150
+903 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfc67>] mutex_lock+0x17/0x30
+904 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93596298>] misc_open+0x28/0x170
+905 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff932347f3>] chrdev_open+0xa3/0x1c0
+906 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322cbf9>] do_dentry_open+0x1c9/0x300
+907 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93234750>] ? cdev_put.part.0+0x20/0x20
+908 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e1cc>] vfs_open+0x4c/0x70
+909 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323b5eb>] ? may_open+0x9b/0x100
+910 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323f723>] path_openat+0x6c3/0x1660
+911 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff931ce883>] ? workingset_activation+0x53/0x70
+912 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93241983>] do_filp_open+0x93/0x100
+913 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c224a>] ? _raw_spin_unlock+0x1a/0x30
+914 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93250882>] ? __alloc_fd+0xb2/0x160
+915 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e6aa>] do_sys_open+0x1ba/0x250
+916 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e774>] SyS_openat+0x14/0x20
+917 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+918 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task streamcluster:5248 blocked for more than 120 seconds.
+919 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+920 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+921 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6streamcluster   D922 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  5248   5244 0x00000000
+923 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  0000000000000000924 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df81679d540925 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c11ea80926 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df900d6db80927 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+928 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9df934d4bd00929 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffab934b76fb58930 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938bd526931 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df900d6db80932 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+933 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  0000000000000046934 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c11ea80935 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000936 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df900d6db80937 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+938 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+939 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bd526>] ? __schedule+0x2a6/0x8a0
+940 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdb60>] schedule+0x40/0x90
+941 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdfb8>] schedule_preempt_disabled+0x18/0x30
+942 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfba1>] __mutex_lock_slowpath+0xa1/0x150
+943 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfc67>] mutex_lock+0x17/0x30
+944 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93596298>] misc_open+0x28/0x170
+945 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff932347f3>] chrdev_open+0xa3/0x1c0
+946 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322cbf9>] do_dentry_open+0x1c9/0x300
+947 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93234750>] ? cdev_put.part.0+0x20/0x20
+948 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e1cc>] vfs_open+0x4c/0x70
+949 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323b5eb>] ? may_open+0x9b/0x100
+950 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323f723>] path_openat+0x6c3/0x1660
+951 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff930af014>] ? preempt_count_add+0x74/0xc0
+952 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93241983>] do_filp_open+0x93/0x100
+953 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c224a>] ? _raw_spin_unlock+0x1a/0x30
+954 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93250882>] ? __alloc_fd+0xb2/0x160
+955 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e6aa>] do_sys_open+0x1ba/0x250
+956 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e774>] SyS_openat+0x14/0x20
+957 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+958 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task blackscholes:5249 blocked for more than 120 seconds.
+959 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+960 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+961 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6blackscholes    D962 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  5249   5243 0x00000000
+963 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  0000000000000000964 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df89c6a5d00965 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c19ea80966 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df831f70000967 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+968 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9df934d5db80969 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffab934b97bb58970 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938bd526971 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000972 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+973 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  00ff9df934d48000974 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c19ea80975 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 0000000000000000976 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df831f70000977 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+978 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+979 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bd526>] ? __schedule+0x2a6/0x8a0
+980 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdb60>] schedule+0x40/0x90
+981 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdfb8>] schedule_preempt_disabled+0x18/0x30
+982 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfba1>] __mutex_lock_slowpath+0xa1/0x150
+983 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfc67>] mutex_lock+0x17/0x30
+984 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93596298>] misc_open+0x28/0x170
+985 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff932347f3>] chrdev_open+0xa3/0x1c0
+986 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322cbf9>] do_dentry_open+0x1c9/0x300
+987 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93234750>] ? cdev_put.part.0+0x20/0x20
+988 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e1cc>] vfs_open+0x4c/0x70
+989 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323b5eb>] ? may_open+0x9b/0x100
+990 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323f723>] path_openat+0x6c3/0x1660
+991 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff931d455a>] ? alloc_set_pte+0x24a/0x5c0
+992 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff930af014>] ? preempt_count_add+0x74/0xc0
+993 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93241983>] do_filp_open+0x93/0x100
+994 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c224a>] ? _raw_spin_unlock+0x1a/0x30
+995 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93250882>] ? __alloc_fd+0xb2/0x160
+996 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e6aa>] do_sys_open+0x1ba/0x250
+997 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e774>] SyS_openat+0x14/0x20
+998 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+999 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task swaptions:5250 blocked for more than 120 seconds.
+1000 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+1001 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+1002 P4 [vprintk_emit@kernel/printk/printk.c:1854]: 6swaptions       D1003 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  5250   5245 0x00000000
+1004 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  00000000000000001005 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df865e2be001006 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c01ea801007 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df82bf3bd001008 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+1009 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  ffffffff93e0f5001010 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffab934b927b581011 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938bd5261012 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff938c22c41013 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+1014 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  00ffab934b927b481015 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df93c01ea801016 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c 00000000000000001017 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9df82bf3bd001018 P4 [vprintk_emit@kernel/printk/printk.c:1854]: c
+1019 P4 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+1020 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bd526>] ? __schedule+0x2a6/0x8a0
+1021 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c22c4>] ? _raw_spin_unlock_irqrestore+0x24/0x40
+1022 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdb60>] schedule+0x40/0x90
+1023 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bdfb8>] schedule_preempt_disabled+0x18/0x30
+1024 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfba1>] __mutex_lock_slowpath+0xa1/0x150
+1025 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938bfc67>] mutex_lock+0x17/0x30
+1026 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93596298>] misc_open+0x28/0x170
+1027 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff932347f3>] chrdev_open+0xa3/0x1c0
+1028 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322cbf9>] do_dentry_open+0x1c9/0x300
+1029 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93234750>] ? cdev_put.part.0+0x20/0x20
+1030 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e1cc>] vfs_open+0x4c/0x70
+1031 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323b5eb>] ? may_open+0x9b/0x100
+1032 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9323f723>] path_openat+0x6c3/0x1660
+1033 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff931ce883>] ? workingset_activation+0x53/0x70
+1034 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93241983>] do_filp_open+0x93/0x100
+1035 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c224a>] ? _raw_spin_unlock+0x1a/0x30
+1036 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff93250882>] ? __alloc_fd+0xb2/0x160
+1037 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e6aa>] do_sys_open+0x1ba/0x250
+1038 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff9322e774>] SyS_openat+0x14/0x20
+1039 P4 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff938c29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad

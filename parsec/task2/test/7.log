@@ -1,0 +1,1584 @@
+1510 P7 [alloc_ctrl_page@litmus/ctrldev.c:28]: (blackscholes1/3977:0) alloc_ctrl_page ctrl_page = ffff9276f24d0000
+1511 P7 [map_ctrl_page@litmus/ctrldev.c:42]: (blackscholes1/3977:0) litmus/ctrl: mapping ffff9276f24d0000 (pfn:f724d0state:130
+2508 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640280799748
+2509 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640280800656
+2510 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2511 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2512 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2513 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2514 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2515 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2516 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640280852911
+2517 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 53277 exec time (total:4106373, rem:15893627)
+2518 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2519 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2520 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2521 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640280989729
+2522 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640280990680
+2523 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2524 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2525 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2526 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2527 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2528 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2529 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640281046780
+2530 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 57108 exec time (total:4163481, rem:15836519)
+2531 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2532 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2533 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2534 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640281317382
+2535 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640281318329
+2536 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2537 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2538 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2539 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2540 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2541 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2542 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640281373983
+2543 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 56659 exec time (total:4220140, rem:15779860)
+2544 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2545 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2546 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2547 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640281540000
+2548 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640281540960
+2549 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2550 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2551 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2552 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2553 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2554 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2555 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640281599618
+2556 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 59670 exec time (total:4279810, rem:15720190)
+2557 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2558 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2559 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2560 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640282254857
+2561 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640282255757
+2562 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2563 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2564 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2565 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2566 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2567 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2568 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640282355551
+2569 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 100730 exec time (total:4380540, rem:15619460)
+2570 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2571 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2572 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2573 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640282794607
+2574 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640282795529
+2575 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2576 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2577 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2578 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2579 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2580 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2581 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640282847602
+2582 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 53054 exec time (total:4433594, rem:15566406)
+2583 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2584 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2585 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2586 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640282874045
+2587 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640282874957
+2588 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2589 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2590 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2591 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2592 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2593 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2594 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640282928145
+2595 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54160 exec time (total:4487754, rem:15512246)
+2596 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2597 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2598 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2599 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640283311926
+2600 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640283312842
+2601 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2602 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2603 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2604 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2605 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2606 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2607 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640283363620
+2608 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 51758 exec time (total:4539512, rem:15460488)
+2609 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2610 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2611 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2612 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640283485639
+2613 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640283486551
+2614 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2615 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2616 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2617 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2618 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2619 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2620 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640283545845
+2621 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 60268 exec time (total:4599780, rem:15400220)
+2622 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2623 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2624 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2625 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640283850240
+2626 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640283851132
+2627 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2628 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2629 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2630 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2631 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2632 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2633 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640283903110
+2634 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 52933 exec time (total:4652713, rem:15347287)
+2635 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2636 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2637 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:1) charged 3999322 exec time (total:12336653, rem:7663347)
+2638 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:1) charged 4001658 exec time (total:684695611, rem:0)
+2639 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2640 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640284023413
+2641 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640284024293
+2642 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2643 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2644 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2645 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2646 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2647 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2648 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640284077073
+2649 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 53646 exec time (total:4706359, rem:15293641)
+2650 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2651 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2652 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2653 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640284396127
+2654 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640284396986
+2655 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2656 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2657 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2658 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2659 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2660 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2661 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640284454414
+2662 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 58347 exec time (total:4764706, rem:15235294)
+2663 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2664 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2665 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2666 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640284561002
+2667 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640284561883
+2668 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2669 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2670 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2671 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2672 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2673 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2674 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640284613437
+2675 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 52500 exec time (total:4817206, rem:15182794)
+2676 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2677 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2678 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2679 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640284923161
+2680 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640284924113
+2681 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2682 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2683 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2684 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2685 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2686 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2687 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640284978093
+2688 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54994 exec time (total:4872200, rem:15127800)
+2689 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2690 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2691 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2692 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640285113776
+2693 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640285114636
+2694 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2695 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2696 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2697 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2698 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2699 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2700 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640285168305
+2701 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54590 exec time (total:4926790, rem:15073210)
+2702 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2703 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2704 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2705 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640285471835
+2706 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640285472747
+2707 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2708 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2709 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2710 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2711 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2712 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2713 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640285536472
+2714 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 64699 exec time (total:4991489, rem:15008511)
+2715 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2716 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2717 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2718 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640285640358
+2719 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640285641223
+2720 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2721 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2722 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2723 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2724 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2725 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2726 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640285699283
+2727 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 58985 exec time (total:5050474, rem:14949526)
+2728 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2729 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2730 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2731 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640286022573
+2732 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640286023474
+2733 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2734 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2735 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2736 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2737 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2738 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2739 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640286082214
+2740 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 59705 exec time (total:5110179, rem:14889821)
+2741 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2742 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2743 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2744 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640286180962
+2745 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640286181890
+2746 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2747 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2748 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2749 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2750 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2751 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2752 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640286240360
+2753 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 59413 exec time (total:5169592, rem:14830408)
+2754 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2755 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2756 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2757 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640286545686
+2758 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640286546641
+2759 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2760 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2761 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2762 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2763 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2764 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2765 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640286603305
+2766 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 57687 exec time (total:5227279, rem:14772721)
+2767 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2768 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2769 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2770 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640286758308
+2771 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640286759250
+2772 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2773 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2774 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2775 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2776 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2777 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2778 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640286812427
+2779 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54183 exec time (total:5281462, rem:14718538)
+2780 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2781 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2782 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2783 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640287087688
+2784 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640287088620
+2785 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2786 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2787 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2788 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2789 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2790 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2791 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640287145445
+2792 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 57828 exec time (total:5339290, rem:14660710)
+2793 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2794 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2795 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2796 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640287276653
+2797 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640287277586
+2798 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2799 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2800 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2801 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2802 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2803 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2804 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640287336846
+2805 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 60256 exec time (total:5399546, rem:14600454)
+2806 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2807 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2808 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2809 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640287633966
+2810 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640287634901
+2811 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2812 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2813 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2814 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2815 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2816 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2817 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640287688465
+2818 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54559 exec time (total:5454105, rem:14545895)
+2819 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2820 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2821 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2822 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640287824906
+2823 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640287825853
+2824 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2825 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2826 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2827 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2828 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2829 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2830 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640287882897
+2831 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 58048 exec time (total:5512153, rem:14487847)
+2832 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2833 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2834 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:1) charged 3999935 exec time (total:16336588, rem:3663412)
+2835 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:1) charged 3998004 exec time (total:688693615, rem:0)
+2836 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2837 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640288156762
+2838 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640288157735
+2839 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2840 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2841 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2842 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2843 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2844 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2845 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640288213128
+2846 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 56496 exec time (total:5568649, rem:14431351)
+2847 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2848 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2849 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2850 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640288422366
+2851 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640288423268
+2852 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2853 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2854 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2855 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2856 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2857 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2858 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640288475784
+2859 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 53480 exec time (total:5622129, rem:14377871)
+2860 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2861 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2862 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2863 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640288726057
+2864 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640288727005
+2865 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2866 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2867 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2868 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2869 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2870 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2871 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640288782880
+2872 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 56884 exec time (total:5679013, rem:14320987)
+2873 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2874 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2875 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2876 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640288946432
+2877 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640288947307
+2878 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2879 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2880 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2881 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2882 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2883 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2884 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640288998379
+2885 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 52005 exec time (total:5731018, rem:14268982)
+2886 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2887 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2888 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2889 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640289273526
+2890 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640289274433
+2891 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2892 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2893 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2894 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2895 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2896 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2897 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640289328695
+2898 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 55226 exec time (total:5786244, rem:14213756)
+2899 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2900 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2901 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2902 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640289485065
+2903 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640289485938
+2904 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2905 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2906 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2907 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2908 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2909 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2910 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640289547503
+2911 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 62496 exec time (total:5848740, rem:14151260)
+2912 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2913 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2914 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2915 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640289794951
+2916 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640289795851
+2917 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2918 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2919 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2920 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2921 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2922 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2923 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640289851861
+2924 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 56974 exec time (total:5905714, rem:14094286)
+2925 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2926 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2927 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2928 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640290036429
+2929 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640290037356
+2930 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2931 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2932 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2933 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2934 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2935 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2936 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640290091782
+2937 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 55411 exec time (total:5961125, rem:14038875)
+2938 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2939 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2940 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2941 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640290337364
+2942 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640290338233
+2943 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2944 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2945 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2946 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2947 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2948 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2949 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640290392898
+2950 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 55642 exec time (total:6016767, rem:13983233)
+2951 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2952 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2953 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2954 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640290562426
+2955 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640290563286
+2956 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2957 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2958 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+2959 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+2960 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+2961 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+2962 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640290617057
+2963 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54816 exec time (total:6071583, rem:13928417)
+2964 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+2965 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+2966 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+2967 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640290950904
+2968 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640290951776
+2969 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+2970 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+2971 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get409, rem:13305591)
+3111 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3112 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3113 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3114 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640294072845
+3115 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640294073759
+3116 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3117 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3118 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3119 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3120 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3121 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3122 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640294130062
+3123 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 57274 exec time (total:6751683, rem:13248317)
+3124 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3125 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3126 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3127 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640294443752
+3128 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640294444610
+3129 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3130 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3131 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3132 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3133 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3134 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3135 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640294502386
+3136 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 58696 exec time (total:6810379, rem:13189621)
+3137 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3138 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3139 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3140 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640294614736
+3141 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640294615597
+3142 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3143 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3144 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3145 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3146 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3147 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3148 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640294669056
+3149 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54385 exec time (total:6864764, rem:13135236)
+3150 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3151 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3152 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3153 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640294965962
+3154 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640294966837
+3155 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3156 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3157 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3158 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3159 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3160 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3161 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640295020825
+3162 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54921 exec time (total:6919685, rem:13080315)
+3163 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3164 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3165 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3166 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640295179186
+3167 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640295180043
+3168 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3169 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3170 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3171 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3172 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3173 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3174 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640295234145
+3175 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 55023 exec time (total:6974708, rem:13025292)
+3176 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3177 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3178 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3179 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640295504465
+3180 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640295505309
+3181 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3182 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3183 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3184 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3185 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3186 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3187 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640295558787
+3188 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54373 exec time (total:7029081, rem:12970919)
+3189 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3190 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3191 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3192 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640295701569
+3193 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640295702421
+3194 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3195 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3196 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3197 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3198 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3199 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3200 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640295755557
+3201 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54049 exec time (total:7083130, rem:12916870)
+3202 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3203 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3204 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:1) charged 3999589 exec time (total:24335977, rem:0)
+3205 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:1) charged 3999809 exec time (total:696693081, rem:0)
+3206 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3207 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640296045245
+3208 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640296046094
+3209 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3210 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3211 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3212 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3213 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3214 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3215 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640296099523
+3216 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54336 exec time (total:7137466, rem:12862534)
+3217 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3218 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3219 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3220 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640296241829
+3221 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640296242685
+3222 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3223 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3224 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3225 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3226 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3227 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3228 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640296296411
+3229 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 54641 exec time (total:7192107, rem:12807893)
+3230 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3231 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3232 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3233 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640296569435
+3234 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640296570297
+3235 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to avoid IPI
+3236 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:1) check preempt membudget==150
+3237 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:1) get curbudget==1080
+3238 P3 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:1) try_to_wake_up() done state:0
+3239 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/3/0:0) will be preempted by dedup2/3988
+3240 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup2/3988:1) scheduled_on = P3
+3241 P3 [gsnedf_task_block@litmus/sched_gsn_edf.c:687]: (dedup2/3988:1) block at 11640296622048
+3242 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 52672 exec time (total:7244779, rem:12755221)
+3243 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:1) blocks:1 out_of_time:0 np:0 sleep:0 preempt:1 state:130 sig:0,membudget=150Mb/s
+3244 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (dedup2/3988:1) scheduled_on = NO_CPU
+3245 P3 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:1) try_to_wake_up() state:130
+3246 P3 [gsnedf_task_wake_up@litmus/sched_gsn_edf.c:672]: (dedup2/3988:1) wake_up at 11640296788544
+3247 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11640271713016 to ready queue at 11640296789414
+3248 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:1) linking to local CPU 3 to 3664 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999778 exec time (total:200265594, rem:0)
+3666 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999748 exec time (total:408718333, rem:0)
+3665 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999847 exec time (total:477839057, rem:0)
+3667 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999680 exec time (total:204265274, rem:0)
+3669 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999548 exec time (total:412717881, rem:0)
+3668 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999681 exec time (total:481838738, rem:0)
+3670 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999674 exec time (total:208264948, rem:0)
+3672 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999699 exec time (total:416717580, rem:0)
+3671 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999728 exec time (total:485838466, rem:0)
+3673 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999849 exec time (total:212264797, rem:0)
+3675 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999886 exec time (total:420717466, rem:0)
+3674 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999442 exec time (total:489837908, rem:0)
+3676 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999591 exec time (total:216264388, rem:0)
+3678 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999605 exec time (total:424717071, rem:0)
+3677 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999936 exec time (total:493837844, rem:0)
+3679 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999772 exec time (total:220264160, rem:0)
+3681 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999837 exec time (total:428716908, rem:0)
+3680 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999618 exec time (total:497837462, rem:0)
+3682 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999780 exec time (total:224263940, rem:0)
+3684 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999582 exec time (total:432716490, rem:0)
+3683 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999711 exec time (total:501837173, rem:0)
+3685 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999625 exec time (total:228263565, rem:0)
+3686 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999766 exec time (total:436716256, rem:0)
+3687 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 4000585 exec time (total:505837758, rem:0)
+3688 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999782 exec time (total:232263347, rem:0)
+3690 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999685 exec time (total:440715941, rem:0)
+3689 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999103 exec time (total:509836861, rem:0)
+3691 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999700 exec time (total:236263047, rem:0)
+3693 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999888 exec time (total:444715829, rem:0)
+3692 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999598 exec time (total:513836459, rem:0)
+3694 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999684 exec time (total:240262731, rem:0)
+3696 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999566 exec time (total:448715395, rem:0)
+3695 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999760 exec time (total:517836219, rem:0)
+3697 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999794 exec time (total:244262525, rem:0)
+3699 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999655 exec time (total:452715050, rem:0)
+3698 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999466 exec time (total:521835685, rem:0)
+3700 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999638 exec time (total:248262163, rem:0)
+3702 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999942 exec time (total:456714992, rem:0)
+3701 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999955 exec time (total:525835640, rem:0)
+3703 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999716 exec time (total:252261879, rem:0)
+3705 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999503 exec time (total:460714495, rem:0)
+3704 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999558 exec time (total:529835198, rem:0)
+3706 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999678 exec time (total:256261557, rem:0)
+3708 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999770 exec time (total:464714265, rem:0)
+3707 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999783 exec time (total:533834981, rem:0)
+3709 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999793 exec time (total:260261350, rem:0)
+3711 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999862 exec time (total:468714127, rem:0)
+3710 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999727 exec time (total:537834708, rem:0)
+3712 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999813 exec time (total:264261163, rem:0)
+3714 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999501 exec time (total:472713628, rem:0)
+3713 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:1) charged 3999791 exec time (total:541834499, rem:0)
+3715 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/3987:2) charged 3999543 exec time (total:268260706, rem:0)
+3717 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:2) charged 3999865 exec time4036 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999825 exec time (total:97559386, rem:0)
+4035 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999607 exec time (total:186912751, rem:0)
+4038 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999692 exec time (total:101559078, rem:0)
+4037 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999795 exec time (total:190912546, rem:0)
+4040 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999789 exec time (total:105558867, rem:0)
+4039 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999755 exec time (total:194912301, rem:0)
+4042 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999512 exec time (total:109558379, rem:0)
+4041 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999626 exec time (total:198911927, rem:0)
+4044 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 4000032 exec time (total:113558411, rem:0)
+4043 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999881 exec time (total:202911808, rem:0)
+4046 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999582 exec time (total:117557993, rem:0)
+4045 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999545 exec time (total:206911353, rem:0)
+4048 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999566 exec time (total:121557559, rem:0)
+4047 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999789 exec time (total:210911142, rem:0)
+4050 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999843 exec time (total:125557402, rem:0)
+4049 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999720 exec time (total:214910862, rem:0)
+4052 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999555 exec time (total:129556957, rem:0)
+4051 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999674 exec time (total:218910536, rem:0)
+4054 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999908 exec time (total:133556865, rem:0)
+4053 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999751 exec time (total:222910287, rem:0)
+4056 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999708 exec time (total:137556573, rem:0)
+4055 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999768 exec time (total:226910055, rem:0)
+4058 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999510 exec time (total:141556083, rem:0)
+4057 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999622 exec time (total:230909677, rem:0)
+4060 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999827 exec time (total:145555910, rem:0)
+4059 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999786 exec time (total:234909463, rem:0)
+4062 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999811 exec time (total:149555721, rem:0)
+4061 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999724 exec time (total:238909187, rem:0)
+4064 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999620 exec time (total:153555341, rem:0)
+4063 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999703 exec time (total:242908890, rem:0)
+4066 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999891 exec time (total:157555232, rem:0)
+4065 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999727 exec time (total:246908617, rem:0)
+4068 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999627 exec time (total:161554859, rem:0)
+4067 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999651 exec time (total:250908268, rem:0)
+4070 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999588 exec time (total:165554447, rem:0)
+4069 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999806 exec time (total:254908074, rem:0)
+4072 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999852 exec time (total:169554299, rem:0)
+4071 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999593 exec time (total:258907667, rem:0)
+4074 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999574 exec time (total:173553873, rem:0)
+4073 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999770 exec time (total:262907437, rem:0)
+4076 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999825 exec time (total:177553698, rem:0)
+4075 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999771 exec time (total:266907208, rem:0)
+4078 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999714 exec time (total:181553412, rem:0)
+4077 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999654 exec time (total:270906862, rem:0)
+4080 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999624 exec time (total:185553036, rem:0)
+4079 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999752 exec time (total:274906614, rem:0)
+4082 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999774 exec time (total:189552810, rem:0)
+4081 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999603 exec time (total:278906217, rem:0)
+4084 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999806 exec time (total:193552616, rem:0)
+4083 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999861 exec time (total:282906078, rem:0)
+4086 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999642 exec time (total:197552258, rem:0)
+4085 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999694 exec time (total:286905772, rem:0)
+4088 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999871 exec time (total:201552129, rem:0)
+4087 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999663 exec time (total:290905435, rem:0)
+4090 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999488 exec time (total:205551617, rem:0)
+4089 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999740 exec time (total:294905175, rem:0)
+4092 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999637 exec time (total:209551254, rem:0)
+4091 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999607 exec time (total:298904782, rem:0)
+4094 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999862 exec time (total:213551116, rem:0)
+4093 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999854 exec time (total:302904636, rem:0)
+4096 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999601 exec time (total:217550717, rem:0)
+4095 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999667 exec time (total:306904303, rem:0)
+4097 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999731 exec time (total:221550448, rem:0)
+4098 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 4000358 exec time (total:310904661, rem:0)
+4100 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999832 exec time (total:225550280, rem:0)
+4099 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999039 exec time (total:314903700, rem:0)
+4102 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999822 exec time (total:229550102, rem:0)
+4101 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999783 exec time (total:318903483, rem:0)
+4104 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999475 exec time (total:233549577, rem:0)
+4103 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999660 exec time (total:322903143, rem:0)
+4105 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999596 exec time (total:326902739, rem:0)
+4106 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999866 exec time (total:237549443, rem:0)
+4108 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999728 exec time (total:241549171, rem:0)
+4107 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999823 exec time (total:330902562, rem:0)
+4110 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999731 exec time (total:245548902, rem:0)
+4109 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999727 exec time (total:334902289, rem:0)
+4112 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999716 exec time (total:249548618, rem:0)
+4111 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999826 exec time (total:338902115, rem:0)
+4114 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999693 exec time (total:253548311, rem:0)
+4113 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999670 exec time (total:342901785, rem:0)
+4116 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999622 exec time (total:257547933, rem:0)
+4115 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999686 exec time (total:346901471, rem:0)
+4118 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999680 exec time (total:261547613, rem:0)
+4117 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999686 exec time (total:350901157, rem:0)
+4120 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999765 exec time (total:265547378, rem:0)
+4119 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999805 exec time (total:354900962, rem:0)
+4122 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999727 exec time (total:269547105, rem:0)
+4121 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999662 exec time (total:358900624, rem:0)
+4124 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999830 exec time (total:273546935, rem:0)
+4123 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999709 exec time (total:362900333, rem:0)
+4126 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999611 exec time (total:277546546, rem:0)
+4125 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999723 exec time (total:366900056, rem:0)
+4128 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999873 exec time (total:281546419, rem:0)
+4127 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999742 exec time (total:370899798, rem:0)
+4130 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999599 exec time (total:285546018, rem:0)
+4129 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999708 exec time (total:374899506, rem:0)
+4132 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999834 exec time (total:289545852, rem:0)
+4131 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999587 exec time (total:378899093, rem:0)
+4134 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999487 exec time (total:293545339, rem:0)
+4133 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999792 exec time (total:382898885, rem:0)
+4136 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999716 exec time (total:297545055, rem:0)
+4135 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999702 exec time (total:386898587, rem:0)
+4138 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999764 exec time (total:301544819, rem:0)
+4137 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999715 exec time (total:390898302, rem:0)
+4140 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999661 exec time (total:305544480, rem:0)
+4139 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999701 exec time (total:394898003, rem:0)
+4142 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999720 exec time (total:309544200, rem:0)
+4141 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999668 exec time (total:398897671, rem:0)
+4144 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999847 exec time (total:313544047, rem:0)
+4143 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999807 exec time (total:402897478, rem:0)
+4146 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999615 exec time (total:317543662, rem:0)
+4145 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999658 exec time (total:406897136, rem:0)
+4148 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999569 exec time (total:321543231, rem:0)
+4147 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999782 exec time (total:410896918, rem:0)
+4150 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999866 exec time (total:325543097, rem:0)
+4149 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999766 exec time (total:414896684, rem:0)
+4152 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999701 exec time (total:329542798, rem:0)
+4151 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999700 exec time (total:418896384, rem:0)
+4154 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999786 exec time (total:333542584, rem:0)
+4153 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999727 exec time (total:422896111, rem:0)
+4156 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999623 exec time (total:337542207, rem:0)
+4155 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999641 exec time (total:426895752, rem:0)
+4158 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999788 exec time (total:341541995, rem:0)
+4157 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999726 exec time (total:430895478, rem:0)
+4160 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999646 exec time (total:345541641, rem:0)
+4159 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999623 exec time (total:434895101, rem:0)
+4162 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999829 exec time (total:349541470, rem:0)
+4161 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999934 exec time (total:438895035, rem:0)
+4164 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999665 exec time (total:353541135, rem:0)
+4163 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999668 exec time (total:442894703, rem:0)
+4166 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999608 exec time (total:357540743, rem:0)
+4165 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999579 exec time (total:446894282, rem:0)
+4168 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999863 exec time (total:361540606, rem:0)
+4167 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999778 exec time (total:450894060, rem:0)
+4169 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999673 exec time (total:365540279, rem:0)
+4170 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 4000534 exec time (total:454894594, rem:0)
+4172 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999670 exec time (total:369539949, rem:0)
+4171 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3998855 exec time (total:458893449, rem:0)
+4174 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999797 exec time (total:373539746, rem:0)
+4173 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999756 exec time (total:462893205, rem:0)
+4176 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999688 exec time (total:377539434, rem:0)
+4175 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999685 exec time (total:466892890, rem:0)
+4178 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999777 exec time (total:381539211, rem:0)
+4177 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999755 exec time (total:470892645, rem:0)
+4180 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999555 exec time (total:385538766, rem:0)
+4179 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999740 exec time (total:474892385, rem:0)
+4181 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999562 exec time (total:478891947, rem:0)
+4182 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999806 exec time (total:389538572, rem:0)
+4184 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999692 exec time (total:393538264, rem:0)
+4183 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999802 exec time (total:482891749, rem:0)
+4186 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999746 exec time (total:397538010, rem:0)
+4185 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999865 exec time (total:486891614, rem:0)
+4187 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 4000439 exec time (total:401538449, rem:0)
+4188 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 4000743 exec time (total:490892357, rem:0)
+4189 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999637 exec time (total:405538086, rem:0)
+4190 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999538 exec time (total:494891895, rem:0)
+4191 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999342 exec time (total:498891237, rem:0)
+4192 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999688 exec time (total:409537774, rem:0)
+4193 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999913 exec time (total:413537687, rem:0)
+4194 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 4000492 exec time (total:502891729, rem:0)
+4195 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999148 exec time (total:506890877, rem:0)
+4196 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999726 exec time (total:417537413, rem:0)
+4198 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999919 exec time (total:510890796, rem:0)
+4197 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999541 exec time (total:421536954, rem:0)
+4199 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999463 exec time (total:514890259, rem:0)
+4200 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999963 exec time (total:425536917, rem:0)
+4201 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999433 exec time (total:518889692, rem:0)
+4202 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999378 exec time (total:429536295, rem:0)
+4203 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999589 exec time (total:522889281, rem:0)
+4204 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999364 exec time (total:433535659, rem:0)
+4205 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999308 exec time (total:526888589, rem:0)
+4206 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999512 exec time (total:437535171, rem:0)
+4207 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3999784 exec time (total:530888373, rem:0)
+4208 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999555 exec time (total:441534726, rem:0)
+4209 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999949 exec time (total:445534675, rem:0)
+4210 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 4000861 exec time (total:534889234, rem:0)
+4211 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999662 exec time (total:449534337, rem:0)
+4212 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 3998961 exec time (total:538888195, rem:0)
+4213 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (dedup2/3988:3) try_to_wake_up() state:0
+4214 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (dedup2/3988:3) try_to_wake_up() done state:0
+4215 P3 [complete_job@litmus/jobs.c:104]: (dedup2/3988:3) job completion indicated at 11641570100253
+4216 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:3) charged 2101168 exec time (total:540989363, rem:0)
+4217 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=150Mb/s
+4218 P3 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup2/3988:3) job_completion(forced=0).
+4219 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11641074747493 to ready queue at 11641570110266
+4220 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:4) linking to local CPU 3 to avoid IPI
+4221 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:4) check preempt membudget==150
+4222 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:4) get curbudget==1150
+4223 P3 [complete_job@litmus/jobs.c:104]: (dedup2/3988:4) job completion indicated at 11641570125407
+4224 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/3988:4) charged 9341 exec time (total:9341, rem:19990659)
+4225 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/3988:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=150Mb/s
+4226 P3 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup2/3988:4) job_completion(forced=0).
+4227 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/3988 (20000000, 50000000, 150000000) rel=11641124747493 to ready queue at 11641570131814
+4228 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/3988:5) linking to local CPU 3 to avoid IPI
+4229 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/3988:5) check preempt membudget==150
+4230 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/3988:5) get curbudget==1150
+4231 P3 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup2/3988:5) RIP
+4232 P3 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (dedup2/3988:5) ignoring a dequeue, not going to sleep.
+4233 P3 [litmus_dealloc@litmus/litmus.c:622]: (dedup2/3988:5) Deallocating real-time task data
+4234 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999877 exec time (total:453534214, rem:0)
+4235 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999583 exec time (total:457533797, rem:0)
+4236 P3 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (dedup2/3988:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+4237 P3 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (dedup2/3988:0) litmus/ctrl: 00007f2ab3e62000:00007f2ab3e63000 vma:ffff9276f260b5c0 vma->vm_private_data:          (null) closed.
+4238 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999839 exec time (total:461533636, rem:0)
+4239 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999634 exec time (total:465533270, rem:0)
+4240 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999577 exec time (total:469532847, rem:0)
+4241 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999602 exec time (total:473532449, rem:0)
+4242 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 4000072 exec time (total:477532521, rem:0)
+4243 P5 [exit_litmus@litmus/litmus.c:600]: (dedup2/3988:0) freeing ctrl_page ffff9276f2cbf000
+4244 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999669 exec time (total:481532190, rem:0)
+4245 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999725 exec time (total:485531915, rem:0)
+4246 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999730 exec time (total:489531645, rem:0)
+4247 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999622 exec time (total:493531267, rem:0)
+4248 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999940 exec time (total:497531207, rem:0)
+4249 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999443 exec time (total:501530650, rem:0)
+4250 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999522 exec time (total:505530172, rem:0)
+4251 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 4000043 exec time (total:509530215, rem:0)
+4252 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999455 exec time (total:513529670, rem:0)
+4253 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999877 exec time (total:517529547, rem:0)
+4254 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999669 exec time (total:521529216, rem:0)
+4255 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999621 exec time (total:525528837, rem:0)
+4256 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999716 exec time (total:529528553, rem:0)
+4257 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 4000056 exec time (total:533528609, rem:0)
+4258 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999324 exec time (total:537527933, rem:0)
+4259 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:3) charged 3999881 exec time (total:541527814, rem:0)
+4496 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999611 exec time (total:683889344, rem:0)
+4497 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999663 exec time (total:687889007, rem:0)
+4498 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999853 exec time (total:691888860, rem:0)
+4499 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999637 exec time (total:695888497, rem:0)
+4500 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999614 exec time (total:699888111, rem:0)
+4501 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999943 exec time (total:703888054, rem:0)
+4502 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999561 exec time (total:707887615, rem:0)
+4503 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999676 exec time (total:711887291, rem:0)
+4504 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999771 exec time (total:715887062, rem:0)
+4505 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999753 exec time (total:719886815, rem:0)
+4506 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999695 exec time (total:723886510, rem:0)
+4507 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999679 exec time (total:727886189, rem:0)
+4508 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999478 exec time (total:731885667, rem:0)
+4509 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999916 exec time (total:735885583, rem:0)
+4510 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999765 exec time (total:739885348, rem:0)
+4511 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999718 exec time (total:743885066, rem:0)
+4512 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999742 exec time (total:747884808, rem:0)
+4513 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3999932 exec time (total:751884740, rem:0)
+4514 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 3977608 exec time (total:755862348, rem:0)
+4515 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3978:4) blocks:0 out_of_time:0 np:0 sleep:0 preempt:0 state:0 sig:0,membudget=190Mb/s
+4516 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 18152 exec time (total:755880500, rem:0)
+4517 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3978:4) try_to_wake_up() state:0
+4518 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3978:4) try_to_wake_up() done state:0
+4519 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3978:4) try_to_wake_up() state:0
+4520 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3978:4) try_to_wake_up() done state:0
+4521 P4 [try_to_wake_up@kernel/sched/core.c:2040]: (swaptions/3978:4) try_to_wake_up() state:0
+4522 P4 [try_to_wake_up@kernel/sched/core.c:2137]: (swaptions/3978:4) try_to_wake_up() done state:0
+4523 P0 [complete_job@litmus/jobs.c:104]: (swaptions/3978:4) job completion indicated at 11642634056140
+4524 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:4) charged 2056298 exec time (total:757936798, rem:0)
+4525 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3978:4) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=190Mb/s
+4526 P0 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3978:4) job_completion(forced=0).
+4527 P0 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3978 (20000000, 600000000, 600000000) rel=11641999242218 to ready queue at 11642634063616
+4528 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3978:5) linking to local CPU 0 to avoid IPI
+4529 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3978:5) check preempt membudget==190
+4530 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3978:5) get curbudget==1240
+4531 P0 [complete_job@litmus/jobs.c:104]: (swaptions/3978:5) job completion indicated at 11642634074699
+4532 P0 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/3978:5) charged 5436 exec time (total:5436, rem:19994564)
+4533 P0 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/3978:5) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=190Mb/s
+4534 P0 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/3978:5) job_completion(forced=0).
+4535 P0 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/3978 (20000000, 600000000, 600000000) rel=11642599242218 to ready queue at 11642634080693
+4536 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/3978:6) linking to local CPU 0 to avoid IPI
+4537 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/3978:6) check preempt membudget==190
+4538 P0 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/3978:6) get curbudget==1240
+4539 P0 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (swaptions/3978:6) RIP
+4540 P0 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (swaptions/3978:6) ignoring a dequeue, not going to sleep.
+4541 P0 [litmus_dealloc@litmus/litmus.c:622]: (swaptions/3978:6) Deallocating real-time task data
+4542 P0 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (swaptions/3978:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+4543 P0 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (swaptions/3978:0) litmus/ctrl: 00007fbb79cb7000:00007fbb79cb8000 vma:ffff9277027c8780 vma->vm_private_data:          (null) closed.
+4544 P2 [exit_litmus@litmus/litmus.c:600]: (swaptions/3978:0) freeing ctrl_page ffff9276f2632000
+4641 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task fluidanimate:3984 blocked for more than 120 seconds.
+4642 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+4643 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+4644 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6fluidanimate    D4645 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  3984   3971 0x00000000
+4646 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  00000000000000004647 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277a71aec804648 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277bc11ea804649 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9276fc8900004650 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+4651 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9277b4d4db804652 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb2afad04653 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff8ecbd5264654 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb2afdf04655 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+4656 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  00ffa982cb2afaa84657 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277bc11ea804658 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb5c7bd84659 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9276fc8900004660 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+4661 P3 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+4662 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecbd526>] ? __schedule+0x2a6/0x8a0
+4663 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecbdb60>] schedule+0x40/0x90
+4664 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e64b9fe>] d_alloc_parallel+0x47e/0x5d0
+4665 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4b3150>] ? wake_up_q+0x80/0x80
+4666 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63c342>] lookup_slow+0x82/0x180
+4667 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63d082>] walk_component+0x1d2/0x320
+4668 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63b0b8>] ? __inode_permission+0x48/0xc0
+4669 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63e87c>] link_path_walk+0x1bc/0x590
+4670 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e7bae83>] ? apparmor_file_alloc_security+0x23/0x40
+4671 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63f164>] path_openat+0x104/0x1660
+4672 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4af014>] ? preempt_count_add+0x74/0xc0
+4673 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc28ea>] ? _raw_spin_lock_irqsave+0x2a/0x55
+4674 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc22c4>] ? _raw_spin_unlock_irqrestore+0x24/0x40
+4675 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4ca7c4>] ? __wake_up+0x44/0x50
+4676 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e641983>] do_filp_open+0x93/0x100
+4677 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc224a>] ? _raw_spin_unlock+0x1a/0x30
+4678 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e650882>] ? __alloc_fd+0xb2/0x160
+4679 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e62e6aa>] do_sys_open+0x1ba/0x250
+4680 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e62e774>] SyS_openat+0x14/0x20
+4681 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+4811 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4812 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4813 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4814 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4815 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4816 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4817 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4818 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4819 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4820 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4821 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4822 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4823 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4824 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4825 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4826 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4827 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4828 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4829 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4830 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4831 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4832 P7 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4833 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4834 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4835 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4836 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4837 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4838 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4839 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4840 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4841 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4842 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4843 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4844 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4845 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4846 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4847 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4848 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4849 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4850 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4851 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4852 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4853 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4854 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4855 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4856 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4857 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4858 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4859 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4860 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4861 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4862 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4863 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4864 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4865 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4866 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4867 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4868 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4869 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4870 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4871 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4872 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4873 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4874 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4875 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4876 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4877 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4878 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4879 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4880 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4881 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4882 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4883 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4884 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4885 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4886 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4887 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4888 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+4889 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+4890 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+4891 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+4892 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+4893 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+4894 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+4895 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+4896 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+4897 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+4898 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+4900 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 7sched_trace kfifo with buffer starting at: 0xffffffff8f2ed078
+5544 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup/4163:4) linking to local CPU 2 to avoid IPI
+5545 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup/4163:4) check preempt membudget==130
+5546 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup/4163:4) get curbudget==1240
+5547 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/2/0:0) will be preempted by dedup/4163
+5548 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (dedup/4163:4) scheduled_on = P2
+5549 P2 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (dedup/4163:4) RIP
+5550 P2 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (dedup/4163:4) ignoring a dequeue, not going to sleep.
+5551 P2 [litmus_dealloc@litmus/litmus.c:622]: (dedup/4163:4) Deallocating real-time task data
+5552 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999811 exec time (total:451846402, rem:0)
+5553 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (dedup/4163:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+5554 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (dedup/4163:0) litmus/ctrl: 00007faa597de000:00007faa597df000 vma:ffff9276ecb82180 vma->vm_private_data:          (null) closed.
+5555 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999852 exec time (total:455846254, rem:0)
+5556 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999526 exec time (total:459845780, rem:0)
+5557 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999637 exec time (total:463845417, rem:0)
+5558 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999873 exec time (total:467845290, rem:0)
+5559 P1 [exit_litmus@litmus/litmus.c:600]: (dedup/4163:0) freeing ctrl_page ffff927715d67000
+5560 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999627 exec time (total:471844917, rem:0)
+5561 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999650 exec time (total:475844567, rem:0)
+5562 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999665 exec time (total:479844232, rem:0)
+5563 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999846 exec time (total:483844078, rem:0)
+5564 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999619 exec time (total:487843697, rem:0)
+5565 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999798 exec time (total:491843495, rem:0)
+5566 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999636 exec time (total:495843131, rem:0)
+5567 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999703 exec time (total:499842834, rem:0)
+5568 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999687 exec time (total:503842521, rem:0)
+5569 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999779 exec time (total:507842300, rem:0)
+5570 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999667 exec time (total:511841967, rem:0)
+5571 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999643 exec time (total:515841610, rem:0)
+5572 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999642 exec time (total:519841252, rem:0)
+5573 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999775 exec time (total:523841027, rem:0)
+5574 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999841 exec time (total:527840868, rem:0)
+5575 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999559 exec time (total:531840427, rem:0)
+5576 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999691 exec time (total:535840118, rem:0)
+5577 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999720 exec time (total:539839838, rem:0)
+5578 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999769 exec time (total:543839607, rem:0)
+5579 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999691 exec time (total:547839298, rem:0)
+5580 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster1/4160:6) linking to local CPU 7 to avoid IPI
+5581 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster1/4160:6) check preempt membudget==180
+5582 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster1/4160:6) get curbudget==1240
+5583 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/7/0:0) will be preempted by streamcluster1/4160
+5584 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster1/4160:6) scheduled_on = P7
+5585 P7 [complete_job@litmus/jobs.c:104]: (streamcluster1/4160:6) job completion indicated at 12062882144153
+5586 P7 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster1/4160:6) charged 13691 exec time (total:13691, rem:19986309)
+5587 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster1/4160:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=180Mb/s
+5588 P7 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster1/4160:6) job_completion(forced=0).
+5589 P7 [__add_release@litmus/rt_domain.c:346]: (streamcluster1/4160:7) add_release(), rel=12062992121747
+5590 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster1/4160:7) scheduled_on = NO_CPU
+5591 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/4164:6) linking to local CPU 6 to avoid IPI
+5592 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/4164:6) check preempt membudget==170
+5593 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/4164:6) get curbudget==1240
+5594 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (gnome-terminal-/2005:0) will be preempted by streamcluster/4164
+5595 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/4164:6) scheduled_on = P6
+5596 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/4164:6) job completion indicated at 12062882182954
+5597 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/4164:6) charged 18730 exec time (total:18730, rem:19981270)
+5598 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/4164:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=170Mb/s
+5599 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/4164:6) job_completion(forced=0).
+5600 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/4164:7) add_release(), rel=12062992154956
+5601 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/4164:7) scheduled_on = NO_CPU
+5602 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999664 exec time (total:551838962, rem:0)
+5603 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999748 exec time (total:555838710, rem:0)
+5604 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999712 exec time (total:559838422, rem:0)
+5605 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999691 exec time (total:563838113, rem:0)
+5606 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999635 exec time (total:567837748, rem:0)
+5607 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999803 exec time (total:571837551, rem:0)
+5608 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999667 exec time (total:575837218, rem:0)
+5609 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999727 exec time (total:579836945, rem:0)
+5610 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999763 exec time (total:583836708, rem:0)
+5611 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999590 exec time (total:587836298, rem:0)
+5612 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999772 exec time (total:591836070, rem:0)
+5613 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999703 exec time (total:595835773, rem:0)
+5614 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999589 exec time (total:599835362, rem:0)
+5615 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999849 exec time (total:603835211, rem:0)
+5616 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999649 exec time (total:607834860, rem:0)
+5617 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999734 exec time (total:611834594, rem:0)
+5618 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999684 exec time (total:615834278, rem:0)
+5619 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999692 exec time (total:619833970, rem:0)
+5620 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999795 exec time (total:623833765, rem:0)
+5621 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999579 exec time (total:627833344, rem:0)
+5622 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999740 exec time (total:631833084, rem:0)
+5623 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999737 exec time (total:635832821, rem:0)
+5624 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999714 exec time (total:639832535, rem:0)
+5625 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999769 exec time (total:643832304, rem:0)
+5626 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999555 exec time (total:647831859, rem:0)
+5627 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999799 exec time (total:651831658, rem:0)
+5628 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999716 exec time (total:655831374, rem:0)
+5629 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999714 exec time (total:659831088, rem:0)
+5630 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster1/4160:7) linking to local CPU 7 to avoid IPI
+5631 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster1/4160:7) check preempt membudget==180
+5632 P7 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster1/4160:7) get curbudget==1240
+5633 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/7/0:0) will be preempted by streamcluster1/4160
+5634 P7 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster1/4160:7) scheduled_on = P7
+5635 P7 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (streamcluster1/4160:7) RIP
+5636 P7 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (streamcluster1/4160:7) ignoring a dequeue, not going to sleep.
+5637 P7 [litmus_dealloc@litmus/litmus.c:622]: (streamcluster1/4160:7) Deallocating real-time task data
+5638 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/4164:7) linking to local CPU 6 to avoid IPI
+5639 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/4164:7) check preempt membudget==170
+5640 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/4164:7) get curbudget==1240
+5641 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (gnome-terminal-/2005:0) will be preempted by streamcluster/4164
+5642 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/4164:7) scheduled_on = P6
+5643 P6 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (streamcluster/4164:7) RIP
+5644 P6 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (streamcluster/4164:7) ignoring a dequeue, not going to sleep.
+5645 P6 [litmus_dealloc@litmus/litmus.c:622]: (streamcluster/4164:7) Deallocating real-time task data
+5646 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999691 exec time (total:663830779, rem:0)
+5647 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (streamcluster/4164:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+5648 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (streamcluster/4164:0) litmus/ctrl: 00007ff420060000:00007ff420061000 vma:ffff9276eb79f380 vma->vm_private_data:          (null) closed.
+5649 P7 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (streamcluster1/4160:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+5650 P7 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (streamcluster1/4160:0) litmus/ctrl: 00007f4df5a85000:00007f4df5a86000 vma:ffff9276f1194a80 vma->vm_private_data:          (null) closed.
+5651 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 4000153 exec time (total:667830932, rem:0)
+5652 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999322 exec time (total:671830254, rem:0)
+5653 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999585 exec time (total:675829839, rem:0)
+5654 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999885 exec time (total:679829724, rem:0)
+5655 P6 [exit_litmus@litmus/litmus.c:600]: (streamcluster/4164:0) freeing ctrl_page ffff9276ecab3000
+5656 P0 [exit_litmus@litmus/litmus.c:600]: (streamcluster1/4160:0) freeing ctrl_page ffff9276eca53000
+5657 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999506 exec time (total:683829230, rem:0)
+5658 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999937 exec time (total:687829167, rem:0)
+5659 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999518 exec time (total:691828685, rem:0)
+5660 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999873 exec time (total:695828558, rem:0)
+5661 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999680 exec time (total:699828238, rem:0)
+5662 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999731 exec time (total:703827969, rem:0)
+5663 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999484 exec time (total:707827453, rem:0)
+5664 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999922 exec time (total:711827375, rem:0)
+5665 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999695 exec time (total:715827070, rem:0)
+5666 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999580 exec time (total:719826650, rem:0)
+5667 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999745 exec time (total:723826395, rem:0)
+5668 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999650 exec time (total:727826045, rem:0)
+5669 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999737 exec time (total:731825782, rem:0)
+5670 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999685 exec time (total:735825467, rem:0)
+5671 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999731 exec time (total:739825198, rem:0)
+5672 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999738 exec time (total:743824936, rem:0)
+5673 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999691 exec time (total:747824627, rem:0)
+5674 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999661 exec time (total:751824288, rem:0)
+5675 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999731 exec time (total:755824019, rem:0)
+5676 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 3999739 exec time (total:759823758, rem:0)
+5677 P5 [complete_job@litmus/jobs.c:104]: (swaptions/4159:1) job completion indicated at 12063094718458
+5678 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:1) charged 2719185 exec time (total:762542943, rem:0)
+5679 P5 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (swaptions/4159:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:1 state:0 sig:0,membudget=190Mb/s
+5680 P5 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (swaptions/4159:1) job_completion(forced=0).
+5681 P5 [__add_ready@litmus/rt_domain.c:310]: rt: adding swaptions/4159 (20000000, 600000000, 600000000) rel=12062932113492 to ready queue at 12063094726198
+5682 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (swaptions/4159:2) linking to local CPU 5 to avoid IPI
+5683 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (swaptions/4159:2) check preempt membudget==190
+5684 P5 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (swaptions/4159:2) get curbudget==1240
+5685 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 1268065 exec time (total:1268065, rem:18731935)
+5686 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999546 exec time (total:5267611, rem:14732389)
+5687 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999772 exec time (total:9267383, rem:10732617)
+5688 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999691 exec time (total:13267074, rem:6732926)
+5689 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999694 exec time (total:17266768, rem:2733232)
+5690 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999677 exec time (total:21266445, rem:0)
+5691 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999696 exec time (total:25266141, rem:0)
+5692 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999775 exec time (total:29265916, rem:0)
+5693 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999705 exec time (total:33265621, rem:0)
+5694 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999631 exec time (total:37265252, rem:0)
+5695 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999785 exec time (total:41265037, rem:0)
+5696 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999712 exec time (total:45264749, rem:0)
+5697 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999756 exec time (total:49264505, rem:0)
+5698 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999637 exec time (total:53264142, rem:0)
+5699 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999723 exec time (total:57263865, rem:0)
+5700 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999695 exec time (total:61263560, rem:0)
+5701 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999668 exec time (total:65263228, rem:0)
+5702 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999778 exec time (total:69263006, rem:0)
+5703 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999668 exec time (total:73262674, rem:0)
+5704 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999701 exec time (total:77262375, rem:0)
+5705 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999739 exec time (total:81262114, rem:0)
+5706 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999605 exec time (total:85261719, rem:0)
+5707 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999850 exec time (total:89261569, rem:0)
+5708 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999663 exec time (total:93261232, rem:0)
+5709 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999730 exec time (total:97260962, rem:0)
+5710 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999658 exec time (total:101260620, rem:0)
+5711 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999779 exec time (total:105260399, rem:0)
+5712 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999675 exec time (total:109260074, rem:0)
+5713 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999725 exec time (total:113259799, rem:0)
+5714 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999574 exec time (total:117259373, rem:0)
+5715 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999807 exec time (total:121259180, rem:0)
+5716 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999681 exec time (total:125258861, rem:0)
+5717 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999711 exec time (total:129258572, rem:0)
+5718 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:2) charged 3999726 exec time (total:133258298, rem:0)
+6324 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999684 exec time (total:151544880, rem:0)
+6325 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:3) charged 3999713 exec time (total:720326483, rem:0)
+6326 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999875 exec time (total:447864064, rem:0)
+6327 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999692 exec time (total:155544572, rem:0)
+6328 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:3) charged 3999738 exec time (total:724326221, rem:0)
+6329 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999552 exec time (total:451863616, rem:0)
+6330 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999704 exec time (total:159544276, rem:0)
+6331 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:3) charged 3999671 exec time (total:728325892, rem:0)
+6332 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999968 exec time (total:455863584, rem:0)
+6333 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999678 exec time (total:163543954, rem:0)
+6334 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:3) charged 3999716 exec time (total:732325608, rem:0)
+6335 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999579 exec time (tota7121 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/4327:6) linking to local CPU 6 to avoid IPI
+7122 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/4327:6) check preempt membudget==350
+7123 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/4327:6) get curbudget==1240
+7124 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/4327
+7125 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/4327:6) scheduled_on = P6
+7126 P6 [complete_job@litmus/jobs.c:104]: (streamcluster/4327:6) job completion indicated at 12069105691696
+7127 P6 [update_time_litmus@kernel/sched/litmus.c:26]: (streamcluster/4327:6) charged 31597 exec time (total:31597, rem:19968403)
+7128 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (streamcluster/4327:6) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=350Mb/s
+7129 P6 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (streamcluster/4327:6) job_completion(forced=0).
+7130 P6 [__add_release@litmus/rt_domain.c:346]: (streamcluster/4327:7) add_release(), rel=12069255637552
+7131 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:587]: (streamcluster/4327:7) scheduled_on = NO_CPU
+7132 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (streamcluster/4327:7) linking to local CPU 6 to avoid IPI
+7133 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (streamcluster/4327:7) check preempt membudget==350
+7134 P6 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (streamcluster/4327:7) get curbudget==1240
+7135 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:542]: (swapper/6/0:0) will be preempted by streamcluster/4327
+7136 P6 [gsnedf_schedule@litmus/sched_gsn_edf.c:582]: (streamcluster/4327:7) scheduled_on = P6
+7137 P6 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (streamcluster/4327:7) RIP
+7138 P6 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (streamcluster/4327:7) ignoring a dequeue, not going to sleep.
+7139 P6 [litmus_dealloc@litmus/litmus.c:622]: (streamcluster/4327:7) Deallocating real-time task data
+7140 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (streamcluster/4327:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+7141 P6 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (streamcluster/4327:0) litmus/ctrl: 00007fd2e771a000:00007fd2e771b000 vma:ffff9276f274a540 vma->vm_private_data:          (null) closed.
+7142 P3 [exit_litmus@litmus/litmus.c:600]: (streamcluster/4327:0) freeing ctrl_page ffff9276f10be000
+7450 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7451 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7452 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7453 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7454 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7455 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7456 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7457 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7458 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7459 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7460 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7461 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7462 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7463 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7464 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7465 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7466 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7467 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7468 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7469 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7470 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7471 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7472 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7473 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7474 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7475 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7476 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7477 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7478 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7479 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7480 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7481 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7482 P1 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7483 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7484 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7485 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7486 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7487 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7488 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7489 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7490 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7491 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7492 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7493 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7494 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7495 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7496 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7497 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7498 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7499 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7500 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7501 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7502 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7503 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7504 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7505 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7506 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7507 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7508 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7509 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7510 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7511 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7512 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7513 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7514 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7515 P6 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7516 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7517 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7518 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7519 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7520 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7521 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7522 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7523 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7524 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7525 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7526 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+7527 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 501.
+7528 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 502.
+7529 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 503.
+7530 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 504.
+7531 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 505.
+7532 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 506.
+7533 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 507.
+7534 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 508.
+7535 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 509.
+7536 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 510.
+7537 P5 [vprintk_emit@kernel/printk/printk.c:1854]: 6Enabling feather-trace event 511.
+59:4) charged 3999844 exec time (total:64827411, rem:0)
+6420 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999794 exec time (total:551856367, rem:0)
+6422 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999586 exec time (total:259536926, rem:0)
+6421 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999528 exec time (total:68826939, rem:0)
+6423 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999716 exec time (total:555856083, rem:0)
+6424 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999859 exec time (total:263536785, rem:0)
+6425 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999918 exec time (total:72826857, rem:0)
+6426 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999816 exec time (total:559855899, rem:0)
+6428 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999755 exec time (total:267536540, rem:0)
+6427 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999654 exec time (total:76826511, rem:0)
+6429 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999574 exec time (total:563855473, rem:0)
+6430 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999552 exec time (total:271536092, rem:0)
+6431 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999672 exec time (total:80826183, rem:0)
+6432 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4000647 exec time (total:567856120, rem:0)
+6433 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999708 exec time (total:275535800, rem:0)
+6434 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999721 exec time (total:84825904, rem:0)
+6435 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3998815 exec time (total:571854935, rem:0)
+6436 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999653 exec time (total:279535453, rem:0)
+6437 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999660 exec time (total:88825564, rem:0)
+6438 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999637 exec time (total:575854572, rem:0)
+6439 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999762 exec time (total:283535215, rem:0)
+6440 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999723 exec time (total:92825287, rem:0)
+6441 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999641 exec time (total:579854213, rem:0)
+6442 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999572 exec time (total:96824859, rem:0)
+6443 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999866 exec time (total:287535081, rem:0)
+6444 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999836 exec time (total:583854049, rem:0)
+6446 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999671 exec time (total:291534752, rem:0)
+6445 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999885 exec time (total:100824744, rem:0)
+6447 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999777 exec time (total:587853826, rem:0)
+6449 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 3999593 exec time (total:295534345, rem:0)
+6448 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999638 exec time (total:104824382, rem:0)
+6450 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999597 exec time (total:591853423, rem:0)
+6451 P2 [complete_job@litmus/jobs.c:104]: (blackscholes2/4318:2) job completion indicated at 12064721569358
+6452 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:2) charged 1570469 exec time (total:297104814, rem:0)
+6453 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes2/4318:2) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=120Mb/s
+6454 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes2/4318:2) job_completion(forced=0).
+6455 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes2/4318 (20000000, 120000000, 130000000) rel=12064368079886 to ready queue at 12064721577999
+6456 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes2/4318:3) linking to local CPU 2 to avoid IPI
+6457 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes2/4318:3) check preempt membudget==120
+6458 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes2/4318:3) get curbudget==1100
+6459 P2 [complete_job@litmus/jobs.c:104]: (blackscholes2/4318:3) job completion indicated at 12064721593047
+6460 P2 [update_time_litmus@kernel/sched/litmus.c:26]: (blackscholes2/4318:3) charged 9542 exec time (total:9542, rem:19990458)
+6461 P2 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (blackscholes2/4318:3) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=120Mb/s
+6462 P2 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (blackscholes2/4318:3) job_completion(forced=0).
+6463 P2 [__add_ready@litmus/rt_domain.c:310]: rt: adding blackscholes2/4318 (20000000, 120000000, 130000000) rel=12064488079886 to ready queue at 12064721598883
+6464 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (blackscholes2/4318:4) linking to local CPU 2 to avoid IPI
+6465 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (blackscholes2/4318:4) check preempt membudget==120
+6466 P2 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (blackscholes2/4318:4) get curbudget==1100
+6467 P2 [gsnedf_task_exit@litmus/sched_gsn_edf.c:713]: (blackscholes2/4318:4) RIP
+6468 P2 [dequeue_task_litmus@kernel/sched/litmus.c:232]: (blackscholes2/4318:4) ignoring a dequeue, not going to sleep.
+6469 P2 [litmus_dealloc@litmus/litmus.c:622]: (blackscholes2/4318:4) Deallocating real-time task data
+6470 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999717 exec time (total:108824099, rem:0)
+6471 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999716 exec time (total:595853139, rem:0)
+6472 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:56]: (blackscholes2/4318:0) litmus_ctrl_vm_close flags=0x18160073 prot=0x25
+6473 P2 [litmus_ctrl_vm_close@litmus/ctrldev.c:61]: (blackscholes2/4318:0) litmus/ctrl: 00007f708751f000:00007f7087520000 vma:ffff9276eb77b5c0 vma->vm_private_data:          (null) closed.
+6474 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999748 exec time (total:112823847, rem:0)
+6475 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999786 exec time (total:599852925, rem:0)
+6476 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999764 exec time (total:116823611, rem:0)
+6477 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999732 exec time (total:603852657, rem:0)
+6478 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999559 exec time (total:120823170, rem:0)
+6479 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999593 exec time (total:607852250, rem:0)
+6480 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999844 exec time (total:124823014, rem:0)
+6481 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999716 exec time (total:611851966, rem:0)
+6482 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999591 exec time (total:128822605, rem:0)
+6483 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999753 exec time (total:615851719, rem:0)
+6484 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999825 exec time (total:132822430, rem:0)
+6485 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999809 exec time (total:619851528, rem:0)
+6486 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999629 exec time (total:136822059, rem:0)
+6487 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999488 exec time (total:623851016, rem:0)
+6488 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999620 exec time (total:140821679, rem:0)
+6489 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999886 exec time (total:627850902, rem:0)
+6490 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999916 exec time (total:144821595, rem:0)
+6491 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999639 exec time (total:631850541, rem:0)
+6492 P4 [exit_litmus@litmus/litmus.c:600]: (blackscholes2/4318:0) freeing ctrl_page ffff9276f13da000
+6493 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999655 exec time (total:148821250, rem:0)
+6494 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999736 exec time (total:635850277, rem:0)
+6495 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999627 exec time (total:152820877, rem:0)
+6496 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999656 exec time (total:639849933, rem:0)
+6497 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999693 exec time (total:156820570, rem:0)
+6498 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999698 exec time (total:643849631, rem:0)
+6499 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999819 exec time (total:160820389, rem:0)
+6500 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4000023 exec time (total:647849654, rem:0)
+6501 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999725 exec time (total:164820114, rem:0)
+6502 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999462 exec time (total:651849116, rem:0)
+6503 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999469 exec time (total:168819583, rem:0)
+6504 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999818 exec time (total:655848934, rem:0)
+6505 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999975 exec time (total:172819558, rem:0)
+6506 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999571 exec time (total:659848505, rem:0)
+6507 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999524 exec time (total:176819082, rem:0)
+6508 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999622 exec time (total:663848127, rem:0)
+6509 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999754 exec time (total:180818836, rem:0)
+6510 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999829 exec time (total:667847956, rem:0)
+6511 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000041 exec time (total:184818877, rem:0)
+6512 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999867 exec time (total:671847823, rem:0)
+6514 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000945 exec time (total:188819822, rem:0)
+6513 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4000741 exec time (total:675848564, rem:0)
+6515 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999026 exec time (total:192818848, rem:0)
+6516 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999152 exec time (total:679847716, rem:0)
+6517 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999670 exec time (total:683847386, rem:0)
+6518 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999786 exec time (total:196818634, rem:0)
+6519 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999613 exec time (total:687846999, rem:0)
+6520 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999580 exec time (total:200818214, rem:0)
+6521 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999784 exec time (total:691846783, rem:0)
+6522 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999890 exec time (total:204818104, rem:0)
+6523 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999605 exec time (total:695846388, rem:0)
+6524 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999472 exec time (total:208817576, rem:0)
+6526 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4000203 exec time (total:699846591, rem:0)
+6525 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000094 exec time (total:212817670, rem:0)
+6528 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999117 exec time (total:703845708, rem:0)
+6527 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999243 exec time (total:216816913, rem:0)
+6529 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3998998 exec time (total:220815911, rem:0)
+6530 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4000691 exec time (total:707846399, rem:0)
+6531 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999682 exec time (total:224815593, rem:0)
+6532 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3998202 exec time (total:711844601, rem:0)
+6533 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999718 exec time (total:228815311, rem:0)
+6534 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999864 exec time (total:715844465, rem:0)
+6535 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999672 exec time (total:232814983, rem:0)
+6536 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 3999682 exec time (total:719844147, rem:0)
+6537 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999717 exec time (total:236814700, rem:0)
+6538 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 4001774 exec time (total:723845921, rem:0)
+6539 P3 [complete_job@litmus/jobs.c:104]: (dedup2/4319:1) job completion indicated at 12064853988471
+6540 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:1) charged 1987835 exec time (total:725833756, rem:0)
+6541 P3 [gsnedf_schedule@litmus/sched_gsn_edf.c:531]: (dedup2/4319:1) blocks:0 out_of_time:0 np:0 sleep:1 preempt:0 state:0 sig:0,membudget=150Mb/s
+6542 P3 [curr_job_completion@litmus/sched_gsn_edf.c:449]: (dedup2/4319:1) job_completion(forced=0).
+6543 P3 [__add_ready@litmus/rt_domain.c:310]: rt: adding dedup2/4319 (20000000, 50000000, 150000000) rel=12064178093456 to ready queue at 12064853999471
+6544 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:332]: (dedup2/4319:2) linking to local CPU 3 to avoid IPI
+6545 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:335]: (dedup2/4319:2) check preempt membudget==150
+6546 P3 [check_for_preemptions@litmus/sched_gsn_edf.c:339]: (dedup2/4319:2) get curbudget==1150
+6547 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999969 exec time (total:240814669, rem:0)
+6548 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 1994914 exec time (total:1994914, rem:18005086)
+6549 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000192 exec time (total:244814861, rem:0)
+6550 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4000111 exec time (total:5995025, rem:14004975)
+6551 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999256 exec time (total:9994281, rem:10005719)
+6552 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4001451 exec time (total:248816312, rem:0)
+6553 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999061 exec time (total:13993342, rem:6006658)
+6554 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3997585 exec time (total:252813897, rem:0)
+6555 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4000255 exec time (total:17993597, rem:2006403)
+6556 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000297 exec time (total:256814194, rem:0)
+6557 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3998858 exec time (total:21992455, rem:0)
+6558 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999035 exec time (total:260813229, rem:0)
+6559 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4000405 exec time (total:25992860, rem:0)
+6560 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000214 exec time (total:264813443, rem:0)
+6561 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999940 exec time (total:29992800, rem:0)
+6562 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999871 exec time (total:268813314, rem:0)
+6564 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999885 exec time (total:33992685, rem:0)
+6563 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999827 exec time (total:272813141, rem:0)
+6565 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3998825 exec time (total:37991510, rem:0)
+6566 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3998996 exec time (total:276812137, rem:0)
+6568 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4001116 exec time (total:41992626, rem:0)
+6567 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 4000757 exec time (total:280812894, rem:0)
+6569 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3998432 exec time (total:284811326, rem:0)
+6570 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999264 exec time (total:45991890, rem:0)
+6571 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999521 exec time (total:288810847, rem:0)
+6572 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999764 exec time (total:49991654, rem:0)
+6573 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999715 exec time (total:292810562, rem:0)
+6574 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4000055 exec time (total:53991709, rem:0)
+6575 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999716 exec time (total:296810278, rem:0)
+6576 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3998330 exec time (total:57990039, rem:0)
+6577 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999691 exec time (total:300809969, rem:0)
+6578 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 4000339 exec time (total:61990378, rem:0)
+6579 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999720 exec time (total:304809689, rem:0)
+6580 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999006 exec time (total:65989384, rem:0)
+6581 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999769 exec time (total:308809458, rem:0)
+6582 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999740 exec time (total:69989124, rem:0)
+6583 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999616 exec time (total:312809074, rem:0)
+6584 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999586 exec time (total:73988710, rem:0)
+6585 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999702 exec time (total:316808776, rem:0)
+6586 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999602 exec time (total:77988312, rem:0)
+6587 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999752 exec time (total:320808528, rem:0)
+6588 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999920 exec time (total:81988232, rem:0)
+6589 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999658 exec time (total:324808186, rem:0)
+6590 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999596 exec time (total:85987828, rem:0)
+6591 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999679 exec time (total:328807865, rem:0)
+6592 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999644 exec time (total:89987472, rem:0)
+6593 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999752 exec time (total:332807617, rem:0)
+6594 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999820 exec time (total:93987292, rem:0)
+6595 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999730 exec time (total:336807347, rem:0)
+6596 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999663 exec time (total:97986955, rem:0)
+6597 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999756 exec time (total:340807103, rem:0)
+6598 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999740 exec time (total:101986695, rem:0)
+6599 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999668 exec time (total:344806771, rem:0)
+6600 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999650 exec time (total:105986345, rem:0)
+6601 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999693 exec time (total:348806464, rem:0)
+6602 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999809 exec time (total:109986154, rem:0)
+6603 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999740 exec time (total:352806204, rem:0)
+6604 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999610 exec time (total:113985764, rem:0)
+6605 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999705 exec time (total:356805909, rem:0)
+6606 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999813 exec time (total:117985577, rem:0)
+6607 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999682 exec time (total:360805591, rem:0)
+6608 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999717 exec time (total:121985294, rem:0)
+6609 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999727 exec time (total:364805318, rem:0)
+6610 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999530 exec time (total:125984824, rem:0)
+6611 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999715 exec time (total:368805033, rem:0)
+6612 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999853 exec time (total:129984677, rem:0)
+6613 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999639 exec time (total:372804672, rem:0)
+6614 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999621 exec time (total:133984298, rem:0)
+6615 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999760 exec time (total:376804432, rem:0)
+6616 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999733 exec time (total:137984031, rem:0)
+6617 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999654 exec time (total:380804086, rem:0)
+6618 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999677 exec time (total:141983708, rem:0)
+6619 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999747 exec time (total:384803833, rem:0)
+6620 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999796 exec time (total:145983504, rem:0)
+6621 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999651 exec time (total:388803484, rem:0)
+6622 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999671 exec time (total:149983175, rem:0)
+6623 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999722 exec time (total:392803206, rem:0)
+6624 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999614 exec time (total:153982789, rem:0)
+6625 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999751 exec time (total:396802957, rem:0)
+6626 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999755 exec time (total:157982544, rem:0)
+6627 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999689 exec time (total:400802646, rem:0)
+6628 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999821 exec time (total:161982365, rem:0)
+6629 P5 [update_time_litmus@kernel/sched/litmus.c:26]: (swaptions/4159:4) charged 3999685 exec time (total:404802331, rem:0)
+6630 P3 [update_time_litmus@kernel/sched/litmus.c:26]: (dedup2/4319:2) charged 3999615 exec time (total:165981980, rem:0)
+7231 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3INFO: task fluidanimate:3984 blocked for more than 120 seconds.
+7232 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3      Tainted: P        W  OE   4.9.30-litmus #175
+7233 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 3"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+7234 P3 [vprintk_emit@kernel/printk/printk.c:1854]: 6fluidanimate    D7235 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c    0  3984   3971 0x00000000
+7236 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  00000000000000007237 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277a71aec807238 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277bc11ea807239 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9276fc8900007240 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+7241 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  ffff9277b4d4db807242 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb2afad07243 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffffff8ecbd5267244 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb2afdf07245 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+7246 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  00ffa982cb2afaa87247 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9277bc11ea807248 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffffa982cb5c7bd87249 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c ffff9276fc8900007250 P3 [vprintk_emit@kernel/printk/printk.c:1854]: c
+7251 P3 [vprintk_emit@kernel/printk/printk.c:1854]: Call Trace:
+7252 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecbd526>] ? __schedule+0x2a6/0x8a0
+7253 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecbdb60>] schedule+0x40/0x90
+7254 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e64b9fe>] d_alloc_parallel+0x47e/0x5d0
+7255 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4b3150>] ? wake_up_q+0x80/0x80
+7256 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63c342>] lookup_slow+0x82/0x180
+7257 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63d082>] walk_component+0x1d2/0x320
+7258 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63b0b8>] ? __inode_permission+0x48/0xc0
+7259 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63e87c>] link_path_walk+0x1bc/0x590
+7260 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e7bae83>] ? apparmor_file_alloc_security+0x23/0x40
+7261 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e63f164>] path_openat+0x104/0x1660
+7262 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4af014>] ? preempt_count_add+0x74/0xc0
+7263 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc28ea>] ? _raw_spin_lock_irqsave+0x2a/0x55
+7264 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc22c4>] ? _raw_spin_unlock_irqrestore+0x24/0x40
+7265 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e4ca7c4>] ? __wake_up+0x44/0x50
+7266 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e641983>] do_filp_open+0x93/0x100
+7267 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc224a>] ? _raw_spin_unlock+0x1a/0x30
+7268 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e650882>] ? __alloc_fd+0xb2/0x160
+7269 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e62e6aa>] do_sys_open+0x1ba/0x250
+7270 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8e62e774>] SyS_openat+0x14/0x20
+7271 P3 [vprintk_emit@kernel/printk/printk.c:1854]:  [<ffffffff8ecc29bb>] entry_SYSCALL_64_fastpath+0x1e/0xad
+7540 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: cpu7,input252
+7541 P0 [vprintk_emit@kernel/printk/printk.c:1854]: 6memguard: CPU7:New budget=4128 (252 Mb/s)
