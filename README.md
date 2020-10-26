@@ -11,20 +11,6 @@ re-compile and re-install the kernel
 
 # memguard
 
-## install the modules
-
-#make
-
-#sudo insmod memguarddemo.ko
-
-## uninstall the modules
-
-#sudo rmmod memguarddemo.ko
-
-## log
-
-#bash test.sh
-
 ## memguard driver
 
 #cp ./memguard/ KERNEL_ROOT_DIR/drivers
@@ -55,6 +41,12 @@ assign 200 MB/s for Core 1
 #sudo su
 
 #echo 1 200 > /sys/kernel/debug/memguard/limit
+
+## log
+
+#bash test.sh
+
+
 # memtest
 
 memguard modules test
