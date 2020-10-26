@@ -42,7 +42,19 @@ check kernel settings are as follows:
 #MEMGUARD=Y
 
 re-compile and re-install the kernel.
+## use
 
+assign 900 MB/s for Core 0
+
+#sudo su
+
+#echo 0 900 > /sys/kernel/debug/memguard/limit
+
+assign 200 MB/s for Core 1
+
+#sudo su
+
+#echo 1 200 > /sys/kernel/debug/memguard/limit
 # memtest
 
 memguard modules test
@@ -56,14 +68,6 @@ memguard modules test
 #make pnd
 
 #bash cat.sh
-
-## use
-
-assign 900,100,100,100 MB/s for Core 0,1,2,3
-
-#sudo su
-
-#echo mb 900 100 100 100 > /sys/kernel/debug/memguard/limit
 
 
 # parsec
