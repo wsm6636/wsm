@@ -70,7 +70,7 @@ static struct core_info __percpu *core_info;
 
 static int g_period_us=1000;
 static int g_budget_pct[MAX_NCPUS];
-static int g_budget_max_bw=2100;
+static int g_budget_max_bw=10000;
 //static int g_budget_max_bw=6089;
 
 static struct dentry *memguard_dir;
