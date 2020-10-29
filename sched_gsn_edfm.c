@@ -171,15 +171,15 @@ static int cpu_lower_prio(struct bheap_node *_a, struct bheap_node *_b)
 static void update_cpu_position(cpu_entry_t *entry)
 {
 	if (likely(bheap_node_in_heap(entry->hn)))
-		bheap_delete(cpu_lower_prio, &gsnedf_cpu_heap, entry->hn);
-	bheap_insert(cpu_lower_prio, &gsnedf_cpu_heap, entry->hn);
+		bheap_delete(cpu_lower_prio, &gsnedfm_cpu_heap, entry->hn);
+	bheap_insert(cpu_lower_prio, &gsnedfm_cpu_heap, entry->hn);
 }
 
 /* caller must hold gsnedf lock */
 static cpu_entry_t* lowest_prio_cpu(void)
 {
 	struct bheap_node* hn;
-	hn = bheap_peek(cpu_lower_prio, &gsnedf_cpu_heap);
+	hn = bheap_peek(cpu_lower_prio, &gsnedfm_cpu_heap);
 	return hn->value;
 }
 
@@ -319,8 +319,8 @@ static void check_for_preemptions(void)
 	//get_edf();
 	/* Before linking to other CPUs, check first whether the local CPU is
 	 * idle. */
-	local = this_cpu_ptr(&gsnedf_cpu_entries);
-	task  = __peek_ready(&gsnedf);
+	local = this_cpu_ptr(&gsnedfm_cpu_entries);
+	task  = __peek_ready(&gsnedfm);
 
 	if (task && !local->linked
 #ifdef CONFIG_RELEASE_MASTER
@@ -358,7 +358,7 @@ static void check_for_preemptions(void)
 			preempt(local);
 		}
 
-	}
+	
 #endif
 
 	for (last = lowest_prio_cpu();
@@ -412,7 +412,7 @@ static void check_for_preemptions(void)
                         link_task_to_cpu(task, last);
                         preempt(last);
                 }
-	}
+
 }
 
 /* gsnedf_job_arrival: task is either resumed or released */
@@ -659,7 +659,7 @@ static void gsnedfm_task_new(struct task_struct * t, int on_rq, int is_scheduled
 
 	if (on_rq || is_scheduled)
 		gsnedfm_job_arrival(t);
-	raw_spin_unlock_irqrestore(&gsnedf_lock, flags);
+	raw_spin_unlock_irqrestore(&gsnedfm_lock, flags);
 }
 
 static void gsnedfm_task_wake_up(struct task_struct *task)
@@ -727,7 +727,7 @@ static void set_priority_inheritance(struct task_struct* t, struct task_struct* 
 	int linked_on;
 	int check_preempt = 0;
 
-	raw_spin_lock(&gsnedf_lock);
+	raw_spin_lock(&gsnedfm_lock);
 
 	TRACE_TASK(t, "inherits priority from %s/%d\n", prio_inh->comm, prio_inh->pid);
 	tsk_rt(t)->inh_task = prio_inh;
@@ -785,7 +785,7 @@ static void set_priority_inheritance(struct task_struct* t, struct task_struct* 
 		}
 	}
 
-	raw_spin_unlock(&gsnedf_lock);
+	raw_spin_unlock(&gsnedfm_lock);
 }
 
 /* called with IRQs off */
@@ -994,7 +994,7 @@ void gsnedfm_fmlp_free(struct litmus_lock* lock)
 	kfree(fmlp_from_lock(lock));
 }
 
-static struct litmus_lock_ops gsnedf_fmlp_lock_ops = {
+static struct litmus_lock_ops gsnedfm_fmlp_lock_ops = {
 	.close  = gsnedfm_fmlp_close,
 	.lock   = gsnedfm_fmlp_lock,
 	.unlock = gsnedfm_fmlp_unlock,
@@ -1123,7 +1123,7 @@ static long gsnedfm_deactivate_plugin(void)
 }
 
 /*	Plugin object	*/
-static struct sched_plugin gsn_edf_plugin __cacheline_aligned_in_smp = {
+static struct sched_plugin gsn_edfm_plugin __cacheline_aligned_in_smp = {
 	.plugin_name		= "GSN-EDFM",
 	.finish_switch		= gsnedfm_finish_switch,
 	.task_new		= gsnedfm_task_new,
