@@ -345,6 +345,7 @@ int main(int argc, char** argv)
 	lt_t period, deadline;
 	lt_t phase;
 	lt_t inter_arrival_time;
+	int budget;
 	double inter_arrival_min_ms = 0, inter_arrival_max_ms = 0;
 	double wcet_ms, period_ms, underrun_ms = 0;
 	double underrun_frac = 0;
@@ -359,6 +360,7 @@ int main(int argc, char** argv)
 	int test_loop = 0;
 	int caliber_ms = 0;
 	int background_loop = 0;
+	int mem_budget=0;
 
 	int cost_column = 1;
 	const char *cost_csv_file = NULL;
@@ -409,6 +411,9 @@ int main(int argc, char** argv)
 		switch (opt) {
 		case 'w':
 			wait = 1;
+			break;
+		case 'b':
+			mem_budget = atoi(optarg);
 			break;
 		case 'p':
 			cluster = want_non_negative_int(optarg, "-p");
@@ -655,6 +660,7 @@ int main(int argc, char** argv)
 
 
 	init_rt_task_param(&param);
+	param.mem_budget_task=mem_budget;
 	param.exec_cost = wcet;
 	param.period = period;
 	param.phase  = phase;

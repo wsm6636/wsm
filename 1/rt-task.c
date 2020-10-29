@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdint.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include "litmus.h"
+#include <litmus.h>
 
 #define PERIOD ms2ns(100)
 #define DEADLINE ms2ns(100)
@@ -16,7 +17,7 @@
 		fprintf(stderr,"%s ok.\n", #exp);\
 }while(0)
 
-int 1=0;
+int i=0;
 int job (void){
 	i++;
 	if(i>=10)
@@ -26,7 +27,7 @@ int job (void){
 
 int main(){
 	int do_exit;
-	struct rt_task params;
+	struct rt_task param;
 	printf("%d",PERIOD);
 	init_rt_task_param(&param);
 	param.period=PERIOD;
